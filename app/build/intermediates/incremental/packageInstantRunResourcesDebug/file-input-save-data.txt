@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Jan 10 16:33:01 ART 2017
+#Tue Jan 10 17:14:03 ART 2017
 60.set=ANDROID_RESOURCE
 52.set=ANDROID_RESOURCE
 53.base=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_

@@ -5,33 +5,32 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="75106908763830"
+    timestamp="78633977897760"
     token="-8604149392880958155"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="441" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="249" />
+        duration="0" />
     <task
         name="verifier"
-        duration="40" />
-
-    <artifact
-        location="/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        duration="0" />
 
     <build
-        timestamp="75106908763830"
+        timestamp="78439836572426"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
+    <build
+        timestamp="78633977897760"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
