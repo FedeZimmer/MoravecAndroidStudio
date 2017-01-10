@@ -1,4 +1,4 @@
-#Tue Jan 10 16:06:18 ART 2017
+#Tue Jan 10 16:33:07 ART 2017
 base.0=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_eb369a3df00c840d8ceb63aff782c28c6a28e7c9
 renamed.1=classes2.dex
 renamed.0=classes.dex
