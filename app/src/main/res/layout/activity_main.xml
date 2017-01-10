@@ -1,0 +1,128 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F1F2"
+    android:padding="15dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/operators"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginRight="38dp"
+            android:layout_marginTop="18dp"
+            android:contentDescription="operators"
+            android:padding="5dp"
+            android:src="@drawable/home_icon" />
+
+        <Button
+            android:id="@+id/Arcade_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/intro"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginRight="38dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_green"
+            android:padding="16dp"
+            android:text="JUGAR"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp" />
+
+        <LinearLayout
+            android:id="@+id/DoubleLay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Arcade_btn"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginRight="38dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/play_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_pink"
+                android:padding="15dp"
+                android:singleLine="true"
+                android:text="PRÁCTICA"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/help_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_pink"
+                android:padding="15dp"
+                android:singleLine="true"
+                android:text="TUTORIAL"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/high_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/DoubleLay"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginRight="38dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_wborder"
+            
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="ESTADÍSTICAS"
+            android:textColor="#999999"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/logos"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginRight="38dp"
+            android:layout_marginTop="26dp"
+            android:contentDescription="thelogos"
+            android:padding="1dp"
+            android:src="@drawable/signature_logos" />
+
+        <TextView
+            android:id="@+id/FZ"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="Desarrollado por FedeZ"
+            android:textColor="#999999"
+            android:textSize="14sp"
+            android:textStyle="italic">
+        </TextView>
+    </LinearLayout>
+
+</ScrollView>

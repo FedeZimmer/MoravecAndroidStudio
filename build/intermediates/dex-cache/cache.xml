@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/libs/GraphView-3.1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="672e4a5d8906ab21665dcc08c1f7edb6efd6f903">
+        <dex dex="/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/GraphView-3.1.3_ae18786430b5426f319396339c467f624ce5f03c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2e4f51e3d91b11532a381581451cf8de2ff5d164">
+        <dex dex="/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_eb369a3df00c840d8ceb63aff782c28c6a28e7c9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fzimmerman/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_a5fe82c856418cc364a417cd6682cd083767e2da/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a5acd134872cb7515d6f887c7eb327c327f4bcbf">
+        <dex dex="/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_98433cfb307f229fa009324975a40c3f12bb68a5/classes.dex" />
+    </item>
+
+</items>

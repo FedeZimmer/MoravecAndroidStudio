@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_gray1"
+    android:orientation="vertical"
+    android:id="@+id/toast_endlevel" >
+
+    <TextView
+        android:id="@+id/congrats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="25sp"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:paddingTop="20sp"
+        android:text="Felicitaciones. Terminaste el Nivel X"
+        android:textColor="#3E3E3E"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/levelfinished"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="5sp"
+        android:paddingTop="5sp"
+        android:text="Nivel 1"
+        android:textColor="#3E3E3E"
+        android:textSize="28sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="10sp"
+        android:paddingTop="5sp"
+        android:src="@drawable/star_3" />
+
+    <TextView
+        android:id="@+id/totalcorrect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="0sp"
+        android:paddingTop="5sp"
+        android:text="18/20"
+        android:textColor="#3E3E3E"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/correcttext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="35sp"
+        android:paddingTop="2sp"
+        android:text="18 correctas"
+        android:textColor="#3E3E3E"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_gray1"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/buttonsame"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="2"
+            android:paddingBottom="10sp"
+            android:paddingTop="10sp"
+            android:background="@drawable/button_gray3"
+            android:src="@drawable/dialog_same" />
+
+        <ImageView
+            android:id="@+id/buttonnext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:paddingBottom="10sp"
+            android:paddingTop="10sp"
+            android:background="@drawable/button_green2"
+            android:src="@drawable/dialog_next" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_gray1" >
+    </RelativeLayout>
+
+</LinearLayout>

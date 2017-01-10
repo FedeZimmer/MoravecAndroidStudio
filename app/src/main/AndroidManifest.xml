@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="tedxperiments.math.entrenamente"
+	android:versionCode="11"
+	android:versionName="2.01" >
+
+	<uses-sdk
+		android:minSdkVersion="14"
+		android:targetSdkVersion="17" />
+	<uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+	<application
+		android:allowBackup="true"
+		android:logo="@drawable/ic_logo"
+		android:label="@string/app_name"
+		android:theme="@android:style/Theme.Holo.Light"
+		android:icon="@drawable/ic_launcher"
+		
+		 >
+		<activity
+			android:name="tedxperiments.math.entrenamente.MainActivity"
+			android:label="@string/app_name"
+			android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="tedxperiments.math.entrenamente.LevelSelect"
+		    android:screenOrientation="portrait" >
+		</activity>
+		<activity
+			android:name="tedxperiments.math.entrenamente.PlayGame"
+			android:configChanges="keyboardHidden|orientation|screenSize" 
+			android:screenOrientation="portrait">
+		</activity>
+		<activity android:name="tedxperiments.math.entrenamente.PlayArcade"
+		    android:configChanges="keyboardHidden|orientation|screenSize" 
+		    android:screenOrientation="portrait">
+		</activity>
+		<activity android:name="tedxperiments.math.entrenamente.HowToPlay"
+		    android:screenOrientation="portrait">
+		</activity>
+		<activity android:name="tedxperiments.math.entrenamente.HowtoSum"
+		    android:screenOrientation="portrait" >
+		</activity>
+		<activity android:name="tedxperiments.math.entrenamente.HowtoMul"
+		    android:screenOrientation="portrait" >
+		</activity>
+		<activity android:name="tedxperiments.math.entrenamente.HowtoSquare"
+		    android:screenOrientation="portrait" >
+		</activity>
+		<activity android:name="tedxperiments.math.entrenamente.HighScores"
+		    android:screenOrientation="portrait">
+		</activity>
+		<activity android:name="tedxperiments.math.entrenamente.HighScores2"
+		    android:screenOrientation="portrait">
+		</activity>
+		<activity android:name="tedxperiments.math.entrenamente.HighList"
+		    android:screenOrientation="portrait">
+		</activity>
+		<activity android:name="tedxperiments.math.entrenamente.TimesGraph"
+		    android:screenOrientation="portrait">
+		</activity>
+		<activity android:name="tedxperiments.math.entrenamente.StatsSelect"
+		    android:screenOrientation="portrait">
+		</activity>
+		<activity android:name="tedxperiments.math.entrenamente.PersonalQuestions"
+		    android:screenOrientation="portrait">
+		</activity>
+		<receiver
+            android:name="tedxperiments.math.entrenamente.NetworkChangeReceiver"
+            android:label="NetworkChangeReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+	</application>
+
+</manifest>

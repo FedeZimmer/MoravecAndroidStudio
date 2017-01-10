@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F1F2">
+    
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        >
+    </android.support.v4.view.ViewPager>
+    
+    	<Button
+			android:id="@+id/btn_youtube"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginBottom="5dp"
+			android:layout_marginTop="15dp"
+			android:layout_below="@id/pager"
+			android:background="@drawable/button_red"
+			android:padding="5dp"
+			android:text=" Mirá cómo hacerlo "
+			android:textColor="#FFFFFF"
+			android:textSize="20sp"
+			android:drawableLeft="@drawable/youtube_icon"
+			 />
+
+    
+</LinearLayout>

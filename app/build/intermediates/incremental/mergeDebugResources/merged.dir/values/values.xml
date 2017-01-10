@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Moravec</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="help_info">Moravec tiene 3 objetivos principales: Jugar, Entrenar y Aprender.\nEs un desafío divertido que logra entrenar y mejorar habilidades cognitivas de cálculo matemático. Al mismo tiempo, nos ofrece datos útiles para realizar investigación en neurociencias. Ampliando el conocimiento actual sobre la cognición y el aprendizaje.\n\nPor razones experimentales te preguntamos por tu nivel de confianza y esfuerzo en las respuestas. Usá las barras para contestar y seguir a la próxima pregunta.\n</string>
+    <string name="menu_settings">Settings</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
