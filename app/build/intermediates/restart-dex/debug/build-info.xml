@@ -5,47 +5,33 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="104609999305986"
+    timestamp="108635007443039"
     token="-8604149392880958155"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="385" />
+        duration="222" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="9" />
+        duration="160" />
     <task
         name="verifier"
-        duration="1" />
+        duration="28" />
 
     <artifact
-        location="/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
-        type="DEX" />
+        location="/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="98215812798222"
+        timestamp="108635007443039"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="104165920246839"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
-    </build>
-    <build
-        timestamp="104609999305986"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

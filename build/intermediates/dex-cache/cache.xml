@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="29de873acde51883d99e5b6da29d590b8cb4e8ba">
+        sha1="589989f615a02e10cc917434175073cd87d82fdf">
         <dex dex="/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_eb369a3df00c840d8ceb63aff782c28c6a28e7c9/classes.dex" />
     </item>
     <item
@@ -34,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="847165c89595f6313685734c8171dbddb1565db0">
+        sha1="76a9af5f5a476f1faa9d9f0df22e4b995218f2ef">
         <dex dex="/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_98433cfb307f229fa009324975a40c3f12bb68a5/classes.dex" />
     </item>
 

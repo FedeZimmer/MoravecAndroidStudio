@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Jan 10 17:14:06 ART 2017
+#Thu Jan 12 18:25:34 ART 2017
 60.set=ANDROID_RESOURCE
 52.set=ANDROID_RESOURCE
 53.base=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_
@@ -11,12 +11,12 @@
 13.base=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9
 45.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/sq6.png
 60.base=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_
-92.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/youtube_icon.png
+92.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/button_green2.xml
 8.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/ic_launcher.png
 99.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex
 100.set=ANDROID_RESOURCE
 106.base=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_
-52.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/button_green.xml
+52.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/correct3_5.png
 62.base=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_
 59.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_levels.xml
 69.base=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_
@@ -40,7 +40,7 @@
 112.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/correct6_10.png
 21.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/dot_2_3.png
 119.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/sq7.png
-28.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/app_back.xml
+28.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_highchart.xml
 75.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/star_3.png
 8.set=ANDROID_RESOURCE
 1.base=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2
@@ -64,10 +64,10 @@
 44.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/star_1.png
 12.base=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_
 7.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/star_2.png
-91.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/button_green2.xml
-98.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/button_white.xml
+91.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/youtube_icon.png
+98.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/dot_1_7.png
 105.base=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_
-51.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/correct3_5.png
+51.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/button_green.xml
 7.set=ANDROID_RESOURCE
 58.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/sq4.png
 68.base=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_
@@ -89,10 +89,10 @@
 82.base=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_
 79.set=ANDROID_RESOURCE
 89.base=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6
-111.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/signature_logos.png
-20.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/mul3.png
+111.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/correct2_10.png
+20.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/dialog_next.png
 118.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/name_logo.png
-27.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_highchart.xml
+27.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/app_back.xml
 74.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/button_red.xml
 6.set=ANDROID_RESOURCE
 34.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/ic_logo.png
@@ -117,7 +117,7 @@
 43.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/correct3_3.png
 90.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/dot_4_7.png
 6.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/resources.arsc
-97.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/correct0_5.png
+97.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/button_white.xml
 104.base=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_
 5.set=ANDROID_RESOURCE
 50.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex
@@ -135,7 +135,7 @@
 103.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/layout/fragment_pager.xml
 15.set=ANDROID_RESOURCE
 93.set=ANDROID_RESOURCE
-19.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/dialog_next.png
+19.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/mul3.png
 85.set=ANDROID_RESOURCE
 34.base=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_
 66.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/error.png
@@ -143,19 +143,19 @@
 81.base=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_
 69.set=ANDROID_RESOURCE
 88.base=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_
-110.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/correct2_10.png
+110.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/signature_logos.png
 117.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/dot_3_3.png
 26.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/reloj.png
 73.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_a5fe82c856418cc364a417cd6682cd083767e2da/classes.dex
 4.set=ANDROID_RESOURCE
 117.set=ANDROID_RESOURCE
-33.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/dot_7_7.png
+33.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/star_yellow.png
 109.set=ANDROID_RESOURCE
 43.base=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_
 80.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/correct5_5.png
 90.base=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_
 6.base=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_
-87.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/correct5_10.png
+87.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/hi.png
 97.base=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_
 30.set=ANDROID_RESOURCE
 22.set=ANDROID_RESOURCE
@@ -170,7 +170,7 @@
 42.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/dot_1_3.png
 5.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/layout/fragment_main.xml
 49.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/correct8_10.png
-96.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/dot_1_7.png
+96.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/correct0_5.png
 103.base=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_
 3.set=ANDROID_RESOURCE
 19.base=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_
@@ -204,12 +204,12 @@
 79.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/sq1.png
 115.set=ANDROID_RESOURCE
 107.set=ANDROID_RESOURCE
-32.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/star_yellow.png
+32.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/dot_7_7.png
 42.base=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_
 39.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex
 5.base=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_
 49.base=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_
-86.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/hi.png
+86.file=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_/res/drawable/correct5_10.png
 96.base=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_
 20.set=ANDROID_RESOURCE
 12.set=ANDROID_RESOURCE

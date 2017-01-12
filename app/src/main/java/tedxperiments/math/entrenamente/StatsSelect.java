@@ -130,7 +130,7 @@ public class StatsSelect extends Activity implements OnClickListener {
 	    porsum1 =(int) (sum1c.size()*100/(sum1c.size()+sum1i.size()));
 	    String avgtime= millisToShortDHMS(tavgsum1c);
 	    sum11.setText(Html.fromHtml("1+1"));
-	    sum12.setText(Html.fromHtml("Correctas: <b>"+porsum1+ " %"));
+	    sum12.setText(Html.fromHtml(getString(R.string.correct_stats)+"<b>"+porsum1+ " %"));
 	    sum13.setText(Html.fromHtml("&#60T&#62 <b>"+avgtime));
 	    //sum1.setText(Html.fromHtml("<b>" + "1d + 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.correct_stats)+"</small>"+porsum1+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
 	    }

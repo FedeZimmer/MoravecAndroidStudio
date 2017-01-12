@@ -78,7 +78,7 @@
 	<string name="two_stars_message">Muy bien</string>
 	<string name="three_stars_message">Excelente</string>
 	<string name="no_stars_message">Jugá una vez más y llegá a 15</string>
-	<string name="n_level_completed_congratulations">Felicitaciones. Pasaste el nivel </string>
+	<string name="n_level_completed_congratulations">Felicitaciones. Pasaste el nivel\u002</string>
 	<string name="n_correct">\u0020correctas</string>
 	<!--Game Completed-->
 	<string name="game_completed">Juego completado</string>
@@ -119,14 +119,14 @@
 	<string name="tutorial_mul_message_3">Se utiliza el mismo método cuando el número mayor es de 3 o 4 dígitos. Siempre se multiplica de izquierda a derecha y se suman progresivamente los resultados parciales.</string>
 	<string-array name="tutorial_mul_message_array">
 		<item>Para resolver multiplicaciones mentalmente también tenés que familiarizarte con hacerlo de izquierda a derecha. Multiplicando primero las decenas del número mayor y luego las unidades.\n\n</item>
-		<item>tro ejemplo para ejercitar la multiplicación de izquierda a derecha.\n\n\n\n\n</item>
+		<item>Otro ejemplo para ejercitar la multiplicación de izquierda a derecha.\n\n\n\n\n</item>
 		<item>Se utiliza el mismo método cuando el número mayor es de 3 o 4 dígitos. Siempre se multiplica de izquierda a derecha y se suman progresivamente los resultados parciales.\n\n</item>
 	</string-array>
 
 	<!--Tutorial Square-->
 	<string name="tutorial_square_title">Al cuadrado</string>
 	<string name="tutorial_square_message_1">Usamos la fórmula x<sup><small><small>2</small></small></sup> = (x-a) (x+a) + a<sup><small><small>2</small></small></sup>. Donde x es el número de dos dígitos que quiero elevar al cuadrado. Y a es la diferencia entre x y el múltiplo de 10 más cercano a x. Si x es 12, a es 2.</string>
-	<string name="tutorial_square_message_2">Podemos ver que si x = 46 entonces a= 4. Hacemos (x-a) (x+a) + a<sup><small><small>2</small></small></sup>.</string>
+	<string name="tutorial_square_message_2">Podemos ver que si x = 46 entonces a = 4. Hacemos (x-a) (x+a) + a<sup><small><small>2</small></small></sup>.</string>
 	<string name="tutorial_square_message_3">Cuando elevamos un número de tres dígitos usamos el mismo método pero en este caso a es un número de dos dígitos. Sabiendo esto, repetimos el procedimiento conocido.\nEn este caso tenemos x = 512 y a = 12. Pero para elevar 12 al cuadrado, consideramos x = 12 y a = 2.</string>
 	<string name="tutorial_square_message_4">Va otro ejemplo con x = 684, a = 16.\nDespués, para elevar 16 al cuadrado usamos x = 16, a = 4.</string>
 	<string name="tutorial_square_message_5">En el Sistema Mayor de Memoria, asociamos cada dígito del número a recordar con una consonante como se ve en la tabla. Usando estas letras en orden formamos palabras, agregando las vocales necesarias. Por ejemplo, \"lupa\" es 59 porque \"L\" es 5,\"P\" es 9 y las vocales no son nada.</string>
