@@ -8,8 +8,8 @@
     <string-array name="tutorial_square_message_array">
         <item>We use the formula x<sup><small><small>2</small></small></sup> = (x-a) (x+a) + a<sup><small><small>2</small></small></sup>. Where x is the two digits number  we need to square. And a is the difference between x and its closest multiple of 10. If x is 12, a is 2.\n\n</item>
         <item>We can see that if x = 46 then a = 4. We should do (x-a) (x + a) + a<sup><small><small>2</small></small></sup>.\n\n\n\n\n</item>
-        <item>When we square a three-digit number, we use the same technique but in this case is a is a two-digit number. In order to square a, we repeat the known process.\n In this case we have x = 512 and a = 12. To sqare 12, consider x = 12 and a = 2.</item>
-        <item>Another example: x = 684, a = 16.\n Then, in order to square 16, x = 16, a = 4.\n\n\n\n</item>
+        <item>When we square a three-digit number, we use the same technique but in this case is a is a two-digit number. In order to square a, we repeat the known process.\nIn this case we have x = 512 and a = 12. To sqare 12, consider x = 12 and a = 2.</item>
+        <item>Another example: x = 684, a = 16.\nThen, in order to square 16, x = 16, a = 4.\n\n\n\n</item>
         <item>In the Mnemonic Major System we associate each number\'s digit with a consonant as shown in the table. We use these letters to form words by adding the necessary vowels. For example, \"lip\" is 59 because \"L\" is 5, \"P\" is 9 and the vowels are no numbers.</item>
         <item>For squaring 4-digit numbers we use the formula already known. But before calculating a<sup><small><small>2</small></small></sup> we use the Mnemonic Major System  to memorize the first part of the result. If x is 6382, a is 382. 6764 x 6000 is 40 millions 584 thousands. We memorize 584 using the mnemonic major system.</item>
         <item>In order to remember 584, we form a word with its digits. 5 may be L, 8 G and 4 C so 584 can then be encoded as \"LoGiC\". With this in mind, we follow the known steps and get 145,924. We add 584 (\"LoGiC\") to 145 = 729. Putting it all together: 40 million 729 thousand 924.</item>

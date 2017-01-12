@@ -8,108 +8,108 @@
     <string name="action_settings">Settings</string>
 
     <!--Home-->
-    <string name="play_button">PLAY</string>
-    <string name="practice_button">PRACTICE</string>
-    <string name="tutorial_button">TUTORIAL</string>
-    <string name="stats_button">STATS</string>
-    <string name="developer_signature">Developed by FedeZ</string>
+    <string name="play_button">JOUER</string>
+    <string name="practice_button">S\'ENTRAÎNER</string>
+    <string name="tutorial_button">TUTORIEL</string>
+    <string name="stats_button">STATISTIQUES</string>
+    <string name="developer_signature">Developpé par FedeZ</string>
 
     <!--Form-->
-    <string name="agreement_message">Please, fill the questionnaire. All information will be used for scientific purpose only. It will not be use for any commercial or advertising purpose. We are delighted for your participation. Thank you.</string>
-    <string name="complete_instruction">Press DONE to continue\n</string>
-    <string name="birthdate">Birthdate</string>
-    <string name="gender">Gender</string>
-    <string name="male">Male</string>
-    <string name="female">Female</string>
-    <string name="not_reported">Not reported</string>
-    <string name="achieved_studies">Achieved studies</string>
-    <string name="school_completed">School completed</string>
-    <string name="highschool_in_progress">Highschool in progress</string>
-    <string name="highschool_completed">Highschool completed</string>
-    <string name="college_in_progress">College in progress</string>
-    <string name="college_completed">College completed</string>
-    <string name="deft_hand">Deft hand</string>
-    <string name="right_handed">Right handed</string>
-    <string name="left_handed">Left handed</string>
-    <string name="ambidextrous">Ambidextrous</string>
-    <string name="first_name">First name</string>
-    <string name="first_name_placeholder">John Doe</string>
-    <string name="email">E-mail</string>
-    <string name="email_placeholder">john@gmail.com</string>
-    <string name="done_form">Done</string>
-    <string name="thanks_form">Thanks for your collaboration</string>
+    <string name="agreement_message">S\'il vous plaît remplissez le questionnaire. Toutes les données que vous nous fournissez seront uniquement utilisées à des fins scientifiques et en aucun cas dans un but commercial ou publicitaire. Nous vous remercions de votre participation.</string>
+    <string name="complete_instruction">Appuyez sur OK pour continuer.\n</string>
+    <string name="birthdate">Date de naissance</string>
+    <string name="gender">Sexe</string>
+    <string name="male">Masculin</string>
+    <string name="female">Féminin</string>
+    <string name="not_reported">N/A</string>
+    <string name="achieved_studies">Niveau d\'études</string>
+    <string name="school_completed">École primaire achevée</string>
+    <string name="highschool_in_progress">École secondaire en cours</string>
+    <string name="highschool_completed">École secondaire achevée</string>
+    <string name="college_in_progress">Études universitaires en cours</string>
+    <string name="college_completed">Études universitaires achevées</string>
+    <string name="deft_hand">Préférence manuelle</string>
+    <string name="right_handed">Droitier</string>
+    <string name="left_handed">Gaucher</string>
+    <string name="ambidextrous">Ambidextre</string>
+    <string name="first_name">Prénom</string>
+    <string name="first_name_placeholder">Charles Petit</string>
+    <string name="email">Adresse Email</string>
+    <string name="email_placeholder">charles@gmail.com</string>
+    <string name="done_form">Prêt</string>
+    <string name="thanks_form">Merci pour votre collaboration</string>
 
     <!--Level Select-->
-    <string name="level_selection">Level\u0020</string>
+    <string name="level_selection">Niveau\u0020</string>
 
     <!--Play-->
-    <string name="actual_level">Level\u0020</string>
-    <string name="enter_button">Enter</string>
+    <string name="actual_level">Niveau\u0020</string>
+    <string name="enter_button">Entrée</string>
 
     <!--Hints-->
-    <string name="motivation_message">You can do it faster</string>
-    <string name="correct">Correct!</string>
-    <string name="wrong_correct_answer">It was\u0020</string>
-    <string name="wrong_entered_answer">not\u0020</string>
-    <string name="available_hints">\u0020available hints.</string>
+    <string name="motivation_message">Vous pouvez aller plus vite</string>
+    <string name="correct">Bien!</string>
+    <string name="wrong_correct_answer">C\'était\u0020</string>
+    <string name="wrong_entered_answer">ce n\'était pas\u0020</string>
+    <string name="available_hints">\u0020indices disponibles.</string>
 
     <!--Introspection-->
-    <string name="introspection_title">Regarding the last problem:\u0020</string>
-    <string name="confidence_question">How much do you trust in your answer?</string>
-    <string name="confidence_min">\u0020\u0020A little</string>
-    <string name="confidence_max">A lot\u0020\u0020</string>
-    <string name="effort_question">How much mental effort did you do?</string>
-    <string name="effort_min">\u0020\u0020Nada</string>
-    <string name="effort_max">"Mucho\u0020\u0020</string>
-    <string name="answer_both">Answer both questions in order to continue</string>
-    <string name="done_introspection">Done</string>
+    <string name="introspection_title">Dans le dernier calcul:\u0020</string>
+    <string name="confidence_question">A quel point êtes-vous sûr(e) de votre réponse?</string>
+    <string name="confidence_min">\u0020\u0020Pas du tout</string>
+    <string name="confidence_max">Totalement\u0020\u0020</string>
+    <string name="effort_question">Quelle quantité d\'efforts avez-vous fait?</string>
+    <string name="effort_min">\u0020\u0020Aucun</string>
+    <string name="effort_max">"Énormément\u0020\u0020</string>
+    <string name="answer_both">Répondez aux deux questions pour continuer</string>
+    <string name="done_introspection">Prêt</string>
 
     <!--Level Completed-->
-    <string name="level_completed">Stage clear</string>
-    <string name="level_completed_congratulations">Congratulations</string>
-    <string name="training_completed">Training stage completed</string>
-    <string name="pass_next_level">Next level</string>
-    <string name="keep_practicing">Keep practicing</string>
-    <string name="level_n_completed">Level X completed</string>
+    <string name="level_completed">Niveau terminé</string>
+    <string name="level_completed_congratulations">Félicitations</string>
+    <string name="training_completed">Vous avez terminé cette étape de l\'entraînement</string>
+    <string name="pass_next_level">Passer au niveau suivant</string>
+    <string name="keep_practicing">Continuer à pratiquer</string>
+    <string name="level_n_completed">Niveau x terminé</string>
     OJO QUE HAY N!
-    <string name="answered_n_correct">You answered N problems correctly</string>
-    <string name="retry">Retry</string>
-    <string name="one_star_message">Good</string>
-    <string name="two_stars_message">Great</string>
+    <string name="answered_n_correct">Vous avez réussi n calculs</string>
+    <string name="retry">Essayez à nouveau</string>
+    <string name="one_star_message">Bien</string>
+    <string name="two_stars_message">Très bien</string>
     <string name="three_stars_message">Excellent</string>
-    <string name="no_stars_message">Play again and reach 15</string>
-    <string name="n_level_completed_congratulations">Congratulations. You passed the level\u002</string>
-    <string name="n_correct">\u0020correct</string>
+    <string name="no_stars_message">Jouez encore une fois et atteignez 15</string>
+    <string name="n_level_completed_congratulations">Félicitations. Vous avez réussi le niveau\u002</string>
+    <string name="n_correct">\u0020correctes</string>
     <!--Game Completed-->
-    <string name="game_completed">Game completed</string>
-    <string name="game_completed_congratulations">Congratulations</string>
-    <string name="game_completed_message">Contact neurointegrativa@gmail.com to demonstrate your skills.</string>
-    <string name="back_main_menu">Back to main menu</string>
+    <string name="game_completed">Jeu terminé</string>
+    <string name="game_completed_congratulations">Félicitations</string>
+    <string name="game_completed_message">Contactez neurointegrativa@gmail.com pour démontrer vos compétences.</string>
+    <string name="back_main_menu">Retourner au menu principal</string>
 
     <!--Practice-->
-    <string name="practice_navbar">Practice</string>
-    <string name="practice_single">Single</string>
-    <string name="practice_initial">Initial</string>
-    <string name="practice_intermediate">Intermediate</string>
-    <string name="practice_advanced">Advanced</string>
-    <string name="practice_fadeout_message">Memorize the problem</string>
+    <string name="practice_navbar">S\'entraîner</string>
+    <string name="practice_single">Unique</string>
+    <string name="practice_initial">Débutant</string>
+    <string name="practice_intermediate">Moyen</string>
+    <string name="practice_advanced">Avancé</string>
+    <string name="practice_fadeout_message">Mémorisez le calcul</string>
 
     <!--Tutorial-->
-    <string name="tutorial_navbar">Tutorial</string>
-    <string name="tutorial_title">How to solve the problems</string>
-    <string name="tutorial_sum_button">Sum</string>
+    <string name="tutorial_navbar">Tutoriel</string>
+    <string name="tutorial_title">Comment faire les calculs</string>
+    <string name="tutorial_sum_button">Somme</string>
     <string name="tutorial_multiplicaction_button">Multiplication</string>
-    <string name="tutorial_square_button">Square</string>
-    <string name="tutorial_message">Moravec has 3 main goals: playing, practicing and learning.\n It\'s a fun challenge that allows you to train and improve your cognitive abilities of mathematical calculation. At the same time, it provides us with valuable information to conduct research in neuroscience. Extending the current knowledge on cognition and learning.\n\n For experimental reasons we ask you for your effort and confidence in the answers. Use the sliders to answer and continue to the next question.\n</string>
-    <string name="youtube_button">\u0020Watch how to do it\u0020</string>
+    <string name="tutorial_square_button">Au carré</string>
+    <string name="tutorial_message">Moravec a trois buts principaux: jouer, se former, et apprendre.\n Il s\'agit d\'un jeu amusant qui entraîne et qui améliore les compétences en calcul mathématique. En même temps, il nous fournit des données utiles en sciences cognitives, en augmentant les connaissances actuelles sur la cognition et l\'apprentissage. \n\nA des fins expérimentales, nous vous demandons de juger le niveau de confiance et d\'effort que vous avez ressenti au cours des calculs. Utilisez les barres pour répondre et passer à la question suivante.\n</string>
+    <string name="youtube_button">\u0020Regardez comment faire\u0020</string>
 
     <!--Tutorial Sums-->
-    <string name="tutorial_sum_title">Sum</string>
+    <string name="tutorial_sum_title">Somme</string>
     <!--<string name="tutorial_sum_message_1">Acá empezás a familiarizarte con el método de izquierda a derecha. Primero sumás las decenas del segundo número al primero y por último las unidades del segundo número al resultado anterior.</string>-->
     <!--<string name="tutorial_sum_message_2">Este ejemplo es más difícil porque las unidades suman un número mayor que 10.</string>-->
     <string-array name="tutorial_sum_message_array">
-        <item>In this section you\'ll find a way to acknowledge the left to right method. First sum the tens of the second number to the first one and then the second number units to the previous result.\n\n</item>
-        <item>This example is more difficult because the units sum up more than 10.\n\n\n\n\n</item>
+        <item>Ici, vous commencez à vous familiariser avec la méthode de gauche à droite. Commencez toujours par additionner les dizaines du deuxième nombre au premier nombre. Ensuite, ajoutez les unités du deuxième nombre au résultat obtenu.\n\n</item>
+        <item>Cet exemple est plus difficile parce que les unités, une fois additionnées, donnent un nombre supérieur à 10.\n\n\n\n\n</item>
     </string-array>
 
     <!--Tutorial Multiplication-->
@@ -118,13 +118,13 @@
     <!--<string name="tutorial_mul_message_2">Otro ejemplo para ejercitar la multiplicación de izquierda a derecha.</string>-->
     <!--<string name="tutorial_mul_message_3">Se utiliza el mismo método cuando el número mayor es de 3 o 4 dígitos. Siempre se multiplica de izquierda a derecha y se suman progresivamente los resultados parciales.</string>-->
     <string-array name="tutorial_mul_message_array">
-        <item>In order to multiply mentally, you have to get familiar with the left to right mehotd. Multiplying the tens of the greater number first and then the units.\n\n</item>
-        <item>Another example to exercise the left to right multiplication.\n\n\n\n</item>
-        <item>The same technique is used when the highest number is 3 or 4 digits. Always multiply from left to right and sum the partial results.\n\n</item>
+        <item>Pour résoudre des multiplications mentalement, vous devez aussi vous familiariser avec la méthode de gauche à droite. Commencez par multiplier les dizaines du plus grand nombre, puis les unités.\n\n</item>
+        <item>Autre exemple pour exercer la multiplication de gauche à droite.\n\n\n\n</item>
+        <item> Le même procédé est utilisé lorsque le nombre le plus élevé comprend 3 ou 4 chiffres. Multipliez toujours de gauche à droite, en additionnant progressivement les résultats partiels.\n\n</item>
     </string-array>
 
     <!--Tutorial Square-->
-    <string name="tutorial_square_title">Square</string>
+    <string name="tutorial_square_title">Au carré</string>
     <!--<string name="tutorial_square_message_1">Usamos la fórmula x<sup><small><small>2</small></small></sup> = (x-a) (x+a) + a<sup><small><small>2</small></small></sup>. Donde x es el número de dos dígitos que quiero elevar al cuadrado. Y a es la diferencia entre x y el múltiplo de 10 más cercano a x. Si x es 12, a es 2.</string>-->
     <!--<string name="tutorial_square_message_2">Podemos ver que si x = 46 entonces a= 4. Hacemos (x-a) (x+a) + a<sup><small><small>2</small></small></sup>.</string>-->
     <!--<string name="tutorial_square_message_3">Cuando elevamos un número de tres dígitos usamos el mismo método pero en este caso a es un número de dos dígitos. Sabiendo esto, repetimos el procedimiento conocido.\nEn este caso tenemos x = 512 y a = 12. Pero para elevar 12 al cuadrado, consideramos x = 12 y a = 2.</string>-->
@@ -133,21 +133,22 @@
     <!--<string name="tutorial_square_message_6">Para números de 4 dígitos usamos la fórmula ya conocida. Pero antes de calcular a<sup><small><small>2</small></small></sup> utilizamos el Sistema Mayor para memorizar la primera parte del resultado. Si x es 6382, a es 382. 6764 x 6000 es 40 millones 584 mil entonces memorizamos 584 usando el Sistema Mayor.</string>-->
     <!--<string name="tutorial_square_message_7">Para no olvidar 584, formamos una palabra con sus dígitos. 5 puede ser L, 8 G y 4 C entonces 584 puede ser codificado como \"LaGo oCa\". Con esto en mente, seguimos los pasos de siempre y obtenemos 145.924. Sumamos 584 (\"LaGo oCa\") y 145 = 729. Juntando todo: 40 millones 729 mil 924.</string>-->
     <string-array name="tutorial_square_message_array">
-        <item>We use the formula x<sup><small><small>2</small></small></sup> = (x-a) (x+a) + a<sup><small><small>2</small ></small></sup>. Where x is the two digits number  we need to square. And a is the difference between x and its closest multiple of 10. If x is 12, a is 2.\n\n</item>
-        <item>We can see that if x = 46 then a = 4. We should do (x-a) (x + a) + a<sup><small><small>2</small></small></sup>.\n\n\n\n\n</item>
-        <item>When we square a three-digit number, we use the same technique but in this case is a is a two-digit number. In order to square a, we repeat the known process.\n In this case we have x = 512 and a = 12. To sqare 12, consider x = 12 and a = 2.</item>
-        <item>Another example: x = 684, a = 16.\n Then, in order to square 16, x = 16, a = 4.\n\n\n\n</item>
-        <item>In the Mnemonic Major System we associate each number\'s digit with a consonant as shown in the table. We use these letters to form words by adding the necessary vowels. For example, \"lip\" is 59 because \"L\" is 5, \"P\" is 9 and the vowels are no numbers.</item>
-        <item>For squaring 4-digit numbers we use the formula already known. But before calculating a<sup><small><small>2</small></small></sup> we use the Mnemonic Major System  to memorize the first part of the result. If x is 6382, a is 382. 6764 x 6000 is 40 millions 584 thousands. We memorize 584 using the mnemonic major system.</item>
-        <item>In order to remember 584, we form a word with its digits. 5 may be L, 8 G and 4 C so 584 can then be encoded as \"LoGiC\". With this in mind, we follow the known steps and get 145,924. We add 584 (\"LoGiC\") to 145 = 729. Putting it all together: 40 million 729 thousand 924.</item>
+        <item>Nous utilisons la formule x<sup><small><small>2</small></small></sup> = (x-a) (x+a) + a<sup><small><small>2</small></small></sup>, où x est le nombre de deux chiffres que nous voulons élever au carré, et a est la différence entre x et le multiple de 10 le plus proche de x. Par exemple, si x est égal à 12, a est égal à 2.\n\n</item>
+        <item>Nous pouvons voir que si x = 46, alors a = 4. Nous faisons (x-a) (x+a) + a<sup><small><small>2</small></small></sup>.\n\n\n\n\n</item>
+        <item>Lorsque nous élevons au carré un nombre de 3 chiffres, nous utilisons la même méthode, sauf que cette fois-ci, a est un nombre de deux chiffres. Sachant cela, nous répétons le procédé connu. \nDans ce cas, nous prenons x = 512 et a = 12. Ensuite, pour élever 12 au carré, on prendra x = 12 et a = 2.</item>
+        <item>Voici un autre exemple avec x = 684, a = 16.\nEnsuite, pour élever 16 au carré nous utilisons x = 16, a = 4.\n\n\n\n</item>
+        <item>Dans le Grand Système de Mémoire, nous associons chaque chiffre du nombre à une consonne, comme on peut voir dans la table. En utilisant les lettres en ordre, nous formons des mots en ajoutant des voyelles si nécessaire. Par exemple, \"loupe\" correspond à 59 parce que \"L\" vaut 5, \"P\" vaut 9, et les voyelles ne comptent pas.</item>
+        <item>Pour les nombres à 4 chiffres, nous utilisons la formule déjà connue. Mais avant de calculer a<sup><small><small>2</small></small></sup> nous utilisons le Grand Système pour mémoriser la première partie du résultat. Si x est 6382, a est 382. 6764 x 6000 est 40 millions 584 mille alors nous mémorisons 584 en utilisant le Grand Système.</item>
+        <item>Pour ne pas oublier 584, nous formons un mot avec ses chiffres. Si 5 correspond à L, 8 à G et 4 à C alors 584 peut être codifié comme \"LoGiC\". Tout en gardant ce mot en tête, nous suivons le même procédé et nous obtenons 145.924. Nous additionons 584 (\"LoGiC\") et 145 pour obtenir 729. Ce qui nous donne au total: 40 millions 729 mille 924.</item>
     </string-array>
 
+
     <!--Stats-->
-    <string name="stats_navbar">Stats</string>
-    <string name="no_data_stats">No data yet</string>
-    <string name="correct_stats">Correct:\u0020</string>
-    <string name="graph_navbar">Response times</string>
-    <string name="time_axis_statsgraph">Time (in seconds) for correct answers.</string>
+    <string name="stats_navbar">Statistiques</string>
+    <string name="no_data_stats">Aucune donnée</string>
+    <string name="correct_stats">Correctes:\u0020</string>
+    <string name="graph_navbar">Temps de réponse</string>
+    <string name="time_axis_statsgraph">Temps (en secondes) pour les réponses correctes.</string>
 
     <!--Images-->
 

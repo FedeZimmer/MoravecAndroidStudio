@@ -16,12 +16,12 @@
         "source": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/drawable/correct1_3.png"
     },
     {
-        "merged": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/merged/debug/drawable/mul3.png",
-        "source": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/drawable/mul3.png"
-    },
-    {
         "merged": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/merged/debug/drawable/sum1.png",
         "source": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/drawable/sum1.png"
+    },
+    {
+        "merged": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/merged/debug/drawable/mul3.png",
+        "source": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/drawable/mul3.png"
     },
     {
         "merged": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/merged/debug/drawable/youtube_icon.png",
