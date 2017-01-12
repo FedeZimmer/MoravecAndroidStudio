@@ -25,7 +25,7 @@
 			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
 			android:padding="5dp"
-			android:text="Tiempo (en segundos) para las respuestas correctas"
+			android:text="@string/time_axis_statsgraph"
 			android:textColor="#3E3E3E"
 			android:textSize="13sp"
 			android:gravity="center_horizontal"

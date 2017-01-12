@@ -36,7 +36,7 @@
             android:layout_marginTop="5dp"
             android:background="@drawable/button_green"
             android:padding="16dp"
-            android:text="JUGAR"
+            android:text="@string/play_button"
             android:textColor="#FFFFFF"
             android:textSize="32sp" />
 
@@ -62,7 +62,7 @@
                 android:background="@drawable/button_pink"
                 android:padding="15dp"
                 android:singleLine="true"
-                android:text="PRÁCTICA"
+                android:text="@string/practice_button"
                 android:textColor="#FFFFFF"
                 android:textSize="15sp" />
 
@@ -75,7 +75,7 @@
                 android:background="@drawable/button_pink"
                 android:padding="15dp"
                 android:singleLine="true"
-                android:text="TUTORIAL"
+                android:text="@string/tutorial_button"
                 android:textColor="#FFFFFF"
                 android:textSize="15sp" />
         </LinearLayout>
@@ -96,7 +96,7 @@
             android:paddingRight="15dp"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
-            android:text="ESTADÍSTICAS"
+            android:text="@string/stats_button"
             android:textColor="#999999"
             android:textSize="15sp" />
 
@@ -118,7 +118,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:gravity="right"
-            android:text="Desarrollado por FedeZ"
+            android:text="@string/developer_signature"
             android:textColor="#999999"
             android:textSize="14sp"
             android:textStyle="italic">

@@ -266,7 +266,7 @@ public class PlayArcade extends Activity implements OnClickListener {
 		DScore.setLevel(level);
 		DScore.setGameType(gametype);
 		npasslevel = ntocompletelevel[operator][sublevel];
-		levelTxt.setText("Nivel "+level);
+		levelTxt.setText(getString(R.string.actual_level)+level);
 		
 		//tavg = ttocompletelevel[operator][sublevel];
 		//DScore.setReftime(tavg*1000);
@@ -277,7 +277,7 @@ public class PlayArcade extends Activity implements OnClickListener {
 		ActionBar AB = getActionBar();
 		AB.setDisplayHomeAsUpEnabled(true);
 		 AB.setTitle(Html.fromHtml("<font color='#60b0c1'>Entrenamente </font>"));
-		AB.setSubtitle("Nivel: "+level);
+		AB.setSubtitle(getString(R.string.actual_level)+level);
 		AB.hide();
 		
 		hintdisplayed=0;
@@ -385,7 +385,7 @@ public class PlayArcade extends Activity implements OnClickListener {
 		else {
 			AlertDialog won= FWon();
 			won.show();}
-		if (!thisoperation.equals("1d+1d") && !thisoperation.equals("1dx1d")) equationTxt.setText(Html.fromHtml("<big>"+hints+"</big>/3 pistas disponibles"));
+		if (!thisoperation.equals("1d+1d") && !thisoperation.equals("1dx1d")) equationTxt.setText(Html.fromHtml("<big>"+hints+"</big>/3 "+getString(hintsavailable)));
 		   else equationTxt.setText(Html.fromHtml("<big><font color='#93C9C3'>A</font></big>"));
 		   
 		
@@ -753,14 +753,14 @@ public class PlayArcade extends Activity implements OnClickListener {
 		
 		//Se construye
 		final AlertDialog.Builder builderIntr = new AlertDialog.Builder(this);
-		builderIntr.setTitle("En la última cuenta: ");
+		builderIntr.setTitle(getString(R.string.introspection_title));
 		builderIntr.setCancelable(false);
 				
 		LinearLayout LinIntr=new LinearLayout(this);
 		LinIntr.setOrientation(1);
 		
 		TextView textConf=new TextView(this);
-		textConf.setText("¿Cuánto confias en tu respuesta?");
+		textConf.setText(getString(R.string.confidence_question));
 		textConf.setGravity(1);
 		textConf.setTextSize(TypedValue.COMPLEX_UNIT_SP, 22);
 		
@@ -776,18 +776,18 @@ public class PlayArcade extends Activity implements OnClickListener {
 			//HorIntr.setGravity(1);
 			TextView textsubConf11=new TextView(this);
 			//textsubConf11.setText("  Tiré a pegar");
-			textsubConf11.setText("  Nada");
+			textsubConf11.setText(getString(R.string.confidence_min));
 			textsubConf11.setGravity(Gravity.LEFT);
 			TextView textsubConf12=new TextView(this);
 			//textsubConf12.setText("Muy seguro  ");
-			textsubConf12.setText("Mucho  ");
+			textsubConf12.setText(getString(R.string.confidence_max));
 			textsubConf12.setGravity(Gravity.RIGHT);
 			
 			HorIntr1.addView(textsubConf11);
 			HorIntr1.addView(textsubConf12);
 		
 		TextView textEsf=new TextView(this);
-		textEsf.setText("¿Cuánto esfuerzo mental hiciste?");
+		textEsf.setText(getString(R.string.effort_question));
 		textEsf.setGravity(1);
 		textEsf.setTextSize(TypedValue.COMPLEX_UNIT_SP, 22);
 		
@@ -803,11 +803,11 @@ public class PlayArcade extends Activity implements OnClickListener {
 			//HorIntr.setGravity(1);
 			TextView textsubConf21=new TextView(this);
 			//textsubConf21.setText("  Fue fácil");
-			textsubConf21.setText("  Nada");
+			textsubConf21.setText(getString(R.string.effort_min));
 			textsubConf21.setGravity(Gravity.LEFT);
 			TextView textsubConf22=new TextView(this);
 			//textsubConf22.setText("Me costó  ");
-			textsubConf22.setText("Mucho  ");
+			textsubConf22.setText(getString(R.string.effort_max));
 			textsubConf22.setGravity(Gravity.RIGHT);
 		
 		HorIntr2.addView(textsubConf21);
@@ -861,7 +861,7 @@ public class PlayArcade extends Activity implements OnClickListener {
 					CheckandContinue.setC(1);
 					if((CheckandContinue.getE() == 1) && (CheckandContinue.getC() == 1)){
 						CheckandContinue.AlertD.getButton(AlertDialog.BUTTON_POSITIVE).setEnabled(true);
-						CheckandContinue.AlertD.getButton(AlertDialog.BUTTON_POSITIVE).setText("Listo");}
+						CheckandContinue.AlertD.getButton(AlertDialog.BUTTON_POSITIVE).setText(getString(R.string.done_introspection));}
 					
 					
 					//((AlertDialog) builderIntr) getButton(AlertDialog.BUTTON_POSITIVE).setEnabled(true);
@@ -898,7 +898,7 @@ public class PlayArcade extends Activity implements OnClickListener {
 				CheckandContinue.setE(1);
 				if((CheckandContinue.getE() == 1) && (CheckandContinue.getC() == 1)){
 				CheckandContinue.AlertD.getButton(AlertDialog.BUTTON_POSITIVE).setEnabled(true);
-				CheckandContinue.AlertD.getButton(AlertDialog.BUTTON_POSITIVE).setText("Listo");}
+				CheckandContinue.AlertD.getButton(AlertDialog.BUTTON_POSITIVE).setText(getString(R.string.done_introspection));}
 		
 				
 				//Toast.makeText(getBaseContext(), String.valueOf(progress),
@@ -907,7 +907,7 @@ public class PlayArcade extends Activity implements OnClickListener {
 			}
 		});
 	    
-		builderIntr.setPositiveButton("Responda ambas preguntas para continuar",new DialogInterface.OnClickListener()
+		builderIntr.setPositiveButton(getString(R.string.answer_both),new DialogInterface.OnClickListener()
 		{
 			public void onClick(DialogInterface dialog,int id){
 				CheckAnswer();} 
@@ -1199,153 +1199,6 @@ public class PlayArcade extends Activity implements OnClickListener {
 		return newone;
 	}
 
-
-	private Toast Ftoastanswer(int correct) {
-		LayoutInflater inflater = getLayoutInflater();
-		View layout = inflater.inflate(R.layout.toast_layout, (ViewGroup) findViewById(R.id.toast_layout_root));
-
-		ImageView image = (ImageView) layout.findViewById(R.id.toastimage);
-		TextView text = (TextView) layout.findViewById(R.id.toasttext);
-		if (correct==1){
-		image.setImageResource(R.drawable.tick);
-		if ((int)(DScore.getTotTime()/1000)>2*tavg){text.setText("Puede hacerlo\nmás rápido"); text.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16);}
-		else
-		{text.setText("Bien!");image.setColorFilter(0xff00ff00);}}
-		else if(correct==0)
-			{text.setText("Era: "+answer+"\nNo era: "+DScore.getAnswer());
-			image.setImageResource(R.drawable.cross);
-			image.setColorFilter(0xffff0000);}
-				
-		Toast thistoast = new Toast(getApplicationContext());
-		thistoast.setGravity(Gravity.TOP|Gravity.CENTER, 50, 5);
-		thistoast.setDuration(Toast.LENGTH_LONG);
-		thistoast.setView(layout);
-		return thistoast;
-	}
-	
-	private Toast Ftoastanswer2(int correct) {
-		LayoutInflater inflater = getLayoutInflater();
-		View layout = inflater.inflate(R.layout.toast_layout, (ViewGroup) findViewById(R.id.toast_layout_root));
-		ImageView image = (ImageView) layout.findViewById(R.id.toastimage);
-		TextView text = (TextView) layout.findViewById(R.id.toasttext);
-		
-		text.setVisibility(View.GONE);
-		
-		if (correct==1){
-		if ((int)(DScore.getTotTime()/1000)<2*tavg)image.setImageResource(R.drawable.star_yellow);
-		}
-		else if(correct==0)
-			{image.setImageResource(R.drawable.star_gray);}
-				
-		Toast thistoast = new Toast(getApplicationContext());
-		thistoast.setGravity(Gravity.TOP|Gravity.LEFT, 140, 190);
-		thistoast.setDuration(3000);
-		thistoast.setView(layout);
-		return thistoast;
-	}
-	
-
-
-	public AlertDialog FNextLevel(){
-		//Se construye
-		final AlertDialog.Builder builderNL = new AlertDialog.Builder(this);
-		builderNL.setTitle("Nivel Completado");
-		builderNL.setCancelable(false);
-				
-		LinearLayout LinNL=new LinearLayout(this);
-		LinNL.setOrientation(1);
-		
-		TextView textNL1=new TextView(this);
-		textNL1.setText("Felicitaciones");
-		textNL1.setGravity(1);
-		textNL1.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18);
-		LinNL.addView(textNL1);
-		TextView textNL2=new TextView(this);
-		textNL2.setText("Ha completado esta etapa del entrenamiento");
-		textNL2.setGravity(1);
-		textNL2.setTextSize(TypedValue.COMPLEX_UNIT_SP, 22);
-		LinNL.addView(textNL2);
-		builderNL.setView(LinNL);
-		
-		
-		
-		
-		builderNL.setPositiveButton("Pasar al siguiente nivel",new DialogInterface.OnClickListener()
-		{
-			
-			public void onClick(DialogInterface dialog,int id){FStartNL();
-				
-				
-			} 
-					
-			});
-		
-		builderNL.setNegativeButton("Seguir practicando",new DialogInterface.OnClickListener()
-		{
-			public void onClick(DialogInterface dialog,int id){chooseQuestion();
-				
-			} 
-					
-			});
-		
-		AlertDialog NLDialog = builderNL.create();
-
-		return NLDialog;
-		//IntrDialog.show();
-		
-		
-		}
-	
-	public AlertDialog FNextLevel2(){
-		//Se construye
-		final AlertDialog.Builder builderNL = new AlertDialog.Builder(this);
-		builderNL.setTitle("Nivel "+level+" Finalizado");
-		builderNL.setCancelable(false);
-				
-		LinearLayout LinNL=new LinearLayout(this);
-		LinNL.setOrientation(1);
-		
-		TextView textNL1=new TextView(this);
-		textNL1.setText("Has respondido "+thisNcorrect+" correctamente.");
-		textNL1.setGravity(1);
-		textNL1.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18);
-		LinNL.addView(textNL1);
-		TextView textNL2=new TextView(this);
-		boolean passed=true;
-		if (thisNcorrect<15){textNL2.setText("Vuelva a intentarlo"); passed=false;}
-		else if (thisNcorrect<17)textNL2.setText("Bien");
-		else if (thisNcorrect<20)textNL2.setText("Muy Bien");
-		else if (thisNcorrect<21)textNL2.setText("Excelente");
-		textNL2.setGravity(1);
-		textNL2.setTextSize(TypedValue.COMPLEX_UNIT_SP, 22);
-		LinNL.addView(textNL2);
-		builderNL.setView(LinNL);
-		
-		
-		
-		
-		if (passed==true){builderNL.setPositiveButton("Pasar al siguiente nivel",new DialogInterface.OnClickListener()
-			{public void onClick(DialogInterface dialog,int id){FStartNL2();
-			//Guardar level+1, cerrar y abrir.
-			} 
-			});}
-		
-		if(!passed)builderNL.setNegativeButton("Seguir practicando",new DialogInterface.OnClickListener()
-		{
-			public void onClick(DialogInterface dialog,int id){
-				FStartThisL2();
-				} 
-					
-			});
-		
-		AlertDialog NLDialog = builderNL.create();
-
-		return NLDialog;
-		//IntrDialog.show();
-		
-		
-		}
-	
 	public void FNextLevel3(){
 		
 		Dialog d=new Dialog(PlayArcade.this);
@@ -1364,9 +1217,9 @@ public class PlayArcade extends Activity implements OnClickListener {
 		ImageView same = (ImageView)d.findViewById(R.id.buttonsame);
 		ImageView next = (ImageView)d.findViewById(R.id.buttonnext);
 		
-		if (thisNcorrect<15) congrats.setText("Jugá una vez más y llegá a 15");
-		else congrats.setText("Felicitaciones. Pasaste el nivel "+level);
-		levelfinished.setText("Nivel "+level);
+		if (thisNcorrect<15) congrats.setText(getString(R.string.retry));
+		else congrats.setText(getString(R.string.n_level_completed_congratulations)+level);
+		levelfinished.setText(getString(R.string.actual_level)+level);
 		if (thisNcorrect<15){starslevel.setImageResource(R.drawable.star_0);}
 		else if (thisNcorrect<17)starslevel.setImageResource(R.drawable.star_1);
 		else if (thisNcorrect<20)starslevel.setImageResource(R.drawable.star_2);
@@ -1375,7 +1228,7 @@ public class PlayArcade extends Activity implements OnClickListener {
 		if (thisNcorrect<15) correctTotal.setText(Html.fromHtml("<font color=#ED1566>"+thisNcorrect+"</font>/20"));
 		else correctTotal.setText(Html.fromHtml("<font color=#0b9E8C>"+thisNcorrect+"</font>/20"));
 		
-		correctTxt.setText(thisNcorrect+" correctas");
+		correctTxt.setText(thisNcorrect+getString(R.string.n_correct));
 		
 		if (thisNcorrect<15) next.setVisibility(View.GONE);
 		else next.setOnClickListener(new OnClickListener() {
@@ -1634,19 +1487,19 @@ private static String convertInputStreamToString(InputStream inputStream) throws
 public AlertDialog FWon(){
 	//Se construye
 	final AlertDialog.Builder builderNL = new AlertDialog.Builder(this);
-	builderNL.setTitle("Juego Completado");
+	builderNL.setTitle(getString(R.string.game_completed));
 	builderNL.setCancelable(false);
 			
 	LinearLayout LinNL=new LinearLayout(this);
 	LinNL.setOrientation(1);
 	
 	TextView textNL1=new TextView(this);
-	textNL1.setText("Felicitaciones");
+	textNL1.setText(getString(R.string.game_completed_congratulations));
 	textNL1.setGravity(1);
 	textNL1.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18);
 	LinNL.addView(textNL1);
 	TextView textNL2=new TextView(this);
-	textNL2.setText("Contáctese con neurointegrativa@gmail.com para demostrar sus habilidades");
+	textNL2.setText(getString(R.string.game_completed_message));
 	textNL2.setGravity(1);
 	textNL2.setTextSize(TypedValue.COMPLEX_UNIT_SP, 22);
 	LinNL.addView(textNL2);
@@ -1655,7 +1508,7 @@ public AlertDialog FWon(){
 	
 	
 	
-	builderNL.setPositiveButton("Volver al menú inicial",new DialogInterface.OnClickListener()
+	builderNL.setPositiveButton(getString(R.string.back_main_menu),new DialogInterface.OnClickListener()
 	{
 		
 		public void onClick(DialogInterface dialog,int id){returnhome();
@@ -1682,14 +1535,14 @@ public void returnhome(){
 public void correction(int correct){
 	if (correct==1){
 		equationTxt.setBackgroundResource(R.drawable.button_green);
-		if ((int)(DScore.getTotTime()/1000)>2*tavg){equationTxt.setText("Podés hacerlo más rápido");}
-		else{equationTxt.setText(Html.fromHtml("<big><font color='#FF9000'>\u2605</font> Bien!</big>"));}
+		if ((int)(DScore.getTotTime()/1000)>2*tavg){equationTxt.setText(getString(R.string.motivation_message));}
+		else{equationTxt.setText(Html.fromHtml("<big><font color='#FF9000'>\u2605</font> "+getString(R.string.correct)+"</big>"));}
 		//equationTxt.setCompoundDrawablesWithIntrinsicBounds(R.drawable.star_yellow, 0,R.drawable.star_yellow, 0);
 	}
 		
 	else if (correct==0){
 		equationTxt.setBackgroundResource(R.drawable.button_pink);
-		equationTxt.setText(Html.fromHtml("<big><font color='#E4E5E6'>\u2605</font> Era "+answer+"</big> y no <big>"+DScore.getAnswer()+"</big>"));
+		equationTxt.setText(Html.fromHtml("<big><font color='#E4E5E6'>\u2605</font> "+getString(R.string.wrong_correct_answer)+answer+"</big> "+getString(R.string.wrong_entered_answer)+"<big>"+DScore.getAnswer()+"</big>"));
 		//equationTxt.setCompoundDrawablesWithIntrinsicBounds(R.drawable.star_gray, 0,R.drawable.star_gray, 0);
 	}
 	timeranswer=reseteqtxt();
@@ -1707,7 +1560,7 @@ public CountDownTimer reseteqtxt(){
 		   public void onFinish() {
 			   equationTxt.setBackgroundResource(R.drawable.button_green2);
 			   if(!hintused)
-				   {if (!thisoperation.equals("1d+1d") && !thisoperation.equals("1dx1d")) equationTxt.setText(Html.fromHtml("<big>"+hints+"</big>/3 pistas disponibles"));
+				   {if (!thisoperation.equals("1d+1d") && !thisoperation.equals("1dx1d")) equationTxt.setText(Html.fromHtml("<big>"+hints+"</big>/3 "+getString(R.string.available_hints)));
 				   else equationTxt.setText(Html.fromHtml("<big><font color='#93C9C3'>A</font></big>"));
 				   }
 			   //equationTxt.setCompoundDrawablesWithIntrinsicBounds(0, 0,0, 0);

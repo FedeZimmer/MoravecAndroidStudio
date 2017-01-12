@@ -87,32 +87,32 @@ public class LevelSelect extends Activity implements OnClickListener{
 	    level21b.setOnClickListener(this);
 	  
 	    
-	    level1b.setText(Html.fromHtml("<big>" + "1+1" + "</big><br />" + "<small><small><small><font color='#E4E5E6'>"+"Único"+"</small></small></small></font>" + ""));
-	    level2b.setText(Html.fromHtml("<big>" + "1x1" + "</big><br />" + "<small><small><small><font color='#E4E5E6'>"+"Único"+"</small></small></small></font>" + ""));
-	    level3b.setText(Html.fromHtml("<big>" + "2+2" + "</big><br />" + "<small><small><small><font color='#E4E5E6'>"+"Único"+"</small></small></small></font>" + ""));
-	    level4b.setText(Html.fromHtml("<big>" + "2x1" + "</big><br />" + "<small><small><small><font color='#0b9E8C'>"+"Inicial"+"</small></small></small></font>" + ""));
-	    level5b.setText(Html.fromHtml("<big>" + "2x1" + "</big><br />" + "<small><small><small><font color='#FF9000'>"+"Medio"+"</small></small></small></font>" + ""));
-	    level6b.setText(Html.fromHtml("<big>" + "2x1" + "</big><br />" + "<small><small><small><font color='#ED1566'>"+"Avanzado"+"</small></small></small></font>" + ""));
-	    level7b.setText(Html.fromHtml("<big>" + "3x1" + "</big><br />" + "<small><small><small><font color='#0b9E8C'>"+"Inicial"+"</small></small></small></font>" + ""));
-	    level8b.setText(Html.fromHtml("<big>" + "3x1" + "</big><br />" + "<small><small><small><font color='#FF9000'>"+"Medio"+"</small></small></small></font>" + ""));
-	    level9b.setText(Html.fromHtml("<big>" + "3x1" + "</big><br />" + "<small><small><small><font color='#ED1566'>"+"Avanzado"+"</small></small></small></small></font>" + ""));
-	    level10b.setText(Html.fromHtml("<big>" + "2"+"<small><small><sup>"+"2"+"</small></small></sup>" + "</big><br />" + "<small><small><small><font color='#0b9E8C'>" +"Inicial"+"</small></small></small></font>" + ""));
-	    level11b.setText(Html.fromHtml("<big>" + "2"+"<small><small><sup>"+"2"+"</small></small></sup>" + "</big><br />" + "<small><small><small><font color='#FF9000'>"+"Medio"+"</small></small></small></font>" + ""));
-	    level12b.setText(Html.fromHtml("<big>" + "2"+"<small><small><sup>"+"2"+"</small></small></sup>" + "</big><br />" + "<small><small><small><font color='#ED1566'>"+"Avanzado"+"</small></small></small></font>" + ""));
-	    level13b.setText(Html.fromHtml("<big>" + "4x1" + "</big><br />" + "<small><small><small><font color='#0b9E8C'>"+"Inicial"+"</small></small></small></font>" + ""));
-	    level14b.setText(Html.fromHtml("<big>" + "4x1" + "</big><br />" + "<small><small><small><font color='#FF9000'>"+"Medio"+"</small></small></small></font>" + ""));
-	    level15b.setText(Html.fromHtml("<big>" + "4x1" + "</big><br />" + "<small><small><small><font color='#ED1566'>"+"Avanzado"+"</small></small></small></small></font>" + ""));
-	    level16b.setText(Html.fromHtml("<big>" + "3"+"<small><small><sup>"+"2"+"</small></small></sup>" + "</big><br />" + "<small><small><small><font color='#0b9E8C'>" +"Inicial"+"</small></small></small></font>" + ""));
-	    level17b.setText(Html.fromHtml("<big>" + "3"+"<small><small><sup>"+"2"+"</small></small></sup>" + "</big><br />" + "<small><small><small><font color='#FF9000'>" +"Medio"+"</small></small></small></font>" + "")); 
-	    level18b.setText(Html.fromHtml("<big>" + "3"+"<small><small><sup>"+"2"+"</small></small></sup>" + "</big><br />" + "<small><small><small><font color='#ED1566'>" +"Avanzado"+"</small></small></small></font>" + ""));
-	    level19b.setText(Html.fromHtml("<big>" + "4"+"<small><small><sup>"+"2"+"</small></small></sup>" + "</big><br />" + "<small><small><small><font color='#0b9E8C'>" +"Inicial"+"</small></small></small></font>" + ""));
-	    level20b.setText(Html.fromHtml("<big>" + "4"+"<small><small><sup>"+"2"+"</small></small></sup>" + "</big><br />" + "<small><small><small><font color='#FF9000'>" +"Medio"+"</small></small></small></font>" + ""));
-	    level21b.setText(Html.fromHtml("<big>" + "4"+"<small><small><sup>"+"2"+"</small></small></sup>" + "</big><br />" + "<small><small><small><font color='#ED1566'>" +"Avanzado"+"</small></small></small></font>" + ""));
+	    level1b.setText(Html.fromHtml("<big>" + "1+1" + "</big><br />" + "<small><small><small><font color='#E4E5E6'>"+getString(R.string.practice_single)+"</small></small></small></font>" + ""));
+	    level2b.setText(Html.fromHtml("<big>" + "1x1" + "</big><br />" + "<small><small><small><font color='#E4E5E6'>"+getString(R.string.practice_single)+"</small></small></small></font>" + ""));
+	    level3b.setText(Html.fromHtml("<big>" + "2+2" + "</big><br />" + "<small><small><small><font color='#E4E5E6'>"+getString(R.string.practice_single)+"</small></small></small></font>" + ""));
+	    level4b.setText(Html.fromHtml("<big>" + "2x1" + "</big><br />" + "<small><small><small><font color='#0b9E8C'>"+getString(R.string.practice_initial)+"</small></small></small></font>" + ""));
+	    level5b.setText(Html.fromHtml("<big>" + "2x1" + "</big><br />" + "<small><small><small><font color='#FF9000'>"+getString(R.string.practice_intermediate)+"</small></small></small></font>" + ""));
+	    level6b.setText(Html.fromHtml("<big>" + "2x1" + "</big><br />" + "<small><small><small><font color='#ED1566'>"+getString(R.string.practice_advanced)+"</small></small></small></font>" + ""));
+	    level7b.setText(Html.fromHtml("<big>" + "3x1" + "</big><br />" + "<small><small><small><font color='#0b9E8C'>"+getString(R.string.practice_initial)+"</small></small></small></font>" + ""));
+	    level8b.setText(Html.fromHtml("<big>" + "3x1" + "</big><br />" + "<small><small><small><font color='#FF9000'>"+getString(R.string.practice_intermediate)+"</small></small></small></font>" + ""));
+	    level9b.setText(Html.fromHtml("<big>" + "3x1" + "</big><br />" + "<small><small><small><font color='#ED1566'>"+getString(R.string.practice_advanced)+"</small></small></small></small></font>" + ""));
+	    level10b.setText(Html.fromHtml("<big>" + "2"+"<small><small><sup>"+"2"+"</small></small></sup>" + "</big><br />" + "<small><small><small><font color='#0b9E8C'>" +getString(R.string.practice_initial)+"</small></small></small></font>" + ""));
+	    level11b.setText(Html.fromHtml("<big>" + "2"+"<small><small><sup>"+"2"+"</small></small></sup>" + "</big><br />" + "<small><small><small><font color='#FF9000'>"+getString(R.string.practice_intermediate)+"</small></small></small></font>" + ""));
+	    level12b.setText(Html.fromHtml("<big>" + "2"+"<small><small><sup>"+"2"+"</small></small></sup>" + "</big><br />" + "<small><small><small><font color='#ED1566'>"+getString(R.string.practice_advanced)+"</small></small></small></font>" + ""));
+	    level13b.setText(Html.fromHtml("<big>" + "4x1" + "</big><br />" + "<small><small><small><font color='#0b9E8C'>"+getString(R.string.practice_initial)+"</small></small></small></font>" + ""));
+	    level14b.setText(Html.fromHtml("<big>" + "4x1" + "</big><br />" + "<small><small><small><font color='#FF9000'>"+getString(R.string.practice_intermediate)+"</small></small></small></font>" + ""));
+	    level15b.setText(Html.fromHtml("<big>" + "4x1" + "</big><br />" + "<small><small><small><font color='#ED1566'>"+getString(R.string.practice_advanced)+"</small></small></small></small></font>" + ""));
+	    level16b.setText(Html.fromHtml("<big>" + "3"+"<small><small><sup>"+"2"+"</small></small></sup>" + "</big><br />" + "<small><small><small><font color='#0b9E8C'>" +getString(R.string.practice_initial)+"</small></small></small></font>" + ""));
+	    level17b.setText(Html.fromHtml("<big>" + "3"+"<small><small><sup>"+"2"+"</small></small></sup>" + "</big><br />" + "<small><small><small><font color='#FF9000'>" +getString(R.string.practice_intermediate)+"</small></small></small></font>" + ""));
+	    level18b.setText(Html.fromHtml("<big>" + "3"+"<small><small><sup>"+"2"+"</small></small></sup>" + "</big><br />" + "<small><small><small><font color='#ED1566'>" +getString(R.string.practice_advanced)+"</small></small></small></font>" + ""));
+	    level19b.setText(Html.fromHtml("<big>" + "4"+"<small><small><sup>"+"2"+"</small></small></sup>" + "</big><br />" + "<small><small><small><font color='#0b9E8C'>" +getString(R.string.practice_initial)+"</small></small></small></font>" + ""));
+	    level20b.setText(Html.fromHtml("<big>" + "4"+"<small><small><sup>"+"2"+"</small></small></sup>" + "</big><br />" + "<small><small><small><font color='#FF9000'>" +getString(R.string.practice_intermediate)+"</small></small></small></font>" + ""));
+	    level21b.setText(Html.fromHtml("<big>" + "4"+"<small><small><sup>"+"2"+"</small></small></sup>" + "</big><br />" + "<small><small><small><font color='#ED1566'>" +getString(R.string.practice_advanced)+"</small></small></small></font>" + ""));
 	    
 	    
 	    ActionBar AB = getActionBar();
 		AB.setDisplayHomeAsUpEnabled(true);
-		AB.setTitle(Html.fromHtml("<font color='#ED1566'>Práctica</font>"));
+		AB.setTitle(Html.fromHtml("<font color='#ED1566'>"+getString(R.string.practice_navbar)+"</font>"));
 		//AB.setSubtitle("Seleccione un nivel");
 		AB.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#F0F1F2")));
 	    

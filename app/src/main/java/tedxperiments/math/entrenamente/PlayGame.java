@@ -268,27 +268,27 @@ public class PlayGame extends Activity implements OnClickListener {
 		//AB.setSubtitle("sub-title");
 		switch(operator){
 		 	case ADD_OPERATOR: switch (sublevel){
-		 		case 0: levelTxt.setText("1+1");AB.setSubtitle("Nivel: "+level+": 1 dig + 1dig");break;
+		 		case 0: levelTxt.setText("1+1");AB.setSubtitle(getString(R.string.actual_level)+level+": 1 dig + 1dig");break;
 		 		case 1: levelTxt.setText("2+2");break;
-		 		case 2: AB.setSubtitle("Nivel: "+level+": 3 dig + 3dig");break;
-		 		case 3: AB.setSubtitle("Nivel: "+level+": 4 dig + 4dig");break;
+		 		case 2: AB.setSubtitle(getString(R.string.actual_level)+level+": 3 dig + 3dig");break;
+		 		case 3: AB.setSubtitle(getString(R.string.actual_level)+level+": 4 dig + 4dig");break;
 		 	}break;
 		 	case MULTIPLY_OPERATOR: switch (sublevel){
 		 		case 0: levelTxt.setText("1x1");break;
 		 		case 1: levelTxt.setText("2x1");break;
 		 		case 2: levelTxt.setText("3x1");break;
-		 		case 3: levelTxt.setText("Nivel "+level);AB.setSubtitle("Nivel: "+level+": 2 dig x 2dig");break;
+		 		case 3: levelTxt.setText(getString(R.string.actual_level)+level);AB.setSubtitle(getString(R.string.actual_level)+level+": 2 dig x 2dig");break;
 		 		case 4: levelTxt.setText("4x1");break;
-		 		case 5: levelTxt.setText("Nivel "+level);AB.setSubtitle("Nivel: "+level+": 3 dig x 2dig");break;
-		 		case 6: levelTxt.setText("Nivel "+level);AB.setSubtitle("Nivel: "+level+": 3 dig x 3dig");break;
+		 		case 5: levelTxt.setText(getString(R.string.actual_level)+level);AB.setSubtitle(getString(R.string.actual_level)+level+": 3 dig x 2dig");break;
+		 		case 6: levelTxt.setText(getString(R.string.actual_level)+level);AB.setSubtitle(getString(R.string.actual_level)+level+": 3 dig x 3dig");break;
 		 	
 		 	}break;
 		 	case SQUARE_OPERATOR: switch (sublevel){
-		 		case 0: levelTxt.setText("Nivel "+level);AB.setSubtitle(Html.fromHtml("Nivel: "+level+": (1dig)<sup><small>2</small></sup>"));break;
+		 		case 0: levelTxt.setText(getString(R.string.actual_level)+level);AB.setSubtitle(Html.fromHtml(getString(R.string.actual_level)+level+": (1dig)<sup><small>2</small></sup>"));break;
 		 		case 1: levelTxt.setText(Html.fromHtml("2<sup><small>2</small></sup>"));break;
 		 		case 2: levelTxt.setText(Html.fromHtml("3<sup><small>2</small></sup>"));break;
 		 		case 3: levelTxt.setText(Html.fromHtml("4<sup><small>2</small></sup>"));break;
-		 		case 4: levelTxt.setText("Nivel "+level);AB.setSubtitle(Html.fromHtml("Nivel: "+level+": (5dig)<sup><small>2</small></sup>"));break;
+		 		case 4: levelTxt.setText(getString(R.string.actual_level)+level);AB.setSubtitle(Html.fromHtml(getString(R.string.actual_level)+level+": (5dig)<sup><small>2</small></sup>"));break;
 		 	 }break;
 		}
 		
@@ -584,14 +584,14 @@ public class PlayGame extends Activity implements OnClickListener {
 		
 		//Se construye
 		final AlertDialog.Builder builderIntr = new AlertDialog.Builder(this);
-		builderIntr.setTitle("En la última cuenta: ");
+		builderIntr.setTitle(getString(R.string.introspection_title));
 		builderIntr.setCancelable(false);
 				
 		LinearLayout LinIntr=new LinearLayout(this);
 		LinIntr.setOrientation(1);
 		
 		TextView textConf=new TextView(this);
-		textConf.setText("¿Cuánto confias en tu respuesta?");
+		textConf.setText(getString(R.string.confidence_question));
 		textConf.setGravity(1);
 		textConf.setTextSize(TypedValue.COMPLEX_UNIT_SP, 22);
 		
@@ -607,18 +607,18 @@ public class PlayGame extends Activity implements OnClickListener {
 			//HorIntr.setGravity(1);
 			TextView textsubConf11=new TextView(this);
 			//textsubConf11.setText("  Tiré a pegar");
-			textsubConf11.setText("  Nada");
+			textsubConf11.setText(getString(R.string.confidence_min));
 			textsubConf11.setGravity(Gravity.LEFT);
 			TextView textsubConf12=new TextView(this);
 			//textsubConf12.setText("Muy seguro  ");
-			textsubConf12.setText("Mucho  ");
+			textsubConf12.setText(getString(R.string.confidence_max));
 			textsubConf12.setGravity(Gravity.RIGHT);
 			
 			HorIntr1.addView(textsubConf11);
 			HorIntr1.addView(textsubConf12);
 		
 		TextView textEsf=new TextView(this);
-		textEsf.setText("¿Cuánto esfuerzo mental hiciste?");
+		textEsf.setText(getString(R.string.effort_question));
 		textEsf.setGravity(1);
 		textEsf.setTextSize(TypedValue.COMPLEX_UNIT_SP, 22);
 		
@@ -634,11 +634,11 @@ public class PlayGame extends Activity implements OnClickListener {
 			//HorIntr.setGravity(1);
 			TextView textsubConf21=new TextView(this);
 			//textsubConf21.setText("  Fue fácil");
-			textsubConf21.setText("  Nada");
+			textsubConf21.setText(getString(R.string.effort_min));
 			textsubConf21.setGravity(Gravity.LEFT);
 			TextView textsubConf22=new TextView(this);
 			//textsubConf22.setText("Me costó  ");
-			textsubConf22.setText("Mucho  ");
+			textsubConf22.setText(getString(R.string.effort_max));
 			textsubConf22.setGravity(Gravity.RIGHT);
 		
 		HorIntr2.addView(textsubConf21);
@@ -692,7 +692,7 @@ public class PlayGame extends Activity implements OnClickListener {
 					CheckandContinue.setC(1);
 					if((CheckandContinue.getE() == 1) && (CheckandContinue.getC() == 1)){
 						CheckandContinue.AlertD.getButton(AlertDialog.BUTTON_POSITIVE).setEnabled(true);
-						CheckandContinue.AlertD.getButton(AlertDialog.BUTTON_POSITIVE).setText("Listo");}
+						CheckandContinue.AlertD.getButton(AlertDialog.BUTTON_POSITIVE).setText(getString(R.string.done_introspection));}
 					
 					
 					//((AlertDialog) builderIntr) getButton(AlertDialog.BUTTON_POSITIVE).setEnabled(true);
@@ -729,7 +729,7 @@ public class PlayGame extends Activity implements OnClickListener {
 				CheckandContinue.setE(1);
 				if((CheckandContinue.getE() == 1) && (CheckandContinue.getC() == 1)){
 				CheckandContinue.AlertD.getButton(AlertDialog.BUTTON_POSITIVE).setEnabled(true);
-				CheckandContinue.AlertD.getButton(AlertDialog.BUTTON_POSITIVE).setText("Listo");}
+				CheckandContinue.AlertD.getButton(AlertDialog.BUTTON_POSITIVE).setText(getString(R.string.done_introspection));}
 		
 				
 				//Toast.makeText(getBaseContext(), String.valueOf(progress),
@@ -738,7 +738,7 @@ public class PlayGame extends Activity implements OnClickListener {
 			}
 		});
 	    
-		builderIntr.setPositiveButton("Responda ambas preguntas para continuar",new DialogInterface.OnClickListener()
+		builderIntr.setPositiveButton(getString(R.string.answer_both),new DialogInterface.OnClickListener()
 		{
 			public void onClick(DialogInterface dialog,int id){
 				CheckAnswer();} 
@@ -985,98 +985,22 @@ public class PlayGame extends Activity implements OnClickListener {
 		return newone;
 	}
 
-
-	private Toast Ftoastanswer(int correct) {
-		LayoutInflater inflater = getLayoutInflater();
-		View layout = inflater.inflate(R.layout.toast_layout, (ViewGroup) findViewById(R.id.toast_layout_root));
-
-		ImageView image = (ImageView) layout.findViewById(R.id.toastimage);
-		TextView text = (TextView) layout.findViewById(R.id.toasttext);
-		if (correct==1){
-		image.setImageResource(R.drawable.tick);
-		//if ((int)(DScore.getTotTime()/1000)>2*tavg){text.setText("Puede hacerlo\nmás rápido"); text.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16);}
-		//else {
-			text.setText("Bien!");image.setColorFilter(0xff00ff00);}
-		//}
-		else if(correct==0)
-			{text.setText("Era: "+answer+"\nNo era: "+DScore.getAnswer());
-			image.setImageResource(R.drawable.cross);
-			image.setColorFilter(0xffff0000);}
-				
-		Toast thistoast = new Toast(getApplicationContext());
-		thistoast.setGravity(Gravity.TOP|Gravity.CENTER, 50, 5);
-		thistoast.setDuration(Toast.LENGTH_LONG);
-		thistoast.setView(layout);
-		return thistoast;
-	}
-
-
-	public AlertDialog FNextLevel(){
-		//Se construye
-		final AlertDialog.Builder builderNL = new AlertDialog.Builder(this);
-		builderNL.setTitle("Nivel Completado");
-		builderNL.setCancelable(false);
-				
-		LinearLayout LinNL=new LinearLayout(this);
-		LinNL.setOrientation(1);
-		
-		TextView textNL1=new TextView(this);
-		textNL1.setText("Felicitaciones");
-		textNL1.setGravity(1);
-		textNL1.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18);
-		LinNL.addView(textNL1);
-		TextView textNL2=new TextView(this);
-		textNL2.setText("Ha completado esta etapa del entrenamiento");
-		textNL2.setGravity(1);
-		textNL2.setTextSize(TypedValue.COMPLEX_UNIT_SP, 22);
-		LinNL.addView(textNL2);
-		builderNL.setView(LinNL);
-		
-		
-		
-		
-		builderNL.setPositiveButton("Pasar al siguiente nivel",new DialogInterface.OnClickListener()
-		{
-			
-			public void onClick(DialogInterface dialog,int id){FStartNL();
-				
-				
-			} 
-					
-			});
-		
-		builderNL.setNegativeButton("Seguir practicando",new DialogInterface.OnClickListener()
-		{
-			public void onClick(DialogInterface dialog,int id){chooseQuestion();
-				
-			} 
-					
-			});
-		
-		AlertDialog NLDialog = builderNL.create();
-
-		return NLDialog;
-		//IntrDialog.show();
-		
-		
-		}
-	
 	public AlertDialog FWon(){
 		//Se construye
 		final AlertDialog.Builder builderNL = new AlertDialog.Builder(this);
-		builderNL.setTitle("Nivel Completado");
+		builderNL.setTitle(getString(R.string.level_completed));
 		builderNL.setCancelable(false);
 				
 		LinearLayout LinNL=new LinearLayout(this);
 		LinNL.setOrientation(1);
 		
 		TextView textNL1=new TextView(this);
-		textNL1.setText("Ha completado el entrenamiento");
+		textNL1.setText(getString(R.string.training_completed));
 		textNL1.setGravity(1);
 		textNL1.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18);
 		LinNL.addView(textNL1);
 		TextView textNL2=new TextView(this);
-		textNL2.setText("Contáctese con neurointegrativa@gmail.com para demostrar sus habilidades");
+		textNL2.setText(getString(R.string.game_completed_message));
 		textNL2.setGravity(1);
 		textNL2.setTextSize(TypedValue.COMPLEX_UNIT_SP, 22);
 		LinNL.addView(textNL2);
@@ -1085,7 +1009,7 @@ public class PlayGame extends Activity implements OnClickListener {
 		
 		
 		
-		builderNL.setPositiveButton("Volver al menú inicial",new DialogInterface.OnClickListener()
+		builderNL.setPositiveButton(getString(R.string.back_main_menu),new DialogInterface.OnClickListener()
 		{
 			
 			public void onClick(DialogInterface dialog,int id){returnhome();
@@ -1352,21 +1276,21 @@ public void correction(int correct){
 	if (correct==1){
 		equationTxt.setBackgroundResource(R.drawable.button_green);
 		//if ((int)(DScore.getTotTime()/1000)>2*tavg){equationTxt.setText("Podés hacerlo más rápido");}
-		if (level==9) equationTxt.setText(Html.fromHtml("<font color='#0b9E8C'><sup><small>2</small></sup><br /></font>"+"<big><font color='#FF9000'>\u2605</font> Bien!</big>"+"<br /><font color='#0b9E8C'><sup><small>2</small></sup></font>"));
-		else if (level==16) equationTxt.setText(Html.fromHtml("<font color='#0b9E8C'><sup><small>2</small></sup><br /></font>"+"<big><font color='#FF9000'>\u2605</font> Bien!</big>"+"<br /><font color='#0b9E8C'><sup><small>2</small></sup><br /><sup><small>2</small></sup></font>"));
-		else if(level==20) equationTxt.setText(Html.fromHtml("<font color='#0b9E8C'><sup><small>2</small></sup><br /><sup><small>2</small></sup><br /></font>"+"<big><font color='#FF9000'>\u2605</font> Bien!</big>"+"<br /><font color='#0b9E8C'><sup><small>2</small></sup><br /><sup><small>2</small></sup></font>"));
+		if (level==9) equationTxt.setText(Html.fromHtml("<font color='#0b9E8C'><sup><small>2</small></sup><br /></font>"+"<big><font color='#FF9000'>\u2605</font> "+getString(R.string.correct)+"</big>"+"<br /><font color='#0b9E8C'><sup><small>2</small></sup></font>"));
+		else if (level==16) equationTxt.setText(Html.fromHtml("<font color='#0b9E8C'><sup><small>2</small></sup><br /></font>"+"<big><font color='#FF9000'>\u2605</font> "+getString(R.string.correct)+"</big>"+"<br /><font color='#0b9E8C'><sup><small>2</small></sup><br /><sup><small>2</small></sup></font>"));
+		else if(level==20) equationTxt.setText(Html.fromHtml("<font color='#0b9E8C'><sup><small>2</small></sup><br /><sup><small>2</small></sup><br /></font>"+"<big><font color='#FF9000'>\u2605</font> "+getString(R.string.correct)+"</big>"+"<br /><font color='#0b9E8C'><sup><small>2</small></sup><br /><sup><small>2</small></sup></font>"));
 		else 
-		equationTxt.setText(Html.fromHtml("<big><font color='#FF9000'>\u2605</font> Bien!</big>"));
+		equationTxt.setText(Html.fromHtml("<big><font color='#FF9000'>\u2605</font> "+getString(R.string.correct)+"</big>"));
 		//equationTxt.setCompoundDrawablesWithIntrinsicBounds(R.drawable.star_yellow, 0,R.drawable.star_yellow, 0);
 	}
 		
 	else if (correct==0){
 		equationTxt.setBackgroundResource(R.drawable.button_pink);
-		if (level==9) equationTxt.setText(Html.fromHtml("<font color='#ED1566'><sup><small>2</small></sup><br /></font>"+"<big><font color='#E4E5E6'>\u2605</font> Era "+answer+"</big> y no <big>"+DScore.getAnswer()+"</big><br /><font color='#ED1566'><sup><small>2</small></sup></font>"));
-			else if (level==16) equationTxt.setText(Html.fromHtml("<font color='#ED1566'><sup><small>2</small></sup><br /></font>"+"<big><font color='#E4E5E6'>\u2605</font> Era "+answer+"</big> y no <big>"+DScore.getAnswer()+"</big><br /><font color='#ED1566'><sup><small>2</small></sup><br /><sup><small>2</small></sup></font>"));
-				else if(level==20) equationTxt.setText(Html.fromHtml("<font color='#ED1566'><sup><small>2</small></sup><br /><sup><small>2</small></sup><br /></font>"+"<big><font color='#E4E5E6'>\u2605</font> Era "+answer+"</big> y no <big>"+DScore.getAnswer()+"</big><br /><font color='#ED1566'><sup><small>2</small></sup><br /><sup><small>2</small></sup></font>"));
+		if (level==9) equationTxt.setText(Html.fromHtml("<font color='#ED1566'><sup><small>2</small></sup><br /></font>"+"<big><font color='#E4E5E6'>\u2605</font> "+getString(R.string.wrong_correct_answer)+answer+"</big> "+getString(R.string.wrong_entered_answer)+"<big>"+DScore.getAnswer()+"</big><br /><font color='#ED1566'><sup><small>2</small></sup></font>"));
+			else if (level==16) equationTxt.setText(Html.fromHtml("<font color='#ED1566'><sup><small>2</small></sup><br /></font>"+"<big><font color='#E4E5E6'>\u2605</font> "+getString(R.string.wrong_correct_answer)+answer+"</big> "+getString(R.string.wrong_entered_answer)+"<big>"+DScore.getAnswer()+"</big><br /><font color='#ED1566'><sup><small>2</small></sup><br /><sup><small>2</small></sup></font>"));
+				else if(level==20) equationTxt.setText(Html.fromHtml("<font color='#ED1566'><sup><small>2</small></sup><br /><sup><small>2</small></sup><br /></font>"+"<big><font color='#E4E5E6'>\u2605</font> "+getString(R.string.wrong_correct_answer)+answer+"</big> "+getString(R.string.wrong_entered_answer)+"<big>"+DScore.getAnswer()+"</big><br /><font color='#ED1566'><sup><small>2</small></sup><br /><sup><small>2</small></sup></font>"));
 					else 
-		equationTxt.setText(Html.fromHtml("<big><font color='#E4E5E6'>\u2605</font> Era "+answer+"</big> y no <big>"+DScore.getAnswer()+"</big>"));
+		equationTxt.setText(Html.fromHtml("<big><font color='#E4E5E6'>\u2605</font> "+getString(R.string.wrong_correct_answer)+answer+"</big> "+getString(R.string.wrong_entered_answer)+"<big>"+DScore.getAnswer()+"</big>"));
 		//equationTxt.setCompoundDrawablesWithIntrinsicBounds(R.drawable.star_gray, 0,R.drawable.star_gray, 0);
 	}
 	timeranswer=reseteqtxt();
@@ -1403,23 +1327,23 @@ private void eqsettext(){
 		case 5: equationTxt.setText("");hintdisplayed=0;break;
 		case 6: hintdisplayed=1;break; // Este es dinamico
 		case 7: equationTxt.setText("");hintdisplayed=0;break;
-		case 8: equationTxt.setText("Memorice la cuenta");hintdisplayed=0;break;
+		case 8: equationTxt.setText(getString(R.string.practice_fadeout_message));hintdisplayed=0;break;
 		case 9: hintdisplayed=1;break; // Este es dinamico
 		case 10: equationTxt.setText(Html.fromHtml("x<sup><small>2</small></sup> = (x-a)(x+a) + a<sup><small>2</small></sup>"));hintdisplayed=1;break;
 		case 11: equationTxt.setText("");hintdisplayed=0;break;
-		case 12: equationTxt.setText("Memorice la cuenta");hintdisplayed=0;break;
+		case 12: equationTxt.setText(getString(R.string.practice_fadeout_message));hintdisplayed=0;break;
 		case 13: hintdisplayed=1;break; // Este es dinamico
 		case 14: equationTxt.setText("");hintdisplayed=0;break;
-		case 15: equationTxt.setText("Memorice la cuenta");hintdisplayed=0;break;
+		case 15: equationTxt.setText(getString(R.string.practice_fadeout_message));hintdisplayed=0;break;
 		case 16: hintdisplayed=1;break; // Este es dinamico
 		case 17: hintdisplayed=1;break; // Este es dinamico
 		case 18: equationTxt.setText("");hintdisplayed=0;break;
-		case 19: equationTxt.setText("Memorice la cuenta");hintdisplayed=0;break;
+		case 19: equationTxt.setText(getString(R.string.practice_fadeout_message));hintdisplayed=0;break;
 		case 20: hintdisplayed=1;break; // Este es dinamico
 		case 21: hintdisplayed=1;break; // Este es dinamico
 		case 22: hintdisplayed=1;break; // Este es dinamico
 		case 23: equationTxt.setText("");hintdisplayed=0;break;
-		case 24: equationTxt.setText("Memorice la cuenta");hintdisplayed=0;break;
+		case 24: equationTxt.setText(getString(R.string.practice_fadeout_message));hintdisplayed=0;break;
 		
 }
 	 switch(level){

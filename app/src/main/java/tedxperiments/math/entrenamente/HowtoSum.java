@@ -52,7 +52,7 @@ public class HowtoSum extends FragmentActivity {
        
         ActionBar AB = getActionBar();
 		AB.setDisplayHomeAsUpEnabled(true);
-		AB.setTitle(Html.fromHtml("<font color='#ED1566'>Suma</font>"));
+		AB.setTitle(Html.fromHtml("<font color='#ED1566'>"+getString(R.string.tutorial_sum_title)+"</font>"));
 		//AB.setSubtitle("Suma");
 		AB.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#F0F1F2")));
 		
@@ -118,7 +118,10 @@ public class HowtoSum extends FragmentActivity {
             int imgResId2 = getResources().getIdentifier(planet2, "drawable", "tedxperiments.math.entrenamente");
             img2.setImageResource(imgResId2);
             
-            tv.setText(Html.fromHtml(Planet.PLANET_DETAIL.get(planet)));
+            //tv.setText(Html.fromHtml(Planet.PLANET_DETAIL.get(planet)));
+            CharSequence[] sumTexts = getResources().getTextArray(R.array.tutorial_sum_message_array);
+            if (position<sumTexts.length)
+                tv.setText(sumTexts[position]);
             return swipeView;
         }
 

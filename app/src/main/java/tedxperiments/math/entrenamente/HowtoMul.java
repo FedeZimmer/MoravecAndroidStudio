@@ -48,7 +48,7 @@ public class HowtoMul extends FragmentActivity {
         
         ActionBar AB = getActionBar();
 		AB.setDisplayHomeAsUpEnabled(true);
-		AB.setTitle(Html.fromHtml("<font color='#ED1566'>Multiplicación</font>"));
+		AB.setTitle(Html.fromHtml("<font color='#ED1566'>"+getString(R.string.tutorial_mul_title)+"</font>"));
 		//AB.setSubtitle("Multiplicación");
 		AB.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#F0F1F2")));
 		
@@ -117,7 +117,10 @@ public class HowtoMul extends FragmentActivity {
             int imgResId2 = getResources().getIdentifier(planet2, "drawable", "tedxperiments.math.entrenamente");
             img2.setImageResource(imgResId2);
             
-            tv.setText(Html.fromHtml(Planet.PLANET_DETAIL.get(planet)));
+            //tv.setText(Html.fromHtml(Planet.PLANET_DETAIL.get(planet)));
+            CharSequence[] mulTexts = getResources().getTextArray(R.array.tutorial_mul_message_array);
+            if (position<mulTexts.length)
+                tv.setText(mulTexts[position]);
             return swipeView;
         }
 

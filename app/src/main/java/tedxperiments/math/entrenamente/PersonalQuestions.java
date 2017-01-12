@@ -182,7 +182,7 @@ public class PersonalQuestions extends Activity implements OnClickListener {
 			//else{showhand=handAnswer;}
 			
 			//Toast.makeText(getBaseContext(), Html.fromHtml("Nombre: "+name+"<br>Email: "+email+"<br>Nacimiento: "+birthyear+"<br>Gender: "+genderAnswer+"<br>Studies: "+studiesAnswer+"<br>Hand: "+handAnswer+"<br>UUID: "+AUID), Toast.LENGTH_SHORT).show();
-			Toast.makeText(getBaseContext(), Html.fromHtml("Gracias por la colaboración"), Toast.LENGTH_SHORT).show();
+			Toast.makeText(getBaseContext(), Html.fromHtml(getString(R.string.thanks_form)), Toast.LENGTH_SHORT).show();
 			
 		//Tengo que pasar todo a saved, memoria del telefono.
 		name=noacentos(name);

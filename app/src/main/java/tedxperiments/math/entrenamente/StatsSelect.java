@@ -132,17 +132,17 @@ public class StatsSelect extends Activity implements OnClickListener {
 	    sum11.setText(Html.fromHtml("1+1"));
 	    sum12.setText(Html.fromHtml("Correctas: <b>"+porsum1+ " %"));
 	    sum13.setText(Html.fromHtml("&#60T&#62 <b>"+avgtime));
-	    //sum1.setText(Html.fromHtml("<b>" + "1d + 1d" + "<br />" + "<small><small><small><small>"+"Correctas: </small>"+porsum1+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
+	    //sum1.setText(Html.fromHtml("<b>" + "1d + 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.correct_stats)+"</small>"+porsum1+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
 	    }
 	    else {
 	    	sum11.setText(Html.fromHtml("1+1"));
 	    	sum11.setTextColor(Color.parseColor("#FFFFFF"));
-		    sum12.setText(Html.fromHtml("Aún no hay datos"));
+		    sum12.setText(Html.fromHtml(getString(R.string.no_data_stats)));
 		    sum12.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
 		    sum12.setTextColor(Color.parseColor("#FFFFFF"));	
 		    sum13.setText(Html.fromHtml(""));
 		    sum1.setBackgroundDrawable(getResources().getDrawable(R.drawable.button_gray2));
-	    	 //sum1.setText(Html.fromHtml("<b>" + "1d + 1d" + "<br />" + "<small><small><small><small>"+"Aún no hay datos"+"</small></small></small>" + "</b>"));
+	    	 //sum1.setText(Html.fromHtml("<b>" + "1d + 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.no_data_stats)+"</small></small></small>" + "</b>"));
 	    	 sum1.setEnabled(false);}
 	    
 	    if (sum2c.size()>1)
@@ -155,20 +155,20 @@ public class StatsSelect extends Activity implements OnClickListener {
 	    porsum2 =(int) (sum2c.size()*100/(sum2c.size()+sum2i.size()));
 	    String avgtime= millisToShortDHMS(tavgsum2c);
 	    sum21.setText(Html.fromHtml("2+2"));
-	    sum22.setText(Html.fromHtml("Correctas: <b>"+porsum2+ " %"));
+	    sum22.setText(Html.fromHtml(getString(R.string.correct_stats)+"<b>"+porsum2+ " %"));
 	    sum23.setText(Html.fromHtml("&#60T&#62 <b>"+avgtime));
-	    //sum2.setText(Html.fromHtml("<b>" + "2d + 2d" + "<br />" + "<small><small><small><small>"+"Correctas: </small>"+porsum2+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
+	    //sum2.setText(Html.fromHtml("<b>" + "2d + 2d" + "<br />" + "<small><small><small><small>"+getString(R.string.correct_stats)+"</small>"+porsum2+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
 	    }
 	    else {
 	    	sum21.setText(Html.fromHtml("2+2"));
 	    	sum21.setTextColor(Color.parseColor("#FFFFFF"));
-		    sum22.setText(Html.fromHtml("Aún no hay datos"));
+		    sum22.setText(Html.fromHtml(getString(R.string.no_data_stats)));
 		    sum22.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
 		    sum22.setTextColor(Color.parseColor("#FFFFFF"));
 		    sum23.setTextColor(Color.parseColor("#FFFFFF"));		
 		    sum23.setText(Html.fromHtml(""));
 		    sum2.setBackgroundDrawable(getResources().getDrawable(R.drawable.button_gray2));	
-	    	//sum2.setText(Html.fromHtml("<b>" + "2d + 2d" + "<br />" + "<small><small><small><small>"+"Aún no hay datos"+"</small></small></small>" + "</b>"));
+	    	//sum2.setText(Html.fromHtml("<b>" + "2d + 2d" + "<br />" + "<small><small><small><small>"+getString(R.string.no_data_stats)+"</small></small></small>" + "</b>"));
 	    	sum2.setEnabled(false);}
 	    
 	    if (mul1c.size()>1)
@@ -181,19 +181,19 @@ public class StatsSelect extends Activity implements OnClickListener {
 	    pormul1 =(int) (mul1c.size()*100/(mul1c.size()+mul1i.size()));
 	    String avgtime= millisToShortDHMS(tavgmul1c);
 	    mul11.setText(Html.fromHtml("1x1"));
-	    mul12.setText(Html.fromHtml("Correctas: <b>"+pormul1+ " %"));
+	    mul12.setText(Html.fromHtml(getString(R.string.correct_stats)+"<b>"+pormul1+ " %"));
 	    mul13.setText(Html.fromHtml("&#60T&#62 <b>"+avgtime));
-	    //mul1.setText(Html.fromHtml("<b>" + "1d x 1d" + "<br />" + "<small><small><small><small>"+"Correctas: </small>"+pormul1+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
+	    //mul1.setText(Html.fromHtml("<b>" + "1d x 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.correct_stats)+"</small>"+pormul1+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
 	    }
 	    else {
 	    	mul11.setText(Html.fromHtml("1x1"));
 	    	mul11.setTextColor(Color.parseColor("#FFFFFF"));
-	    	mul12.setText(Html.fromHtml("Aún no hay datos"));
+	    	mul12.setText(Html.fromHtml(getString(R.string.no_data_stats)));
 	    	mul12.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
 	    	mul12.setTextColor(Color.parseColor("#FFFFFF"));		    
 	    	mul13.setText(Html.fromHtml(""));
 	    	mul1.setBackgroundDrawable(getResources().getDrawable(R.drawable.button_gray2));	
-	    	//mul1.setText(Html.fromHtml("<b>" + "1d x 1d" + "<br />" + "<small><small><small><small>"+"Aún no hay datos"+"</small></small></small>" + "</b>"));
+	    	//mul1.setText(Html.fromHtml("<b>" + "1d x 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.no_data_stats)+"</small></small></small>" + "</b>"));
 	    mul1.setEnabled(false);}
 
 	    if (mul2c.size()>1)
@@ -206,20 +206,20 @@ public class StatsSelect extends Activity implements OnClickListener {
 	    pormul2 =(int) (mul2c.size()*100/(mul2c.size()+mul2i.size()));
 	    String avgtime= millisToShortDHMS(tavgmul2c);
 	    mul21.setText(Html.fromHtml("2x1"));
-	    mul22.setText(Html.fromHtml("Correctas: <b>"+pormul2+ " %"));
+	    mul22.setText(Html.fromHtml(getString(R.string.correct_stats)+"<b>"+pormul2+ " %"));
 	    mul23.setText(Html.fromHtml("&#60T&#62 <b>"+avgtime));
-	   // mul2.setText(Html.fromHtml("<b>" + "2d x 1d" + "<br />" + "<small><small><small><small>"+"Correctas: </small>"+pormul2+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
+	   // mul2.setText(Html.fromHtml("<b>" + "2d x 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.correct_stats)+"</small>"+pormul2+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
 	    }
 	    else 
 	    {
 	    	mul21.setText(Html.fromHtml("2x1"));
 	    	mul21.setTextColor(Color.parseColor("#FFFFFF"));
-	    	mul22.setText(Html.fromHtml("Aún no hay datos"));
+	    	mul22.setText(Html.fromHtml(getString(R.string.no_data_stats)));
 	    	mul22.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
 	    	mul22.setTextColor(Color.parseColor("#FFFFFF"));		    
 	    	mul23.setText(Html.fromHtml(""));
 	    	mul2.setBackgroundDrawable(getResources().getDrawable(R.drawable.button_gray2));
-	    	//mul2.setText(Html.fromHtml("<b>" + "2d x 1d" + "<br />" + "<small><small><small><small>"+"Aún no hay datos"+"</small></small></small>" + "</b>"));
+	    	//mul2.setText(Html.fromHtml("<b>" + "2d x 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.no_data_stats)+"</small></small></small>" + "</b>"));
 	    	mul2.setEnabled(false);}
 	
 	    if (mul3c.size()>1)
@@ -232,19 +232,19 @@ public class StatsSelect extends Activity implements OnClickListener {
 	    pormul3 =(int) (mul3c.size()*100/(mul3c.size()+mul3i.size()));
 	    String avgtime= millisToShortDHMS(tavgmul3c);
 	    mul31.setText(Html.fromHtml("3x1"));
-	    mul32.setText(Html.fromHtml("Correctas: <b>"+pormul3+ " %"));
+	    mul32.setText(Html.fromHtml(getString(R.string.correct_stats)+"<b>"+pormul3+ " %"));
 	    mul33.setText(Html.fromHtml("&#60T&#62 <b>"+avgtime));
-	   // mul3.setText(Html.fromHtml("<b>" + "3d x 1d" + "<br />" + "<small><small><small><small>"+"Correctas: </small>"+pormul3+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
+	   // mul3.setText(Html.fromHtml("<b>" + "3d x 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.correct_stats)+"</small>"+pormul3+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
 	    }
 	    else {
 	    	mul31.setText(Html.fromHtml("3x1"));
 	    	mul31.setTextColor(Color.parseColor("#FFFFFF"));
-	    	mul32.setText(Html.fromHtml("Aún no hay datos"));
+	    	mul32.setText(Html.fromHtml(getString(R.string.no_data_stats)));
 	    	mul32.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
 	    	mul32.setTextColor(Color.parseColor("#FFFFFF"));		    
 	    	mul33.setText(Html.fromHtml(""));
 	    	mul3.setBackgroundDrawable(getResources().getDrawable(R.drawable.button_gray2));
-	    	//mul3.setText(Html.fromHtml("<b>" + "3d x 1d" + "<br />" + "<small><small><small><small>"+"Aún no hay datos"+"</small></small></small>" + "</b>"));
+	    	//mul3.setText(Html.fromHtml("<b>" + "3d x 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.no_data_stats)+"</small></small></small>" + "</b>"));
 	    mul3.setEnabled(false);}
 
 	    if (mul4c.size()>1)
@@ -257,19 +257,19 @@ public class StatsSelect extends Activity implements OnClickListener {
 	    pormul4 =(int) (mul4c.size()*100/(mul4c.size()+mul4i.size()));
 	    String avgtime= millisToShortDHMS(tavgmul4c);
 	    mul41.setText(Html.fromHtml("4x1"));
-	    mul42.setText(Html.fromHtml("Correctas: <b>"+pormul4+ " %"));
+	    mul42.setText(Html.fromHtml(getString(R.string.correct_stats)+"<b>"+pormul4+ " %"));
 	    mul43.setText(Html.fromHtml("&#60T&#62 <b>"+avgtime));
-	    //mul4.setText(Html.fromHtml("<b>" + "4d x 1d" + "<br />" + "<small><small><small><small>"+"Correctas: </small>"+pormul4+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
+	    //mul4.setText(Html.fromHtml("<b>" + "4d x 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.correct_stats)+"</small>"+pormul4+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
 	    }
 	    else {
 	    	mul41.setText(Html.fromHtml("4x1"));
 	    	mul41.setTextColor(Color.parseColor("#FFFFFF"));
-	    	mul42.setText(Html.fromHtml("Aún no hay datos"));
+	    	mul42.setText(Html.fromHtml(getString(R.string.no_data_stats)));
 	    	mul42.setTextColor(Color.parseColor("#FFFFFF"));
 	    	mul42.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
 	    	mul43.setText(Html.fromHtml(""));
 	    	mul4.setBackgroundDrawable(getResources().getDrawable(R.drawable.button_gray2));
-	    	//mul4.setText(Html.fromHtml("<b>" + "4d x 1d" + "<br />" + "<small><small><small><small>"+"Aún no hay datos"+"</small></small></small>" + "</b>"));
+	    	//mul4.setText(Html.fromHtml("<b>" + "4d x 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.no_data_stats)+"</small></small></small>" + "</b>"));
 	    	mul4.setEnabled(false);}
 	    
 	    if (sq2c.size()>1)
@@ -282,19 +282,19 @@ public class StatsSelect extends Activity implements OnClickListener {
 	    porsq2 =(int) (sq2c.size()*100/(sq2c.size()+sq2i.size()));
 	    String avgtime= millisToShortDHMS(tavgsq2c);
 	    sq21.setText(Html.fromHtml("2"+"<small><small><sup>"+"2"+"</small></small></sup>"));
-	    sq22.setText(Html.fromHtml("Correctas: <b>"+porsq2+ " %"));
+	    sq22.setText(Html.fromHtml(getString(R.string.correct_stats)+"<b>"+porsq2+ " %"));
 	    sq23.setText(Html.fromHtml("&#60T&#62 <b>"+avgtime));	    
-	    //sq2.setText(Html.fromHtml("<b>" + "(2d)"+"<small><small><sup>"+"2"+"</small></small></sup>" + "<br />" + "<small><small><small><small>"+"Correctas: </small>"+porsq2+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
+	    //sq2.setText(Html.fromHtml("<b>" + "(2d)"+"<small><small><sup>"+"2"+"</small></small></sup>" + "<br />" + "<small><small><small><small>"+getString(R.string.correct_stats)+"</small>"+porsq2+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
 	    }
 	    else {
 	    	sq21.setText(Html.fromHtml("2"+"<small><small><sup>"+"2"+"</small></small></sup>"));
 	    	sq21.setTextColor(Color.parseColor("#FFFFFF"));
-	    	sq22.setText(Html.fromHtml("Aún no hay datos"));
+	    	sq22.setText(Html.fromHtml(getString(R.string.no_data_stats)));
 	    	sq22.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
 	    	sq22.setTextColor(Color.parseColor("#FFFFFF"));		    
 	    	sq23.setText(Html.fromHtml(""));
 	    	sq2.setBackgroundDrawable(getResources().getDrawable(R.drawable.button_gray2));
-	    	//sq2.setText(Html.fromHtml("<b>" + "(2d)"+"<small><small><sup>"+"2"+"</small></small></sup>" + "<br />" + "<small><small><small><small>"+"Aún no hay datos"+"</small></small></small>" + "</b>"));
+	    	//sq2.setText(Html.fromHtml("<b>" + "(2d)"+"<small><small><sup>"+"2"+"</small></small></sup>" + "<br />" + "<small><small><small><small>"+getString(R.string.no_data_stats)+"</small></small></small>" + "</b>"));
 	    	sq2.setEnabled(false);}
 	    
 	    if (sq3c.size()>1)
@@ -307,19 +307,19 @@ public class StatsSelect extends Activity implements OnClickListener {
 	    porsq3 =(int) (sq3c.size()*100/(sq3c.size()+sq3i.size()));
 	    String avgtime= millisToShortDHMS(tavgsq3c);
 	    sq31.setText(Html.fromHtml("3"+"<small><small><sup>"+"2"+"</small></small></sup>"));
-	    sq32.setText(Html.fromHtml("Correctas: <b>"+porsq3+ " %"));
+	    sq32.setText(Html.fromHtml(getString(R.string.correct_stats)+"<b>"+porsq3+ " %"));
 	    sq33.setText(Html.fromHtml("&#60T&#62 <b>"+avgtime));	
-	    //sq3.setText(Html.fromHtml("<b>" + "(3d)"+"<small><small><sup>"+"2"+"</small></small></sup>" + "<br />" + "<small><small><small><small>"+"Correctas: </small>"+porsq3+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
+	    //sq3.setText(Html.fromHtml("<b>" + "(3d)"+"<small><small><sup>"+"2"+"</small></small></sup>" + "<br />" + "<small><small><small><small>"+getString(R.string.correct_stats)+"</small>"+porsq3+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
 	    }
 	    else {
 	    	sq31.setText(Html.fromHtml("3"+"<small><small><sup>"+"2"+"</small></small></sup>"));
 	    	sq31.setTextColor(Color.parseColor("#FFFFFF"));
-	    	sq32.setText(Html.fromHtml("Aún no hay datos"));
+	    	sq32.setText(Html.fromHtml(getString(R.string.no_data_stats)));
 	    	sq32.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
 	    	sq32.setTextColor(Color.parseColor("#FFFFFF"));		    
 	    	sq33.setText(Html.fromHtml(""));
 	    	sq3.setBackgroundDrawable(getResources().getDrawable(R.drawable.button_gray2));
-	    	//sq3.setText(Html.fromHtml("<b>" + "(3d)"+"<small><small><sup>"+"2"+"</small></small></sup>" + "<br />" + "<small><small><small><small>"+"Aún no hay datos"+"</small></small></small>" + "</b>"));
+	    	//sq3.setText(Html.fromHtml("<b>" + "(3d)"+"<small><small><sup>"+"2"+"</small></small></sup>" + "<br />" + "<small><small><small><small>"+getString(R.string.no_data_stats)+"</small></small></small>" + "</b>"));
 	    	sq3.setEnabled(false);}
 	    
 	    if (sq4c.size()>1)
@@ -332,19 +332,19 @@ public class StatsSelect extends Activity implements OnClickListener {
 	    porsq4 =(int) (sq4c.size()*100/(sq4c.size()+sq4i.size()));
 	    String avgtime= millisToShortDHMS(tavgsq4c);
 	    sq41.setText(Html.fromHtml("4"+"<small><small><sup>"+"2"+"</small></small></sup>"));
-	    sq42.setText(Html.fromHtml("Correctas: <b>"+porsq4+ " %"));
+	    sq42.setText(Html.fromHtml(getString(R.string.correct_stats)+"<b>"+porsq4+ " %"));
 	    sq43.setText(Html.fromHtml("&#60T&#62 <b>"+avgtime));	
-	    //sq4.setText(Html.fromHtml("<b>" + "(4d)"+"<small><small><sup>"+"2"+"</small></small></sup>" + "<br />" + "<small><small><small><small>"+"Correctas: </small>"+porsq4+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
+	    //sq4.setText(Html.fromHtml("<b>" + "(4d)"+"<small><small><sup>"+"2"+"</small></small></sup>" + "<br />" + "<small><small><small><small>"+getString(R.string.correct_stats)+"</small>"+porsq4+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
 	    }
 	    else {
 	    	sq41.setText(Html.fromHtml("4"+"<small><small><sup>"+"2"+"</small></small></sup>"));
 	    	sq41.setTextColor(Color.parseColor("#FFFFFF"));
-	    	sq42.setText(Html.fromHtml("Aún no hay datos"));
+	    	sq42.setText(Html.fromHtml(getString(R.string.no_data_stats)));
 	    	sq42.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
 	    	sq42.setTextColor(Color.parseColor("#FFFFFF"));		    
 	    	sq43.setText(Html.fromHtml(""));
 	    	sq4.setBackgroundDrawable(getResources().getDrawable(R.drawable.button_gray2));
-	    	//sq4.setText(Html.fromHtml("<b>" + "(4d)"+"<small><small><sup>"+"2"+"</small></small></sup>" + "<br />" + "<small><small><small><small>"+"Aún no hay datos"+"</small></small></small>" + "</b>"));
+	    	//sq4.setText(Html.fromHtml("<b>" + "(4d)"+"<small><small><sup>"+"2"+"</small></small></sup>" + "<br />" + "<small><small><small><small>"+getString(R.string.no_data_stats)+"</small></small></small>" + "</b>"));
 	    	sq4.setEnabled(false);}
 	    
 	    //sum1.setText(Html.fromHtml("<b>1d + 1d</b>"));
@@ -359,7 +359,7 @@ public class StatsSelect extends Activity implements OnClickListener {
 	    
 	    ActionBar AB = getActionBar();
 	  		AB.setDisplayHomeAsUpEnabled(true);
-	  		AB.setTitle(Html.fromHtml("<font color='#ED1566'>Estadísticas</font>"));
+	  		AB.setTitle(Html.fromHtml("<font color='#ED1566'>"+getString(R.string.stats_navbar)+"</font>"));
 	  		//AB.setSubtitle("Seleccione un tipo de cuenta");	    
 	  		AB.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#F0F1F2")));
 	}

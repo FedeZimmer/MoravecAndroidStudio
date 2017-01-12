@@ -52,7 +52,7 @@ public class HighList extends ListActivity{
         for (int i=0; i<values.length; i++)
         	{
         	//if (ArcStats[i]>0)
-        		values[i]="Nivel "+(i+1);
+        		values[i]=getString(R.string.level_selection)+(i+1);
         	}
         
       setListAdapter(new MyArrayAdapter(getApplicationContext(), values));

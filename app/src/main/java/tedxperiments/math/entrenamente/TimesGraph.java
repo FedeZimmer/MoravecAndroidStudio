@@ -50,7 +50,7 @@ public class TimesGraph extends Activity {
 		
 		ActionBar AB = getActionBar();
 		AB.setDisplayHomeAsUpEnabled(true);
-		AB.setTitle(Html.fromHtml("<font color='#ED1566'>Tiempos de respuesta</font>"));
+		AB.setTitle(Html.fromHtml("<font color='#ED1566'>"+getString(R.string.graph_navbar)+"</font>"));
 		//AB.setSubtitle("Tiempo de respuesta");
 		AB.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#F0F1F2")));
 		

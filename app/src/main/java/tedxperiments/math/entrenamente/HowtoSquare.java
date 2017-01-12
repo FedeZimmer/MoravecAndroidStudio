@@ -48,7 +48,7 @@ public class HowtoSquare extends FragmentActivity {
         
         ActionBar AB = getActionBar();
 		AB.setDisplayHomeAsUpEnabled(true);
-		AB.setTitle(Html.fromHtml("<font color='#ED1566'>Al cuadrado</font>"));
+		AB.setTitle(Html.fromHtml("<font color='#ED1566'>"+getString(R.string.tutorial_square_title)+"</font>"));
 		//AB.setSubtitle("Al cuadrado");
 		AB.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#F0F1F2")));
 		
@@ -114,25 +114,11 @@ public class HowtoSquare extends FragmentActivity {
             int imgResId2 = getResources().getIdentifier(planet2, "drawable", "tedxperiments.math.entrenamente");
             img2.setImageResource(imgResId2);            
                         
-            tv.setText(Html.fromHtml(Planet.PLANET_DETAIL.get(planet)));
-            
-            //if (position==0){
-            //	tv.setOnClickListener(new OnClickListener() {
-            //        @Override
-            //        public void onClick(View viewIn) {
-            //        	startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://youtu.be/Hp1FDnUK6Yg")));
-            //        }
-            //    });
-            //	}
-            //else if (position==4){
-            //	tv.setOnClickListener(new OnClickListener() {
-            //        @Override
-            //        public void onClick(View viewIn) {
-            //        	startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://youtu.be/Hp1FDnUK6Yg")));
-            //        }
-            //    });
-            //	}
-            
+            //tv.setText(Html.fromHtml(Planet.PLANET_DETAIL.get(planet)));
+            CharSequence[] sqTexts = getResources().getTextArray(R.array.tutorial_square_message_array);
+            if (position<sqTexts.length)
+                tv.setText(sqTexts[position]);
+
             return swipeView;
         }
 

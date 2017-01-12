@@ -35,14 +35,14 @@ public class HowToPlay extends Activity implements OnClickListener {
 	    squarebut.setOnClickListener(this);
 	    
 	    
-	    sumbut.setText(Html.fromHtml("<big><big><big>" + "+" + "</big></big></big><br />" + "<small><small><small>"+"Suma"+"</small></small></small>" + ""));
-	    multbut.setText(Html.fromHtml("<big><big><big>" + "*" + "</big></big></big><br />" + "<small><small><small>"+"Multiplicación"+"</small></small></small>" + ""));
-	    squarebut.setText(Html.fromHtml("<big><big><big>" + "x"+"<small><small><small><sup><sup>"+"2"+"</small></small></small></sup></sup>" + "</big></big></big><br />" + "<small><small><small>"+"Al cuadrado"+"</small></small></small>" + ""));
+	    sumbut.setText(Html.fromHtml("<big><big><big>" + "+" + "</big></big></big><br />" + "<small><small><small>"+getString(R.string.tutorial_sum_button)+"</small></small></small>" + ""));
+	    multbut.setText(Html.fromHtml("<big><big><big>" + "*" + "</big></big></big><br />" + "<small><small><small>"+getString(R.string.tutorial_multiplicaction_button)+"</small></small></small>" + ""));
+	    squarebut.setText(Html.fromHtml("<big><big><big>" + "x"+"<small><small><small><sup><sup>"+"2"+"</small></small></small></sup></sup>" + "</big></big></big><br />" + "<small><small><small>"+getString(R.string.tutorial_square_button)+"</small></small></small>" + ""));
 	    
 	    
 	    ActionBar AB = getActionBar();
 		AB.setDisplayHomeAsUpEnabled(true);
-		AB.setTitle(Html.fromHtml("<font color='#ED1566'>Tutorial</font>"));
+		AB.setTitle(Html.fromHtml("<font color='#ED1566'>"+getString(R.string.tutorial_navbar)+"</font>"));
 		//AB.setSubtitle("Tutorial");
 		AB.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#F0F1F2")));
 	    
