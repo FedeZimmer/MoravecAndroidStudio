@@ -60,7 +60,7 @@
 	<string name="confidence_max">Mucho\u0020\u0020</string>
 	<string name="effort_question">¿Cuánto esfuerzo mental hiciste?</string>
 	<string name="effort_min">\u0020\u0020Nada</string>
-	<string name="effort_max">"Mucho\u0020\u0020</string>
+	<string name="effort_max">Mucho\u0020\u0020</string>
 	<string name="answer_both">Responda ambas preguntas para continuar</string>
 	<string name="done_introspection">Listo</string>
 

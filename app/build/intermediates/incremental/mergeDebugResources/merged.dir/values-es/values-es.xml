@@ -1,109 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="tutorial_mul_message_array">
-        <item>Pour résoudre des multiplications mentalement, vous devez aussi vous familiariser avec la méthode de gauche à droite. Commencez par multiplier les dizaines du plus grand nombre, puis les unités.\n\n</item>
-        <item>Autre exemple pour exercer la multiplication de gauche à droite.\n\n\n\n</item>
-        <item> Le même procédé est utilisé lorsque le nombre le plus élevé comprend 3 ou 4 chiffres. Multipliez toujours de gauche à droite, en additionnant progressivement les résultats partiels.\n\n</item>
+        <item>Para resolver multiplicações mentalmente, você tem também que familiarizar-se com o método de esquerda a direita, multiplicando primeiro as dezenas e logo as unidades.\n\n</item>
+        <item>Outro exemplo para exercitar a multiplicação de esquerda a direita.\n\n\n\n</item>
+        <item>Utiliza-se o mesmo método quando o número maior é de 3 ou 4 algarismos. Sempre multiplica-se de esquerda a direita e somam-se progressivamente os resultados parciais.\n\n</item>
     </string-array>
     <string-array name="tutorial_square_message_array">
-        <item>Nous utilisons la formule x<sup><small><small>2</small></small></sup> = (x-a) (x+a) + a<sup><small><small>2</small></small></sup>, où x est le nombre de deux chiffres que nous voulons élever au carré, et a est la différence entre x et le multiple de 10 le plus proche de x. Par exemple, si x est égal à 12, a est égal à 2.\n\n</item>
-        <item>Nous pouvons voir que si x = 46, alors a = 4. Nous faisons (x-a) (x+a) + a<sup><small><small>2</small></small></sup>.\n\n\n\n\n</item>
-        <item>Lorsque nous élevons au carré un nombre de 3 chiffres, nous utilisons la même méthode, sauf que cette fois-ci, a est un nombre de deux chiffres. Sachant cela, nous répétons le procédé connu. \nDans ce cas, nous prenons x = 512 et a = 12. Ensuite, pour élever 12 au carré, on prendra x = 12 et a = 2.</item>
-        <item>Voici un autre exemple avec x = 684, a = 16.\nEnsuite, pour élever 16 au carré nous utilisons x = 16, a = 4.\n\n\n\n</item>
-        <item>Dans le Grand Système de Mémoire, nous associons chaque chiffre du nombre à une consonne, comme on peut voir dans la table. En utilisant les lettres en ordre, nous formons des mots en ajoutant des voyelles si nécessaire. Par exemple, \"loupe\" correspond à 59 parce que \"L\" vaut 5, \"P\" vaut 9, et les voyelles ne comptent pas.</item>
-        <item>Pour les nombres à 4 chiffres, nous utilisons la formule déjà connue. Mais avant de calculer a<sup><small><small>2</small></small></sup> nous utilisons le Grand Système pour mémoriser la première partie du résultat. Si x est 6382, a est 382. 6764 x 6000 est 40 millions 584 mille alors nous mémorisons 584 en utilisant le Grand Système.</item>
-        <item>Pour ne pas oublier 584, nous formons un mot avec ses chiffres. Si 5 correspond à L, 8 à G et 4 à C alors 584 peut être codifié comme \"LoGiC\". Tout en gardant ce mot en tête, nous suivons le même procédé et nous obtenons 145.924. Nous additionons 584 (\"LoGiC\") et 145 pour obtenir 729. Ce qui nous donne au total: 40 millions 729 mille 924.</item>
+        <item>Usamos a fórmula x<sup><small><small>2</small></small></sup> = (x-a) (x+a) + a<sup><small><small>2</small></small></sup>. Onde x é o número de dos algarismos que queremos elevar ao quadrado. E a é a diferença entre x e o múltiplo a 10 mais perto a x. Se x é 12 ou 18, a é 2.\n\n</item>
+        <item>Podemos ver que se x = 46 então a = 4. Fazemos (x-a) (x+a) + a<sup><small><small>2</small></small></sup>.\n\n\n\n\n</item>
+        <item>Quando elevamos um número de três algarismo usamos o mesmo método, mas neste caso a é um número de dois algarismos. Sabendo isto, repetimos o procedimento conhecido. \nNeste caso temos que se x = 512 então a = 12. Mas, para elevar 12 ao quadrado, consideramos x = 12 e a = 2.</item>
+        <item>Vai outro exemplo com x = 684, a = 16.\nPara elevar 15 ao quadrado usamos x = 16, a = 4.\n\n\n\n</item>
+        <item>No Sistema Maior, associamos cada algarismo do número a lembrar com uma consonante, como se vê na tabela. Usando estas letras em ordem formamos palavras, adicionando as vogais necessárias. Por exemplo, \"lupa\" é 59 porque  \"l\" é 5, \"p\" é 9 e as vogais não são nada.</item>
+        <item>Para números de quatro algarismos usamos a fórmula já conhecida. Mas antes de calcular usamos o Sistema Maior parar memorizar parte do resultado. Se x é 6382, a é 382. E 6764 x 6000 é 40 milhões 584 mil. Então memorizamos 584 usando o Sistema Maior.</item>
+        <item>Para não esquecer 584, formamos uma palavra com seus algarismos. 5 pode ser L, 8 G e 4 Q. 584 pode ser /"LaGoa aQui/". Com isto em  mente, continuamos os passos de sempre e obtemos 145.924. Somado 584 (/"LaGoa aQui/") e 145 e obtemos 729. Juntamos tudo: 40 milhões, 729 mil 924.</item>
     </string-array>
     <string-array name="tutorial_sum_message_array">
-        <item>Ici, vous commencez à vous familiariser avec la méthode de gauche à droite. Commencez toujours par additionner les dizaines du deuxième nombre au premier nombre. Ensuite, ajoutez les unités du deuxième nombre au résultat obtenu.\n\n</item>
-        <item>Cet exemple est plus difficile parce que les unités, une fois additionnées, donnent un nombre supérieur à 10.\n\n\n\n\n</item>
+        <item>Aqui você começa a se familiarizar com o método de esquerda a direita. Primeiro você soma as dezenas do segundo número ao primeiro e por último as unidades do segundo numero ao resultado anterior.\n\n</item>
+        <item>Este exemplo é mais difícil porque as unidades somam um numero maior a 10.\n\n\n\n\n</item>
     </string-array>
-    <string name="achieved_studies">Niveau d\'études</string>
+    <string name="achieved_studies">Estudos alcançados</string>
     <string name="action_settings">Settings</string>
-    <string name="actual_level">Niveau\u0020</string>
-    <string name="agreement_message">S\'il vous plaît remplissez le questionnaire. Toutes les données que vous nous fournissez seront uniquement utilisées à des fins scientifiques et en aucun cas dans un but commercial ou publicitaire. Nous vous remercions de votre participation.</string>
-    <string name="ambidextrous">Ambidextre</string>
-    <string name="answer_both">Répondez aux deux questions pour continuer</string>
-    <string name="answered_n_correct">Vous avez réussi n calculs</string>
+    <string name="actual_level">Nível\u0020</string>
+    <string name="agreement_message">Por favor, preencha o questionário. Toda a informação que você nos presenteia é para uso científico, sem fins comerciais nem publicitários. Estamos muito contentes pela sua participação. Obrigado.</string>
+    <string name="ambidextrous">Ambas</string>
+    <string name="answer_both">Responda ambas perguntas para continuar</string>
+    <string name="answered_n_correct">Você respondeu N corretamente</string>
     <string name="app_name">Moravec</string>
-    <string name="available_hints">\u0020indices disponibles.</string>
-    <string name="back_main_menu">Retourner au menu principal</string>
-    <string name="birthdate">Date de naissance</string>
-    <string name="college_completed">Études universitaires achevées</string>
-    <string name="college_in_progress">Études universitaires en cours</string>
-    <string name="complete_instruction">Appuyez sur OK pour continuer.\n</string>
-    <string name="confidence_max">Totalement\u0020\u0020</string>
-    <string name="confidence_min">\u0020\u0020Pas du tout</string>
-    <string name="confidence_question">A quel point êtes-vous sûr(e) de votre réponse?</string>
-    <string name="correct">Bien!</string>
-    <string name="correct_stats">Correctes:\u0020</string>
-    <string name="deft_hand">Préférence manuelle</string>
-    <string name="developer_signature">Developpé par FedeZ</string>
-    <string name="done_form">Prêt</string>
-    <string name="done_introspection">Prêt</string>
-    <string name="effort_max">"Énormément\u0020\u0020</string>
-    <string name="effort_min">\u0020\u0020Aucun</string>
-    <string name="effort_question">Quelle quantité d\'efforts avez-vous fait?</string>
-    <string name="email">Adresse Email</string>
-    <string name="email_placeholder">charles@gmail.com</string>
-    <string name="enter_button">Entrée</string>
-    <string name="female">Féminin</string>
-    <string name="first_name">Prénom</string>
-    <string name="first_name_placeholder">Charles Petit</string>
-    <string name="game_completed">Jeu terminé</string>
-    <string name="game_completed_congratulations">Félicitations</string>
-    <string name="game_completed_message">Contactez neurointegrativa@gmail.com pour démontrer vos compétences.</string>
-    <string name="gender">Sexe</string>
-    <string name="graph_navbar">Temps de réponse</string>
+    <string name="available_hints">\u0020pistas disponíveis.</string>
+    <string name="back_main_menu">Voltar ao menu principal</string>
+    <string name="birthdate">Data de nascimento</string>
+    <string name="college_completed">Terciário completo</string>
+    <string name="college_in_progress">Terciário em curso</string>
+    <string name="complete_instruction">Pressione PRONTO para continuar\n</string>
+    <string name="confidence_max">Muito\u0020\u0020</string>
+    <string name="confidence_min">\u0020\u0020Nada</string>
+    <string name="confidence_question">Quanto você confia na sua resposta?</string>
+    <string name="correct">Bem!</string>
+    <string name="correct_stats">Corretas:\u0020</string>
+    <string name="deft_hand">Mao hábil</string>
+    <string name="developer_signature">Desenvolvido por FedeZ</string>
+    <string name="done_form">Pronto</string>
+    <string name="done_introspection">Pronto</string>
+    <string name="effort_max">Muito\u0020\u0020</string>
+    <string name="effort_min">\u0020\u0020Nada</string>
+    <string name="effort_question">Quanto esforço mental você fez?</string>
+    <string name="email">E-mail</string>
+    <string name="email_placeholder">carlos@gmail.com</string>
+    <string name="enter_button">Enter</string>
+    <string name="female">Feminino</string>
+    <string name="first_name">Nome</string>
+    <string name="first_name_placeholder">Carlos Gonzalez</string>
+    <string name="game_completed">Jogo completado</string>
+    <string name="game_completed_congratulations">Parabéns</string>
+    <string name="game_completed_message">Contate-se com neurointegrativa@gmail.com para demonstrar suas habilidades.</string>
+    <string name="gender">Género</string>
+    <string name="graph_navbar">Tempos de resposta</string>
     <string name="hello_world">Hello world!</string>
-    <string name="highschool_completed">École secondaire achevée</string>
-    <string name="highschool_in_progress">École secondaire en cours</string>
-    <string name="introspection_title">Dans le dernier calcul:\u0020</string>
-    <string name="keep_practicing">Continuer à pratiquer</string>
-    <string name="left_handed">Gaucher</string>
-    <string name="level_completed">Niveau terminé</string>
-    <string name="level_completed_congratulations">Félicitations</string>
-    <string name="level_n_completed">Niveau x terminé</string>
-    <string name="level_selection">Niveau\u0020</string>
-    <string name="male">Masculin</string>
+    <string name="highschool_completed">Secundário completo</string>
+    <string name="highschool_in_progress">Secundário em curso</string>
+    <string name="introspection_title">Na última conta:\u0020</string>
+    <string name="keep_practicing">Continuar treinando</string>
+    <string name="left_handed">Canhoto</string>
+    <string name="level_completed">Nível completado</string>
+    <string name="level_completed_congratulations">Parabéns</string>
+    <string name="level_n_completed">Nível X finalizado</string>
+    <string name="level_selection">Nível\u0020</string>
+    <string name="male">Masculino</string>
     <string name="menu_settings">Settings</string>
-    <string name="motivation_message">Vous pouvez aller plus vite</string>
-    <string name="n_correct">\u0020correctes</string>
-    <string name="n_level_completed_congratulations">Félicitations. Vous avez réussi le niveau\u002</string>
-    <string name="no_data_stats">Aucune donnée</string>
-    <string name="no_stars_message">Jouez encore une fois et atteignez 15</string>
-    <string name="not_reported">N/A</string>
-    <string name="one_star_message">Bien</string>
-    <string name="pass_next_level">Passer au niveau suivant</string>
-    <string name="play_button">JOUER</string>
-    <string name="practice_advanced">Avancé</string>
-    <string name="practice_button">S\'ENTRAÎNER</string>
-    <string name="practice_fadeout_message">Mémorisez le calcul</string>
-    <string name="practice_initial">Débutant</string>
-    <string name="practice_intermediate">Moyen</string>
-    <string name="practice_navbar">S\'entraîner</string>
-    <string name="practice_single">Unique</string>
-    <string name="retry">Essayez à nouveau</string>
-    <string name="right_handed">Droitier</string>
-    <string name="school_completed">École primaire achevée</string>
-    <string name="stats_button">STATISTIQUES</string>
+    <string name="motivation_message">Você pode faze-lo mais rápido</string>
+    <string name="n_correct">\u0020corretas</string>
+    <string name="n_level_completed_congratulations">Parabéns. Você passo o nível\u002</string>
+    <string name="no_data_stats">Ainda não há dados</string>
+    <string name="no_stars_message">Jogue mais uma vez e chegue a 15</string>
+    <string name="not_reported">Não informa</string>
+    <string name="one_star_message">Bem</string>
+    <string name="pass_next_level">Ir para o seguinte nível</string>
+    <string name="play_button">JOGAR</string>
+    <string name="practice_advanced">Avançado</string>
+    <string name="practice_button">PRÁTICA</string>
+    <string name="practice_fadeout_message">Memorize a conta</string>
+    <string name="practice_initial">Inicial</string>
+    <string name="practice_intermediate">Médio</string>
+    <string name="practice_navbar">Prática</string>
+    <string name="practice_single">Somente</string>
+    <string name="retry">Volte a tenta-lo</string>
+    <string name="right_handed">Destro</string>
+    <string name="school_completed">Primário completo</string>
+    <string name="stats_button">ESTATÍSTICAS</string>
     <string name="stats_navbar">Statistiques</string>
-    <string name="thanks_form">Merci pour votre collaboration</string>
-    <string name="three_stars_message">Excellent</string>
-    <string name="time_axis_statsgraph">Temps (en secondes) pour les réponses correctes.</string>
-    <string name="training_completed">Vous avez terminé cette étape de l\'entraînement</string>
-    <string name="tutorial_button">TUTORIEL</string>
-    <string name="tutorial_message">Moravec a trois buts principaux: jouer, se former, et apprendre.\n Il s\'agit d\'un jeu amusant qui entraîne et qui améliore les compétences en calcul mathématique. En même temps, il nous fournit des données utiles en sciences cognitives, en augmentant les connaissances actuelles sur la cognition et l\'apprentissage. \n\nA des fins expérimentales, nous vous demandons de juger le niveau de confiance et d\'effort que vous avez ressenti au cours des calculs. Utilisez les barres pour répondre et passer à la question suivante.\n</string>
-    <string name="tutorial_mul_title">Multiplication</string>
-    <string name="tutorial_multiplicaction_button">Multiplication</string>
-    <string name="tutorial_navbar">Tutoriel</string>
-    <string name="tutorial_square_button">Au carré</string>
-    <string name="tutorial_square_title">Au carré</string>
-    <string name="tutorial_sum_button">Somme</string>
-    <string name="tutorial_sum_title">Somme</string>
-    <string name="tutorial_title">Comment faire les calculs</string>
-    <string name="two_stars_message">Très bien</string>
-    <string name="wrong_correct_answer">C\'était\u0020</string>
-    <string name="wrong_entered_answer">ce n\'était pas\u0020</string>
-    <string name="youtube_button">\u0020Regardez comment faire\u0020</string>
+    <string name="thanks_form">Obrigado pela colaboração</string>
+    <string name="three_stars_message">Excelente</string>
+    <string name="time_axis_statsgraph">Tempo (em segundos) para as respostas corretas.</string>
+    <string name="training_completed">Você completou esta fase do treinamento</string>
+    <string name="tutorial_button">TUTORIAL</string>
+    <string name="tutorial_message">Moravec tem três objetivos principais: Jogar, Treinar e Aprender.\nÉ um desafio divertido que consegue treinar e melhorar as habilidades de cálculo matemático. Ao mesmo tempo, nos oferece dados uteis para fazer pesquisa em neurociência, ampliando o conhecimento atual sobre a cognição e o aprendizado.\n\nPor razoes experimentais, te perguntamos pelo teu nível de confiança e pelo esforço nas respostas. Use a barra para responder e continuar à próxima pergunta.\n</string>
+    <string name="tutorial_mul_title">Multiplicação</string>
+    <string name="tutorial_multiplicaction_button">Multiplicação</string>
+    <string name="tutorial_navbar">Tutorial</string>
+    <string name="tutorial_square_button">Ao quadrado</string>
+    <string name="tutorial_square_title">Ao quadrado</string>
+    <string name="tutorial_sum_button">Suma</string>
+    <string name="tutorial_sum_title">Suma</string>
+    <string name="tutorial_title">Como fazer as contas</string>
+    <string name="two_stars_message">Muito Bem</string>
+    <string name="wrong_correct_answer">Era\u0020</string>
+    <string name="wrong_entered_answer">não era\u0020</string>
+    <string name="youtube_button">\u0020Como faze-lo\u0020</string>
 </resources>
