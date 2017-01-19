@@ -922,26 +922,6 @@ public class PlayGame extends Activity implements OnClickListener {
 				enteredVector.clear();
 				enteredConfidence.clear();
 				enteredEffort.clear();
-							
-				//	if(isConnected()){
-					//new HttpAsyncTask().execute("http://tedx.cloudapp.net/experiments/create/");}
-					
-		        //else{   Toast.makeText(getBaseContext(), "Not Connected", Toast.LENGTH_LONG).show();
-		        //		saveData(DScore);
-		        //		};
-				
-			
-				//Se sugiere pasar de nivel
-				//if (CorrinaRow==npasslevel ){
-					//if (totTimeLevel>npasslevel*tavg){Toast.makeText(getBaseContext(), "Puede hacerlo más rápido", Toast.LENGTH_LONG).show();}
-					//else{
-						//int thislevel=DScore.getLevel();
-						//int maxlevel=PassLevel.getCurrentLevel("Levels_Completed", this);
-						//if (thislevel==(maxlevel+1)){PassLevel.setNewLevel("Levels_Completed", thislevel, this);}
-						//AlertDialog AskNextLevel=FNextLevel();
-						//AskNextLevel.show();
-						//}
-				//}
 				
 				chooseQuestion();
 		}
@@ -1526,7 +1506,7 @@ private void eqsettext(){
 		PassLevel.setTheTimes("Timescorrect",TTC, MainActivity.THEcontext);
 		
 		
-			new AsyncSend().execute("http://tedx.cloudapp.net/experiments/create/");
+			new AsyncSend().execute(BuildConfig.SERVER_URL);
 	finish();		
     }
 	

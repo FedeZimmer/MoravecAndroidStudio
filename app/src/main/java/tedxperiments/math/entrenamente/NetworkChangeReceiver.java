@@ -22,7 +22,7 @@ public class NetworkChangeReceiver extends BroadcastReceiver {
 		case 1:
 			if(!PassLevel.isActivityVisible()){
 				//Toast.makeText(context, "Wifi", Toast.LENGTH_LONG).show();
-				new AsyncSend().execute("http://tedx.cloudapp.net/experiments/create/");}
+				new AsyncSend().execute(BuildConfig.SERVER_URL);}
 			
 			break;
 		case 2://Toast.makeText(context, "Mobile", Toast.LENGTH_LONG).show();

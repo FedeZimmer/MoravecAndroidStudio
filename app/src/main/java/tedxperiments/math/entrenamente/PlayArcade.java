@@ -385,7 +385,7 @@ public class PlayArcade extends Activity implements OnClickListener {
 		else {
 			AlertDialog won= FWon();
 			won.show();}
-		if (!thisoperation.equals("1d+1d") && !thisoperation.equals("1dx1d")) equationTxt.setText(Html.fromHtml("<big>"+hints+"</big>/3 "+getString(hintsavailable)));
+		if (!thisoperation.equals("1d+1d") && !thisoperation.equals("1dx1d")) equationTxt.setText(Html.fromHtml("<big>"+hints+"</big>/3 "+getString(R.string.available_hints)));
 		   else equationTxt.setText(Html.fromHtml("<big><font color='#93C9C3'>A</font></big>"));
 		   
 		
@@ -775,7 +775,7 @@ public class PlayArcade extends Activity implements OnClickListener {
 			HorIntr1.setPadding(0, 0, 0, 25);
 			//HorIntr.setGravity(1);
 			TextView textsubConf11=new TextView(this);
-			//textsubConf11.setText("  Tiré a pegar");
+			//textsubConf11.setText("  Tirï¿½ a pegar");
 			textsubConf11.setText(getString(R.string.confidence_min));
 			textsubConf11.setGravity(Gravity.LEFT);
 			TextView textsubConf12=new TextView(this);
@@ -802,11 +802,11 @@ public class PlayArcade extends Activity implements OnClickListener {
 			HorIntr2.setPadding(0, 0, 0, 25);
 			//HorIntr.setGravity(1);
 			TextView textsubConf21=new TextView(this);
-			//textsubConf21.setText("  Fue fácil");
+			//textsubConf21.setText("  Fue fï¿½cil");
 			textsubConf21.setText(getString(R.string.effort_min));
 			textsubConf21.setGravity(Gravity.LEFT);
 			TextView textsubConf22=new TextView(this);
-			//textsubConf22.setText("Me costó  ");
+			//textsubConf22.setText("Me costï¿½  ");
 			textsubConf22.setText(getString(R.string.effort_max));
 			textsubConf22.setGravity(Gravity.RIGHT);
 		
@@ -1082,26 +1082,6 @@ public class PlayArcade extends Activity implements OnClickListener {
 				enteredVector.clear();
 				enteredConfidence.clear();
 				enteredEffort.clear();
-							
-				//	if(isConnected()){
-					//new HttpAsyncTask().execute("http://tedx.cloudapp.net/experiments/create/");}
-					
-		        //else{   Toast.makeText(getBaseContext(), "Not Connected", Toast.LENGTH_LONG).show();
-		        //		saveData(DScore);
-		        //		};
-				
-			
-				//Se sugiere pasar de nivel
-				//if (CorrinaRow==npasslevel ){
-					//if (totTimeLevel>npasslevel*tavg){Toast.makeText(getBaseContext(), "Puede hacerlo más rápido", Toast.LENGTH_LONG).show();}
-					//else{
-						//int thislevel=DScore.getLevel();
-						//int maxlevel=PassLevel.getCurrentLevel("Levels_Completed", this);
-						//if (thislevel==(maxlevel+1)){PassLevel.setNewLevel("Levels_Completed", thislevel, this);}
-						//AlertDialog AskNextLevel=FNextLevel();
-						//AskNextLevel.show();
-						//}
-				//}
 				
 				chooseQuestion();
 		}
@@ -1706,7 +1686,7 @@ public CountDownTimer reseteqtxt(){
 		//PassLevel.setNcorrect("Nincorrect",NNI, MainActivity.THEcontext);
 		
 			//ESTO VA!!!
-			new AsyncSend().execute("http://tedx.cloudapp.net/experiments/create/");
+			new AsyncSend().execute(BuildConfig.SERVER_URL);
 	finish();		
     }
 	

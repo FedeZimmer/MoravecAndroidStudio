@@ -15,6 +15,12 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            buildConfigField "String", "SERVER_URL", '"https://dennett.herokuapp.com/api/v1/trials"'
+        }
+        debug {
+            buildConfigField "String", "SERVER_URL", '"https://dennett-test.herokuapp.com/api/v1/trials"'
+            //buildConfigField "String", "SERVER_URL", '"https://dennett-test.NOANDANIAHI.com/api/v1/NOANDA"'
+
         }
     }
 }
