@@ -418,22 +418,18 @@ public class PlayGame extends Activity implements OnClickListener {
 			//either first or subsequent digit
 			String previousanswerContent = answerTxt.getText().toString();
 			//long previousAnswer = FenteredAnswer(previousanswerContent);
-			if (previousanswerContent.length()<15)
-			{
-			if(answerTxt.getText().toString().endsWith("?"))
-				answerTxt.setText("= "+enteredNum);
-			else
-				answerTxt.append(""+enteredNum);
+			if (previousanswerContent.length()<11) {
+				if(answerTxt.getText().toString().endsWith("?"))
+					answerTxt.setText("= "+enteredNum);
+				else
+					answerTxt.append(""+enteredNum);
 			}
-			//String answerContent = answerTxt.getText().toString();
-			//long tempAnswer = FenteredAnswer(answerContent);
-			//if (tempAnswer<999999){answerTxt.setTextSize(TypedValue.COMPLEX_UNIT_SP,30);}
-			//if (tempAnswer>999999 && tempAnswer<10000000 ){answerTxt.setTextSize(TypedValue.COMPLEX_UNIT_SP,25);}
-			//if (tempAnswer>9999999 && tempAnswer<(1000000000*10)){answerTxt.setTextSize(TypedValue.COMPLEX_UNIT_SP,20);}
-			//if (tempAnswer>999999.99999 *10000){answerTxt.setTextSize(TypedValue.COMPLEX_UNIT_SP,15);}
-			if (previousanswerContent.length()<8){answerTxt.setTextSize(TypedValue.COMPLEX_UNIT_SP,30);}
-			else if (previousanswerContent.length()<11){answerTxt.setTextSize(TypedValue.COMPLEX_UNIT_SP,20);}
-			else if (previousanswerContent.length()<13){answerTxt.setTextSize(TypedValue.COMPLEX_UNIT_SP,15);}
+			if (previousanswerContent.length()<8){
+				answerTxt.setTextSize(TypedValue.COMPLEX_UNIT_SP,30);}
+			else{
+				answerTxt.setTextSize(TypedValue.COMPLEX_UNIT_SP,20);}
+//			else if (previousanswerContent.length()<11){answerTxt.setTextSize(TypedValue.COMPLEX_UNIT_SP,20);}
+//			else if (previousanswerContent.length()<13){answerTxt.setTextSize(TypedValue.COMPLEX_UNIT_SP,15);}
 		}
 	}
 	
@@ -606,7 +602,7 @@ public class PlayGame extends Activity implements OnClickListener {
 			HorIntr1.setPadding(0, 0, 0, 25);
 			//HorIntr.setGravity(1);
 			TextView textsubConf11=new TextView(this);
-			//textsubConf11.setText("  Tiré a pegar");
+			//textsubConf11.setText("  Tirï¿½ a pegar");
 			textsubConf11.setText(getString(R.string.confidence_min));
 			textsubConf11.setGravity(Gravity.LEFT);
 			TextView textsubConf12=new TextView(this);
@@ -633,11 +629,11 @@ public class PlayGame extends Activity implements OnClickListener {
 			HorIntr2.setPadding(0, 0, 0, 25);
 			//HorIntr.setGravity(1);
 			TextView textsubConf21=new TextView(this);
-			//textsubConf21.setText("  Fue fácil");
+			//textsubConf21.setText("  Fue fï¿½cil");
 			textsubConf21.setText(getString(R.string.effort_min));
 			textsubConf21.setGravity(Gravity.LEFT);
 			TextView textsubConf22=new TextView(this);
-			//textsubConf22.setText("Me costó  ");
+			//textsubConf22.setText("Me costï¿½  ");
 			textsubConf22.setText(getString(R.string.effort_max));
 			textsubConf22.setGravity(Gravity.RIGHT);
 		
@@ -1255,7 +1251,7 @@ private static String convertInputStreamToString(InputStream inputStream) throws
 public void correction(int correct){
 	if (correct==1){
 		equationTxt.setBackgroundResource(R.drawable.button_green);
-		//if ((int)(DScore.getTotTime()/1000)>2*tavg){equationTxt.setText("Podés hacerlo más rápido");}
+		//if ((int)(DScore.getTotTime()/1000)>2*tavg){equationTxt.setText("Podï¿½s hacerlo mï¿½s rï¿½pido");}
 		if (level==9) equationTxt.setText(Html.fromHtml("<font color='#0b9E8C'><sup><small>2</small></sup><br /></font>"+"<big><font color='#FF9000'>\u2605</font> "+getString(R.string.correct)+"</big>"+"<br /><font color='#0b9E8C'><sup><small>2</small></sup></font>"));
 		else if (level==16) equationTxt.setText(Html.fromHtml("<font color='#0b9E8C'><sup><small>2</small></sup><br /></font>"+"<big><font color='#FF9000'>\u2605</font> "+getString(R.string.correct)+"</big>"+"<br /><font color='#0b9E8C'><sup><small>2</small></sup><br /><sup><small>2</small></sup></font>"));
 		else if(level==20) equationTxt.setText(Html.fromHtml("<font color='#0b9E8C'><sup><small>2</small></sup><br /><sup><small>2</small></sup><br /></font>"+"<big><font color='#FF9000'>\u2605</font> "+getString(R.string.correct)+"</big>"+"<br /><font color='#0b9E8C'><sup><small>2</small></sup><br /><sup><small>2</small></sup></font>"));

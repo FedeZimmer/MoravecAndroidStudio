@@ -577,22 +577,18 @@ public class PlayArcade extends Activity implements OnClickListener {
 			//either first or subsequent digit
 			String previousanswerContent = answerTxt.getText().toString();
 			//long previousAnswer = FenteredAnswer(previousanswerContent);
-			if (previousanswerContent.length()<15)
-			{
-			if(answerTxt.getText().toString().endsWith("?"))
-				answerTxt.setText("= "+enteredNum);
-			else
-				answerTxt.append(""+enteredNum);
+			if (previousanswerContent.length()<11) {
+				if(answerTxt.getText().toString().endsWith("?"))
+					answerTxt.setText("= "+enteredNum);
+				else
+					answerTxt.append(""+enteredNum);
 			}
-			//String answerContent = answerTxt.getText().toString();
-			//long tempAnswer = FenteredAnswer(answerContent);
-			//if (tempAnswer<999999){answerTxt.setTextSize(TypedValue.COMPLEX_UNIT_SP,30);}
-			//if (tempAnswer>999999 && tempAnswer<10000000 ){answerTxt.setTextSize(TypedValue.COMPLEX_UNIT_SP,25);}
-			//if (tempAnswer>9999999 && tempAnswer<(1000000000*10)){answerTxt.setTextSize(TypedValue.COMPLEX_UNIT_SP,20);}
-			//if (tempAnswer>999999.99999 *10000){answerTxt.setTextSize(TypedValue.COMPLEX_UNIT_SP,15);}
-			if (previousanswerContent.length()<8){answerTxt.setTextSize(TypedValue.COMPLEX_UNIT_SP,30);}
-			else if (previousanswerContent.length()<11){answerTxt.setTextSize(TypedValue.COMPLEX_UNIT_SP,20);}
-			else if (previousanswerContent.length()<13){answerTxt.setTextSize(TypedValue.COMPLEX_UNIT_SP,15);}
+			if (previousanswerContent.length()<8){
+				answerTxt.setTextSize(TypedValue.COMPLEX_UNIT_SP,30);}
+			else{
+				answerTxt.setTextSize(TypedValue.COMPLEX_UNIT_SP,20);}
+//			else if (previousanswerContent.length()<11){answerTxt.setTextSize(TypedValue.COMPLEX_UNIT_SP,20);}
+//			else if (previousanswerContent.length()<13){answerTxt.setTextSize(TypedValue.COMPLEX_UNIT_SP,15);}
 		}
 	}
 	
