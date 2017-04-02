@@ -80,6 +80,7 @@
     <string name="no_stars_message">Play again and reach 15</string>
     <string name="n_level_completed_congratulations">Congratulations. You passed the level\u002</string>
     <string name="n_correct">\u0020correct</string>
+    <string name="main_menu">MAIN MENU</string>
     <!--Game Completed-->
     <string name="game_completed">Game completed</string>
     <string name="game_completed_congratulations">Congratulations</string>

@@ -126,10 +126,11 @@ public final class R {
         public static final int TutorialLL2=0x7f09000b;
         public static final int TutorialTxt1=0x7f090006;
         public static final int TutorialTxt2=0x7f09000d;
-        public static final int action_settings=0x7f09008f;
+        public static final int action_settings=0x7f090090;
         public static final int add_btn=0x7f090008;
         public static final int answer=0x7f09004c;
         public static final int attention=0x7f09000c;
+        public static final int backtomainmenu=0x7f09008c;
         public static final int btn0=0x7f090057;
         public static final int btn1=0x7f09004e;
         public static final int btn2=0x7f09004f;
@@ -250,9 +251,9 @@ public final class R {
         public static final int thetitle=0x7f090004;
         public static final int thislevel=0x7f090047;
         public static final int toast_endlevel=0x7f090085;
-        public static final int toast_layout_root=0x7f09008c;
-        public static final int toastimage=0x7f09008d;
-        public static final int toasttext=0x7f09008e;
+        public static final int toast_layout_root=0x7f09008d;
+        public static final int toastimage=0x7f09008e;
+        public static final int toasttext=0x7f09008f;
         public static final int totalcorrect=0x7f090088;
     }
     public static final class layout {
@@ -322,72 +323,66 @@ public final class R {
         public static final int level_completed_congratulations=0x7f05002c;
         public static final int level_n_completed=0x7f05002d;
         public static final int level_selection=0x7f05002e;
-        public static final int male=0x7f05002f;
-        public static final int menu_settings=0x7f050030;
-        public static final int motivation_message=0x7f050031;
-        public static final int n_correct=0x7f050032;
-        public static final int n_level_completed_congratulations=0x7f050033;
-        public static final int no_data_stats=0x7f050034;
-        public static final int no_stars_message=0x7f050035;
-        public static final int not_reported=0x7f050036;
-        public static final int one_star_message=0x7f050037;
-        public static final int pass_next_level=0x7f050038;
-        public static final int play_button=0x7f050039;
-        public static final int practice_advanced=0x7f05003a;
-        public static final int practice_button=0x7f05003b;
-        public static final int practice_fadeout_message=0x7f05003c;
-        public static final int practice_initial=0x7f05003d;
-        public static final int practice_intermediate=0x7f05003e;
-        public static final int practice_navbar=0x7f05003f;
-        public static final int practice_single=0x7f050040;
-        public static final int retry=0x7f050041;
-        public static final int right_handed=0x7f050042;
-        public static final int school_completed=0x7f050043;
-        public static final int stats_button=0x7f050044;
-        public static final int stats_navbar=0x7f050045;
-        public static final int thanks_form=0x7f050046;
-        public static final int three_stars_message=0x7f050047;
-        public static final int time_axis_statsgraph=0x7f050048;
-        public static final int training_completed=0x7f050049;
-        public static final int tutorial_button=0x7f05004a;
-        public static final int tutorial_message=0x7f05004b;
-        public static final int tutorial_mul_message_1=0x7f050058;
-        public static final int tutorial_mul_message_2=0x7f050059;
-        public static final int tutorial_mul_message_3=0x7f05005a;
-        public static final int tutorial_mul_title=0x7f05004c;
-        public static final int tutorial_multiplicaction_button=0x7f05004d;
-        public static final int tutorial_navbar=0x7f05004e;
-        public static final int tutorial_square_button=0x7f05004f;
-        public static final int tutorial_square_message_1=0x7f05005b;
-        public static final int tutorial_square_message_2=0x7f05005c;
-        public static final int tutorial_square_message_3=0x7f05005d;
-        public static final int tutorial_square_message_4=0x7f05005e;
-        public static final int tutorial_square_message_5=0x7f05005f;
-        public static final int tutorial_square_message_6=0x7f050060;
-        public static final int tutorial_square_message_7=0x7f050061;
-        public static final int tutorial_square_title=0x7f050050;
-        public static final int tutorial_sum_button=0x7f050051;
-        public static final int tutorial_sum_message_1=0x7f050062;
-        public static final int tutorial_sum_message_2=0x7f050063;
-        public static final int tutorial_sum_title=0x7f050052;
-        public static final int tutorial_title=0x7f050053;
-        public static final int two_stars_message=0x7f050054;
-        public static final int wrong_correct_answer=0x7f050055;
-        public static final int wrong_entered_answer=0x7f050056;
-        public static final int youtube_button=0x7f050057;
+        public static final int main_menu=0x7f05002f;
+        public static final int male=0x7f050030;
+        public static final int menu_settings=0x7f050031;
+        public static final int motivation_message=0x7f050032;
+        public static final int n_correct=0x7f050033;
+        public static final int n_level_completed_congratulations=0x7f050034;
+        public static final int no_data_stats=0x7f050035;
+        public static final int no_stars_message=0x7f050036;
+        public static final int not_reported=0x7f050037;
+        public static final int one_star_message=0x7f050038;
+        public static final int pass_next_level=0x7f050039;
+        public static final int play_button=0x7f05003a;
+        public static final int practice_advanced=0x7f05003b;
+        public static final int practice_button=0x7f05003c;
+        public static final int practice_fadeout_message=0x7f05003d;
+        public static final int practice_initial=0x7f05003e;
+        public static final int practice_intermediate=0x7f05003f;
+        public static final int practice_navbar=0x7f050040;
+        public static final int practice_single=0x7f050041;
+        public static final int retry=0x7f050042;
+        public static final int right_handed=0x7f050043;
+        public static final int school_completed=0x7f050044;
+        public static final int stats_button=0x7f050045;
+        public static final int stats_navbar=0x7f050046;
+        public static final int thanks_form=0x7f050047;
+        public static final int three_stars_message=0x7f050048;
+        public static final int time_axis_statsgraph=0x7f050049;
+        public static final int training_completed=0x7f05004a;
+        public static final int tutorial_button=0x7f05004b;
+        public static final int tutorial_message=0x7f05004c;
+        public static final int tutorial_mul_message_1=0x7f050059;
+        public static final int tutorial_mul_message_2=0x7f05005a;
+        public static final int tutorial_mul_message_3=0x7f05005b;
+        public static final int tutorial_mul_title=0x7f05004d;
+        public static final int tutorial_multiplicaction_button=0x7f05004e;
+        public static final int tutorial_navbar=0x7f05004f;
+        public static final int tutorial_square_button=0x7f050050;
+        public static final int tutorial_square_message_1=0x7f05005c;
+        public static final int tutorial_square_message_2=0x7f05005d;
+        public static final int tutorial_square_message_3=0x7f05005e;
+        public static final int tutorial_square_message_4=0x7f05005f;
+        public static final int tutorial_square_message_5=0x7f050060;
+        public static final int tutorial_square_message_6=0x7f050061;
+        public static final int tutorial_square_message_7=0x7f050062;
+        public static final int tutorial_square_title=0x7f050051;
+        public static final int tutorial_sum_button=0x7f050052;
+        public static final int tutorial_sum_message_1=0x7f050063;
+        public static final int tutorial_sum_message_2=0x7f050064;
+        public static final int tutorial_sum_title=0x7f050053;
+        public static final int tutorial_title=0x7f050054;
+        public static final int two_stars_message=0x7f050055;
+        public static final int wrong_correct_answer=0x7f050056;
+        public static final int wrong_entered_answer=0x7f050057;
+        public static final int youtube_button=0x7f050058;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
-
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
          */
         public static final int AppBaseTheme=0x7f060000;
-        /**  All customizations that are NOT specific to a particular API-level can go here. 
-         */
         public static final int AppTheme=0x7f060001;
     }
 }

@@ -65,6 +65,7 @@
     <string name="level_completed_congratulations">Congratulations</string>
     <string name="level_n_completed">Level X completed</string>
     <string name="level_selection">Level\u0020</string>
+    <string name="main_menu">MAIN MENU</string>
     <string name="male">Male</string>
     <string name="menu_settings">Settings</string>
     <string name="motivation_message">You can do it faster</string>

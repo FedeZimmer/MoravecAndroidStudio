@@ -2,16 +2,23 @@ package tedxperiments.math.entrenamente;
 
 import android.app.ActionBar;
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.text.Html;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
+import android.widget.AdapterView;
 import android.widget.Button;
+
+import java.util.Locale;
 
 
 public class MainActivity extends Activity implements OnClickListener {
@@ -44,6 +51,53 @@ public class MainActivity extends Activity implements OnClickListener {
 		helpBtn.setOnClickListener(this);
 		highBtn.setOnClickListener(this);
 		arcBtn.setOnClickListener(this);
+		highBtn.setOnLongClickListener(new View.OnLongClickListener() {
+			@Override
+			public boolean onLongClick(View v) {
+				// TODO Auto-generated method stub
+				AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+				builder.setTitle("Set Language");
+				// Add the buttons
+				builder.setPositiveButton("English", new DialogInterface.OnClickListener() {
+					public void onClick(DialogInterface dialog, int id) {
+						String languageToLoad = "en"; // your language
+						Locale locale = new Locale(languageToLoad);
+						Locale.setDefault(locale);
+						Configuration config = new Configuration();
+						config.locale = locale;
+						getBaseContext().getResources().updateConfiguration(config,
+								getBaseContext().getResources().getDisplayMetrics());
+						dialog.dismiss();
+
+						Intent refresh = new Intent(MainActivity.this, MainActivity.class);
+						startActivity(refresh);
+						finish();
+					}
+				});
+				builder.setNegativeButton("French", new DialogInterface.OnClickListener() {
+					public void onClick(DialogInterface dialog, int id) {
+						// User cancelled the dialog
+
+						String languageToLoad = "fr"; // your language
+						Locale locale = new Locale(languageToLoad);
+						Locale.setDefault(locale);
+						Configuration config = new Configuration();
+						config.locale = locale;
+						getBaseContext().getResources().updateConfiguration(config,
+								getBaseContext().getResources().getDisplayMetrics());
+						dialog.dismiss();
+
+						Intent refresh = new Intent(MainActivity.this, MainActivity.class);
+						startActivity(refresh);
+						finish();
+
+					}
+				});
+
+				builder.create().show();
+				return true;
+			}
+		});
 		THEcontext=this;
 		
 		ActionBar AB = getActionBar();

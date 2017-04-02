@@ -1196,6 +1196,7 @@ public class PlayArcade extends Activity implements OnClickListener {
 		
 		ImageView same = (ImageView)d.findViewById(R.id.buttonsame);
 		ImageView next = (ImageView)d.findViewById(R.id.buttonnext);
+		TextView backToMainMenu = (TextView) d.findViewById(R.id.backtomainmenu);
 		
 		if (thisNcorrect<15) congrats.setText(getString(R.string.retry));
 		else congrats.setText(getString(R.string.n_level_completed_congratulations)+level);
@@ -1224,6 +1225,13 @@ public class PlayArcade extends Activity implements OnClickListener {
 		    	FStartThisL2();
 		     }
 		 });
+
+		backToMainMenu.setOnClickListener(new OnClickListener() {
+			public void onClick(View v) {
+				// your code here
+				returnhome();
+			}
+		});
 		
 		
         d.show();   
