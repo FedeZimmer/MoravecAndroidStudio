@@ -32,6 +32,13 @@
     <string name="right_handed">Diestro</string>
     <string name="left_handed">Zurdo</string>
     <string name="ambidextrous">Ambas</string>
+    <string name="native_language">Lengua materna - Primer idioma</string>
+    <string name="english">Inglés</string>
+    <string name="spanish">Español</string>
+    <string name="french">Francés</string>
+    <string name="portuguese">Portugués</string>
+    <string name="other">Otro</string>
+    <string name="number_of_languages">¿Cuántos idiomas hablas?</string>
     <string name="first_name">Nombre</string>
     <string name="first_name_placeholder">Carlos Gonzalez</string>
     <string name="email">Email</string>
@@ -132,7 +139,7 @@
     <string name="tutorial_square_message_4">Va otro ejemplo con x = 684, a = 16.\nDespués, para elevar 16 al cuadrado usamos x = 16, a = 4.</string>
     <string name="tutorial_square_message_5">En el Sistema Mayor de Memoria, asociamos cada dígito del número a recordar con una consonante como se ve en la tabla. Usando estas letras en orden formamos palabras, agregando las vocales necesarias. Por ejemplo, \"lupa\" es 59 porque \"L\" es 5,\"P\" es 9 y las vocales no son nada.</string>
     <string name="tutorial_square_message_6">Para números de 4 dígitos usamos la fórmula ya conocida. Pero antes de calcular a<sup><small><small>2</small></small></sup> utilizamos el Sistema Mayor para memorizar la primera parte del resultado. Si x es 6382, a es 382. 6764 x 6000 es 40 millones 584 mil entonces memorizamos 584 usando el Sistema Mayor.</string>
-    <string name="tutorial_square_message_7">Para no olvidar 584, formamos una palabra con sus dígitos. 5 puede ser L, 8 G y 4 C entonces 584 puede ser codificado como \"LaGo oCa\". Con esto en mente, seguimos los pasos de siempre y obtenemos 145.924. Sumamos 584 (\"LaGo oCa\") y 145 = 729. Juntando todo: 40 millones 729 mil 924.</string>
+    <string name="tutorial_square_message_7">Para no olvidar 584, formamos una palabra con sus dígitos. 5 puede ser L, 8 G y 4 C entonces 584 puede ser codificado como \"LóGiCa\". Con esto en mente, seguimos los pasos de siempre y obtenemos 145.924. Sumamos 584 (\"LóGiCa\") y 145 = 729. Juntando todo: 40 millones 729 mil 924.</string>
     <string-array name="tutorial_square_message_array">
         <item>Usamos la fórmula x<sup><small><small>2</small></small></sup> = (x-a) (x+a) + a<sup><small><small>2</small></small></sup>. Donde x es el número de dos dígitos que quiero elevar al cuadrado. Y a es la diferencia entre x y el múltiplo de 10 más cercano a x. Si x es 12, a es 2.\n\n</item>
         <item>Podemos ver que si x = 46 entonces a= 4. Hacemos (x-a) (x+a) + a<sup><small><small>2</small></small></sup>.\n\n\n\n\n</item>
@@ -140,7 +147,7 @@
         <item>Va otro ejemplo con x = 684, a = 16.\nDespués, para elevar 16 al cuadrado usamos x = 16, a = 4.\n\n\n\n</item>
         <item>En el Sistema Mayor de Memoria, asociamos cada dígito del número a recordar con una consonante como se ve en la tabla. Usando estas letras en orden formamos palabras, agregando las vocales necesarias. Por ejemplo, \"lupa\" es 59 porque \"L\" es 5, \"P\" es 9 y las vocales no son nada.</item>
         <item>Para números de 4 dígitos usamos la fórmula ya conocida. Pero antes de calcular a<sup><small><small>2</small></small></sup> utilizamos el Sistema Mayor para memorizar la primera parte del resultado. Si x es 6382, a es 382. 6764 x 6000 es 40 millones 584 mil entonces memorizamos 584 usando el Sistema Mayor.</item>
-        <item>Para no olvidar 584, formamos una palabra con sus dígitos. 5 puede ser L, 8 G y 4 C entonces 584 puede ser codificado como \"LaGo oCa\". Con esto en mente, seguimos los pasos de siempre y obtenemos 145.924. Sumamos 584 (\"LaGo oCa\") y 145 = 729. Juntando todo: 40 millones 729 mil 924.</item>
+        <item>Para no olvidar 584, formamos una palabra con sus dígitos. 5 puede ser L, 8 G y 4 C entonces 584 puede ser codificado como \"LóGiCa\". Con esto en mente, seguimos los pasos de siempre y obtenemos 145.924. Sumamos 584 (\"LóGiCa\") y 145 = 729. Juntando todo: 40 millones 729 mil 924.</item>
     </string-array>
 
     <!--Stats-->

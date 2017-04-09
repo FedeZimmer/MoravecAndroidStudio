@@ -99,7 +99,9 @@ public class MainActivity extends Activity implements OnClickListener {
 			}
 		});
 		THEcontext=this;
-		
+
+		setNativeLanguage();
+
 		ActionBar AB = getActionBar();
 		AB.setTitle(Html.fromHtml("<font color='#60b0c1'>Entrenamente </font>"));
 		AB.hide();
@@ -210,6 +212,42 @@ public class MainActivity extends Activity implements OnClickListener {
 		playIntent.putExtra("operator",chosenOperator);
 		playIntent.putExtra("level", chosenLevel);
 		this.startActivity(playIntent);
+	}
+
+	public void setNativeLanguage() {
+		String myLanguage = PassLevel.getPersonal("myLanguageId", MainActivity.THEcontext);
+		if (myLanguage == null) return;
+		int myLanguageId = Integer.parseInt(myLanguage);
+		String languageToLoad = new String();
+		String actualLanguage = Locale.getDefault().getLanguage();
+		switch (myLanguageId){
+			case 0:
+				languageToLoad = "en";
+				break;
+			case 1:
+				languageToLoad = "es";
+				break;
+			case 2:
+				languageToLoad = "fr";
+				break;
+			case 3:
+				languageToLoad = "pt";
+				break;
+			default:
+				return;
+		}
+
+		if (!languageToLoad.equals("") && !languageToLoad.equals(actualLanguage)) {
+			Locale locale = new Locale(languageToLoad);
+			Locale.setDefault(locale);
+			Configuration config = new Configuration();
+			config.locale = locale;
+			getBaseContext().getResources().updateConfiguration(config,
+					getBaseContext().getResources().getDisplayMetrics());
+			Intent refresh = new Intent(MainActivity.this, MainActivity.class);
+			startActivity(refresh);
+			finish();
+		}
 	}
 
 	//@Override

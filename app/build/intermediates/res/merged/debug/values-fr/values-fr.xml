@@ -12,7 +12,7 @@
         <item>Voici un autre exemple avec x = 684, a = 16.\nEnsuite, pour élever 16 au carré nous utilisons x = 16, a = 4.\n\n\n\n</item>
         <item>Dans le Grand Système de Mémoire, nous associons chaque chiffre du nombre à une consonne, comme on peut voir dans la table. En utilisant les lettres en ordre, nous formons des mots en ajoutant des voyelles si nécessaire. Par exemple, \"loupe\" correspond à 59 parce que \"L\" vaut 5, \"P\" vaut 9, et les voyelles ne comptent pas.</item>
         <item>Pour les nombres à 4 chiffres, nous utilisons la formule déjà connue. Mais avant de calculer a<sup><small><small>2</small></small></sup> nous utilisons le Grand Système pour mémoriser la première partie du résultat. Si x est 6382, a est 382. 6764 x 6000 est 40 millions 584 mille alors nous mémorisons 584 en utilisant le Grand Système.</item>
-        <item>Pour ne pas oublier 584, nous formons un mot avec ses chiffres. Si 5 correspond à L, 8 à G et 4 à C alors 584 peut être codifié comme \"LoGiC\". Tout en gardant ce mot en tête, nous suivons le même procédé et nous obtenons 145.924. Nous additionons 584 (\"LoGiC\") et 145 pour obtenir 729. Ce qui nous donne au total: 40 millions 729 mille 924.</item>
+        <item>Pour ne pas oublier 584, nous formons un mot avec ses chiffres. Si 5 correspond à L, 8 à G et 4 à C alors 584 peut être codifié comme \"LoGiQue\". Tout en gardant ce mot en tête, nous suivons le même procédé et nous obtenons 145.924. Nous additionons 584 (\"LoGiQue\") et 145 pour obtenir 729. Ce qui nous donne au total: 40 millions 729 mille 924.</item>
     </string-array>
     <string-array name="tutorial_sum_message_array">
         <item>Ici, vous commencez à vous familiariser avec la méthode de gauche à droite. Commencez toujours par additionner les dizaines du deuxième nombre au premier nombre. Ensuite, ajoutez les unités du deuxième nombre au résultat obtenu.\n\n</item>
@@ -46,10 +46,12 @@
     <string name="effort_question">Quelle quantité d\'efforts avez-vous fait?</string>
     <string name="email">Adresse Email</string>
     <string name="email_placeholder">charles@gmail.com</string>
+    <string name="english">Anglais</string>
     <string name="enter_button">Entrée</string>
     <string name="female">Féminin</string>
     <string name="first_name">Prénom</string>
     <string name="first_name_placeholder">Charles Petit</string>
+    <string name="french">Français</string>
     <string name="game_completed">Jeu terminé</string>
     <string name="game_completed_congratulations">Félicitations</string>
     <string name="game_completed_message">Contactez neurointegrativa@gmail.com pour démontrer vos compétences.</string>
@@ -71,12 +73,16 @@
     <string name="motivation_message">Vous pouvez aller plus vite</string>
     <string name="n_correct">\u0020correctes</string>
     <string name="n_level_completed_congratulations">Félicitations. Vous avez réussi le niveau\u002</string>
+    <string name="native_language">Langue natale - Première  langue</string>
     <string name="no_data_stats">Aucune donnée</string>
     <string name="no_stars_message">Jouez encore une fois et atteignez 15</string>
     <string name="not_reported">N/A</string>
+    <string name="number_of_languages">Combien de langues parlez-vous?</string>
     <string name="one_star_message">Bien</string>
+    <string name="other">Autre</string>
     <string name="pass_next_level">Passer au niveau suivant</string>
     <string name="play_button">JOUER</string>
+    <string name="portuguese">Portugais</string>
     <string name="practice_advanced">Avancé</string>
     <string name="practice_button">S\'ENTRAÎNER</string>
     <string name="practice_fadeout_message">Mémorisez le calcul</string>
@@ -87,6 +93,7 @@
     <string name="retry">Essayez à nouveau</string>
     <string name="right_handed">Droitier</string>
     <string name="school_completed">École primaire achevée</string>
+    <string name="spanish">Espagnol</string>
     <string name="stats_button">STATISTIQUES</string>
     <string name="stats_navbar">Statistiques</string>
     <string name="thanks_form">Merci pour votre collaboration</string>

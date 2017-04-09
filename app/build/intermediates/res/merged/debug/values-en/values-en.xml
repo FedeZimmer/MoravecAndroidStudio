@@ -46,10 +46,12 @@
     <string name="effort_question">How much mental effort did you do?</string>
     <string name="email">E-mail</string>
     <string name="email_placeholder">john@gmail.com</string>
+    <string name="english">English</string>
     <string name="enter_button">Enter</string>
     <string name="female">Female</string>
     <string name="first_name">First name</string>
     <string name="first_name_placeholder">John Doe</string>
+    <string name="french">French</string>
     <string name="game_completed">Game completed</string>
     <string name="game_completed_congratulations">Congratulations</string>
     <string name="game_completed_message">Contact neurointegrativa@gmail.com to demonstrate your skills.</string>
@@ -71,12 +73,16 @@
     <string name="motivation_message">You can do it faster</string>
     <string name="n_correct">\u0020correct</string>
     <string name="n_level_completed_congratulations">Congratulations. You passed the level\u002</string>
+    <string name="native_language">Native language - First language</string>
     <string name="no_data_stats">No data yet</string>
     <string name="no_stars_message">Play again and reach 15</string>
     <string name="not_reported">Not reported</string>
+    <string name="number_of_languages">How many languages do you speak?</string>
     <string name="one_star_message">Good</string>
+    <string name="other">Other</string>
     <string name="pass_next_level">Next level</string>
     <string name="play_button">PLAY</string>
+    <string name="portuguese">Portuguese</string>
     <string name="practice_advanced">Advanced</string>
     <string name="practice_button">PRACTICE</string>
     <string name="practice_fadeout_message">Memorize the problem</string>
@@ -87,6 +93,7 @@
     <string name="retry">Retry</string>
     <string name="right_handed">Right handed</string>
     <string name="school_completed">School completed</string>
+    <string name="spanish">Spanish</string>
     <string name="stats_button">STATS</string>
     <string name="stats_navbar">Stats</string>
     <string name="thanks_form">Thanks for your collaboration</string>

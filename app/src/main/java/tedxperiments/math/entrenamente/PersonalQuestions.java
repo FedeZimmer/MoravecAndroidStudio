@@ -1,6 +1,7 @@
 package tedxperiments.math.entrenamente;
 
 
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.provider.Settings.Secure;
 import android.app.ActionBar;
@@ -19,14 +20,20 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
+
+import java.util.Locale;
+
 import tedxperiments.math.entrenamente.R;
  
 public class PersonalQuestions extends Activity implements OnClickListener {
 	
 	private Button DoneBut;
-	String name,email,birthyear,genderAnswer,studiesAnswer,handAnswer;
-	EditText editTextBirth,editTexSex,editTextStudies,editTextTextHand,editTextName,editTextEmail;
-	RadioGroup rGender,rStudies,rHand;
+	//String name,email,birthyear,genderAnswer,studiesAnswer,handAnswer,languageAnswer,numberOfLaguagesAnswer;
+	String birthyear,genderAnswer,studiesAnswer,handAnswer,languageAnswer,numberOfLaguagesAnswer;
+	int languageAnswerId = 10;
+	//EditText editTextBirth,editTexSex,editTextStudies,editTextTextHand,editTextName,editTextEmail,editTextNumberLanguages;
+	EditText editTextBirth,editTexSex,editTextStudies,editTextTextHand,editTextNumberLanguages;
+	RadioGroup rGender,rStudies,rHand,rLanguage;
 	DataSubject DSubj;
 	String AUID;
 	RadioButton rbD,rbZ,rbA;
@@ -41,8 +48,7 @@ public class PersonalQuestions extends Activity implements OnClickListener {
         
         ActionBar AB = getActionBar();
         AB.hide();
-    
-    
+
         	 try {
         		 // plain text input Nacimiento
         		 editTextBirth = (EditText) this.findViewById(R.id.editTextNumberInput);
@@ -51,20 +57,24 @@ public class PersonalQuestions extends Activity implements OnClickListener {
                  if(previousBirth!=null){editTextBirth.setText(previousBirth);
                  birthyear=previousBirth;}   	
                  
-                 // This will get the radiogroup
-              	rGender = (RadioGroup)findViewById(R.id.radioGender);
-              	rStudies = (RadioGroup)findViewById(R.id.radioStudies);
-              	rHand = (RadioGroup)findViewById(R.id.radioHand);
+                 // This will get the radiogrou
+				 rGender = (RadioGroup)findViewById(R.id.radioGender);
+				 rStudies = (RadioGroup)findViewById(R.id.radioStudies);
+				 rHand = (RadioGroup)findViewById(R.id.radioHand);
+				 rLanguage = (RadioGroup)findViewById(R.id.radioNativeLanguage);
               	
              // plain text input Nombre
-             editTextName = (EditText) this.findViewById(R.id.editTextPlainTextInput);
-             String previousName=PassLevel.getPersonal("myName", MainActivity.THEcontext);
-             if(previousName!=null){editTextName.setText(previousName);}
+//             editTextName = (EditText) this.findViewById(R.id.editTextPlainTextInput);
+//             String previousName=PassLevel.getPersonal("myName", MainActivity.THEcontext);
+//             if(previousName!=null){editTextName.setText(previousName);}
              
              // number input EMAIL
-             editTextEmail = (EditText) this.findViewById(R.id.editTextEmailAddressInput);
-             String previousEmail=PassLevel.getPersonal("myEmail", MainActivity.THEcontext);
-             if(previousEmail!=null){editTextEmail.setText(previousEmail);}
+//             editTextEmail = (EditText) this.findViewById(R.id.editTextEmailAddressInput);
+//             String previousEmail=PassLevel.getPersonal("myEmail", MainActivity.THEcontext);
+//             if(previousEmail!=null){editTextEmail.setText(previousEmail);}
+
+				 //Number of laguanges
+				 editTextNumberLanguages = (EditText)this.findViewById(R.id.numberOfLanguagesEditText);
              
              DoneBut=(Button)findViewById(R.id.ButDone);
              DoneBut.setOnClickListener(this);
@@ -149,6 +159,23 @@ public class PersonalQuestions extends Activity implements OnClickListener {
      		           handAnswer=checkedRadioButton.getText().toString();
      		        }
      		    }});
+
+		rLanguage.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener()
+		{
+			public void onCheckedChanged(RadioGroup rGroup, int checkedId)
+			{
+				// This will get the radiobutton that has changed in its check state
+				RadioButton checkedRadioButton = (RadioButton)rGroup.findViewById(checkedId);
+				// This puts the value (true/false) into the variable
+				boolean isChecked = checkedRadioButton.isChecked();
+				// If the radiobutton that has changed in check state is now checked...
+				if (isChecked)
+				{
+					// Changes the textview's text to "Checked: example radiobutton text"
+					languageAnswer=checkedRadioButton.getText().toString();
+					languageAnswerId = rLanguage.indexOfChild(checkedRadioButton);
+				}
+			}});
         	
      }
     
@@ -156,46 +183,36 @@ public class PersonalQuestions extends Activity implements OnClickListener {
     
     @Override
 	public void onClick(View view) {
-    	
-    	
-    	
 
-					
 		if(view.getId()==R.id.editTextNumberInput){showdatepick();}
 				
 		if(view.getId()==R.id.ButDone){
-			name = editTextName.getText().toString();
-			email = editTextEmail.getText().toString();
+//			name = editTextName.getText().toString();
+//			name=noacentos(name);
+//			email = editTextEmail.getText().toString();
+			numberOfLaguagesAnswer = editTextNumberLanguages.getText().toString();
 			AUID = Secure.getString(getApplicationContext().getContentResolver(), Secure.ANDROID_ID);
-			//boolean everythingok=true;
-			//String showname,showemail,showbirth,showgender,showstudies,showhand;
-			//if(name==null || name.isEmpty()){showname="<font color='red'>Por favor ingrese su nombre</font>";everythingok=false;}
-			//	else{showname=name;}
-			//if (isEmailValid(email)){showemail = email;}	
-			//else {showemail = "<font color='red'>Por favor complete con un email válido</font>";everythingok=false;}
-			//if(birthyear==null){showbirth="<font color='red'>Por favor ingrese su fecha de nacimiento</font>";everythingok=false;}
-			//else{showbirth=birthyear;}
-			//showgender=genderAnswer;
-			//if(studiesAnswer==null){showstudies="<font color='red'>Por favor ingrese sus estudios alcanzados</font>";everythingok=false;}
-			//else{showstudies=studiesAnswer;}
-			//if(handAnswer==null){showhand="<font color='red'>Por favor ingrese su mano hábil</font>";everythingok=false;}
-			//else{showhand=handAnswer;}
-			
 			//Toast.makeText(getBaseContext(), Html.fromHtml("Nombre: "+name+"<br>Email: "+email+"<br>Nacimiento: "+birthyear+"<br>Gender: "+genderAnswer+"<br>Studies: "+studiesAnswer+"<br>Hand: "+handAnswer+"<br>UUID: "+AUID), Toast.LENGTH_SHORT).show();
 			Toast.makeText(getBaseContext(), Html.fromHtml(getString(R.string.thanks_form)), Toast.LENGTH_SHORT).show();
 			
 		//Tengo que pasar todo a saved, memoria del telefono.
-		name=noacentos(name);
-		PassLevel.setNewPersonal("myAnUID", AUID, MainActivity.THEcontext);
-		PassLevel.setNewPersonal("myName", name, MainActivity.THEcontext);
-		PassLevel.setNewPersonal("myEmail", email, MainActivity.THEcontext);
-		PassLevel.setNewPersonal("myBirth", birthyear, MainActivity.THEcontext);
-		PassLevel.setNewPersonal("myGender", genderAnswer, MainActivity.THEcontext);
-		PassLevel.setNewPersonal("myStudies", studiesAnswer, MainActivity.THEcontext);
-		PassLevel.setNewPersonal("myHand", handAnswer, MainActivity.THEcontext);
-		
-		int askpersonal = PassLevel.getAskPersonal("Ask", MainActivity.THEcontext);
-		if (askpersonal==0)
+			PassLevel.setNewPersonal("myAnUID", AUID, MainActivity.THEcontext);
+//			PassLevel.setNewPersonal("myName", name, MainActivity.THEcontext);
+//			PassLevel.setNewPersonal("myEmail", email, MainActivity.THEcontext);
+			PassLevel.setNewPersonal("myBirth", birthyear, MainActivity.THEcontext);
+			PassLevel.setNewPersonal("myGender", genderAnswer, MainActivity.THEcontext);
+			PassLevel.setNewPersonal("myStudies", studiesAnswer, MainActivity.THEcontext);
+			PassLevel.setNewPersonal("myHand", handAnswer, MainActivity.THEcontext);
+			//New
+			PassLevel.setNewPersonal("myLanguage", languageAnswer, MainActivity.THEcontext);
+			PassLevel.setNewPersonal("myLanguageId", String.valueOf(languageAnswerId), MainActivity.THEcontext);
+			PassLevel.setNewPersonal("myNumberOfLanguages", numberOfLaguagesAnswer, MainActivity.THEcontext);
+			int askpersonal = PassLevel.getAskPersonal("Ask", MainActivity.THEcontext);
+
+			setNativeLanguage();
+
+
+			if (askpersonal==0)
 			{
 			PassLevel.setAskPersonal("Ask", 2, MainActivity.THEcontext);
 			Intent arcIntent = new Intent(this, PlayArcade.class);
@@ -229,29 +246,33 @@ public class PersonalQuestions extends Activity implements OnClickListener {
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if ((keyCode == KeyEvent.KEYCODE_BACK)) { //Back key pressed
            //Things to Do
-        	name = editTextName.getText().toString();
-        	email = editTextEmail.getText().toString();
-        	name=noacentos(name);
+//        	name = editTextName.getText().toString();
+//        	email = editTextEmail.getText().toString();
+//        	name=noacentos(name);
+			numberOfLaguagesAnswer = editTextNumberLanguages.getText().toString();
 			AUID = Secure.getString(getApplicationContext().getContentResolver(), Secure.ANDROID_ID);
 			//Toast.makeText(getBaseContext(), "Nombre: "+name+"\nEmail: "+email+"\nGender: "+genderAnswer+"\nStudies: "+studiesAnswer+"\nHand: "+handAnswer+"\nUUID: "+AUID+"\nBirth: "+birthyear, Toast.LENGTH_SHORT).show();
 			//Toast.makeText(getBaseContext(), "Por favor, complete los datos y presione Listo", Toast.LENGTH_LONG).show();
 			PassLevel.setNewPersonal("myAnUID", AUID, MainActivity.THEcontext);
-			PassLevel.setNewPersonal("myName", name, MainActivity.THEcontext);
-			PassLevel.setNewPersonal("myEmail", email, MainActivity.THEcontext);
+//			PassLevel.setNewPersonal("myName", name, MainActivity.THEcontext);
+//			PassLevel.setNewPersonal("myEmail", email, MainActivity.THEcontext);
 			PassLevel.setNewPersonal("myBirth", birthyear, MainActivity.THEcontext);
 			PassLevel.setNewPersonal("myGender", genderAnswer, MainActivity.THEcontext);
 			PassLevel.setNewPersonal("myStudies", studiesAnswer, MainActivity.THEcontext);
 			PassLevel.setNewPersonal("myHand", handAnswer, MainActivity.THEcontext);
-			
+			//New
+			PassLevel.setNewPersonal("myLanguage", languageAnswer, MainActivity.THEcontext);
+			PassLevel.setNewPersonal("myLanguageId", String.valueOf(languageAnswerId), MainActivity.THEcontext);
+			PassLevel.setNewPersonal("myNumberOfLanguages", numberOfLaguagesAnswer, MainActivity.THEcontext);
+
+			setNativeLanguage();
+
 			//Intent returnIntent = new Intent(this, MainActivity.class);
 			Intent returnIntent = new Intent(this, MainActivity.class);
 			returnIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 			this.startActivity(returnIntent);
 			finish();
-			
-				
-			
-			
+
             return true;
         }
         return super.onKeyDown(keyCode, event);
@@ -294,20 +315,46 @@ public class PersonalQuestions extends Activity implements OnClickListener {
     			
     			DD.setMinDate(minD.toMillis(true));
     			DD.setMaxDate(maxD.toMillis(true));
-    			
-    			
+
     	      dateDlg.setMessage("Fecha de Nacimiento");
     	      dateDlg.show();
-    	      
-		
 	}
-
-
 
 	boolean isEmailValid(CharSequence email) {
 		   return android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches();
 		}
-	
-   
- 
+
+	public void setNativeLanguage() {
+		String myLanguage = PassLevel.getPersonal("myLanguageId", MainActivity.THEcontext);
+		if (myLanguage == null) return;
+		int myLanguageId = Integer.parseInt(myLanguage);
+		String languageToLoad = new String();
+		String actualLanguage = Locale.getDefault().getLanguage();
+		switch (myLanguageId){
+			case 0:
+				languageToLoad = "en";
+				break;
+			case 1:
+				languageToLoad = "es";
+				break;
+			case 2:
+				languageToLoad = "fr";
+				break;
+			case 3:
+				languageToLoad = "pt";
+				break;
+			default:
+				return;
+		}
+
+		if (!languageToLoad.equals("") && !languageToLoad.equals(actualLanguage)) {
+			Locale locale = new Locale(languageToLoad);
+			Locale.setDefault(locale);
+			Configuration config = new Configuration();
+			config.locale = locale;
+			getBaseContext().getResources().updateConfiguration(config,
+					getBaseContext().getResources().getDisplayMetrics());
+		}
+	}
+
 }

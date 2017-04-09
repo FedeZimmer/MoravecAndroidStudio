@@ -32,6 +32,13 @@
     <string name="right_handed">Droitier</string>
     <string name="left_handed">Gaucher</string>
     <string name="ambidextrous">Ambidextre</string>
+    <string name="native_language">Langue natale - Première  langue</string>
+    <string name="english">Anglais</string>
+    <string name="spanish">Espagnol</string>
+    <string name="french">Français</string>
+    <string name="portuguese">Portugais</string>
+    <string name="other">Autre</string>
+    <string name="number_of_languages">Combien de langues parlez-vous?</string>
     <string name="first_name">Prénom</string>
     <string name="first_name_placeholder">Charles Petit</string>
     <string name="email">Adresse Email</string>
@@ -140,7 +147,7 @@
         <item>Voici un autre exemple avec x = 684, a = 16.\nEnsuite, pour élever 16 au carré nous utilisons x = 16, a = 4.\n\n\n\n</item>
         <item>Dans le Grand Système de Mémoire, nous associons chaque chiffre du nombre à une consonne, comme on peut voir dans la table. En utilisant les lettres en ordre, nous formons des mots en ajoutant des voyelles si nécessaire. Par exemple, \"loupe\" correspond à 59 parce que \"L\" vaut 5, \"P\" vaut 9, et les voyelles ne comptent pas.</item>
         <item>Pour les nombres à 4 chiffres, nous utilisons la formule déjà connue. Mais avant de calculer a<sup><small><small>2</small></small></sup> nous utilisons le Grand Système pour mémoriser la première partie du résultat. Si x est 6382, a est 382. 6764 x 6000 est 40 millions 584 mille alors nous mémorisons 584 en utilisant le Grand Système.</item>
-        <item>Pour ne pas oublier 584, nous formons un mot avec ses chiffres. Si 5 correspond à L, 8 à G et 4 à C alors 584 peut être codifié comme \"LoGiC\". Tout en gardant ce mot en tête, nous suivons le même procédé et nous obtenons 145.924. Nous additionons 584 (\"LoGiC\") et 145 pour obtenir 729. Ce qui nous donne au total: 40 millions 729 mille 924.</item>
+        <item>Pour ne pas oublier 584, nous formons un mot avec ses chiffres. Si 5 correspond à L, 8 à G et 4 à C alors 584 peut être codifié comme \"LoGiQue\". Tout en gardant ce mot en tête, nous suivons le même procédé et nous obtenons 145.924. Nous additionons 584 (\"LoGiQue\") et 145 pour obtenir 729. Ce qui nous donne au total: 40 millions 729 mille 924.</item>
     </string-array>
 
 

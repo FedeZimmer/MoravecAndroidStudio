@@ -10,7 +10,7 @@ import org.json.JSONObject;
 
 public class JsonUtil {
 	
-	public static JSONObject toJSon(DataScore DataObj,String theAUID, String theName, String theEmail,String theBirth,String theGender, String theStudies, String theHand ) {
+	public static JSONObject toJSon(DataScore DataObj,String theAUID, String theName, String theEmail,String theBirth,String theGender, String theStudies, String theHand ,String theLanguage, String theNumberOfLanguages) {
 		
 		try {
 			// Here we convert Java Object to JSON 
@@ -71,6 +71,10 @@ public class JsonUtil {
 			else jsonPersonalData.put("Studies", theStudies);
 			if (theHand==null) jsonPersonalData.put("Hand", "");
 			else jsonPersonalData.put("Hand", theHand);
+			if (theLanguage==null)jsonPersonalData.put("Native_Language","");
+			else jsonPersonalData.put("Native_Language",theLanguage);
+			if (theNumberOfLanguages==null)jsonPersonalData.put("Number_of_Languages","");
+			else jsonPersonalData.put("Number_of_Languages",theNumberOfLanguages);
 			jsonObj.put("PersonalData", jsonPersonalData);
 			
 			jsonObj.put("Game_Type", DataObj.getGameType());

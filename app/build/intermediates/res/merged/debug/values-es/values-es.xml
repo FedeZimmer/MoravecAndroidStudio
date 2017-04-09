@@ -12,7 +12,7 @@
         <item>Va otro ejemplo con x = 684, a = 16.\nDespués, para elevar 16 al cuadrado usamos x = 16, a = 4.\n\n\n\n</item>
         <item>En el Sistema Mayor de Memoria, asociamos cada dígito del número a recordar con una consonante como se ve en la tabla. Usando estas letras en orden formamos palabras, agregando las vocales necesarias. Por ejemplo, \"lupa\" es 59 porque \"L\" es 5, \"P\" es 9 y las vocales no son nada.</item>
         <item>Para números de 4 dígitos usamos la fórmula ya conocida. Pero antes de calcular a<sup><small><small>2</small></small></sup> utilizamos el Sistema Mayor para memorizar la primera parte del resultado. Si x es 6382, a es 382. 6764 x 6000 es 40 millones 584 mil entonces memorizamos 584 usando el Sistema Mayor.</item>
-        <item>Para no olvidar 584, formamos una palabra con sus dígitos. 5 puede ser L, 8 G y 4 C entonces 584 puede ser codificado como \"LaGo oCa\". Con esto en mente, seguimos los pasos de siempre y obtenemos 145.924. Sumamos 584 (\"LaGo oCa\") y 145 = 729. Juntando todo: 40 millones 729 mil 924.</item>
+        <item>Para no olvidar 584, formamos una palabra con sus dígitos. 5 puede ser L, 8 G y 4 C entonces 584 puede ser codificado como \"LóGiCa\". Con esto en mente, seguimos los pasos de siempre y obtenemos 145.924. Sumamos 584 (\"LóGiCa\") y 145 = 729. Juntando todo: 40 millones 729 mil 924.</item>
     </string-array>
     <string-array name="tutorial_sum_message_array">
         <item>Acá empezás a familiarizarte con el método de izquierda a derecha. Primero sumás las decenas del segundo número al primero y por último las unidades del segundo número al resultado anterior.\n\n</item>
@@ -46,10 +46,12 @@
     <string name="effort_question">¿Cuánto esfuerzo mental hiciste?</string>
     <string name="email">Email</string>
     <string name="email_placeholder">carlos@gmail.com</string>
+    <string name="english">Inglés</string>
     <string name="enter_button">Enter</string>
     <string name="female">Femenino</string>
     <string name="first_name">Nombre</string>
     <string name="first_name_placeholder">Carlos Gonzalez</string>
+    <string name="french">Francés</string>
     <string name="game_completed">Juego completado</string>
     <string name="game_completed_congratulations">Felicitaciones</string>
     <string name="game_completed_message">Contáctese con neurointegrativa@gmail.com para demostrar sus habilidades.</string>
@@ -71,12 +73,16 @@
     <string name="motivation_message">Podés hacerlo más rápido</string>
     <string name="n_correct">\u0020correctas</string>
     <string name="n_level_completed_congratulations">Felicitaciones. Pasaste el nivel\u002</string>
+    <string name="native_language">Lengua materna - Primer idioma</string>
     <string name="no_data_stats">Aún no hay datos</string>
     <string name="no_stars_message">Jugá una vez más y llegá a 15</string>
     <string name="not_reported">No Informa</string>
+    <string name="number_of_languages">¿Cuántos idiomas hablas?</string>
     <string name="one_star_message">Bien</string>
+    <string name="other">Otro</string>
     <string name="pass_next_level">Pasar al siguiente nivel</string>
     <string name="play_button">JUGAR</string>
+    <string name="portuguese">Portugués</string>
     <string name="practice_advanced">Avanzado</string>
     <string name="practice_button">PRÁCTICA</string>
     <string name="practice_fadeout_message">Memorice la cuenta</string>
@@ -87,6 +93,7 @@
     <string name="retry">Vuelva a intentarlo</string>
     <string name="right_handed">Diestro</string>
     <string name="school_completed">Primaria terminada</string>
+    <string name="spanish">Español</string>
     <string name="stats_button">ESTADÍSTICAS</string>
     <string name="stats_navbar">Estadísticas</string>
     <string name="thanks_form">Gracias por la colaboración</string>
@@ -108,7 +115,7 @@
     <string name="tutorial_square_message_4">Va otro ejemplo con x = 684, a = 16.\nDespués, para elevar 16 al cuadrado usamos x = 16, a = 4.</string>
     <string name="tutorial_square_message_5">En el Sistema Mayor de Memoria, asociamos cada dígito del número a recordar con una consonante como se ve en la tabla. Usando estas letras en orden formamos palabras, agregando las vocales necesarias. Por ejemplo, \"lupa\" es 59 porque \"L\" es 5,\"P\" es 9 y las vocales no son nada.</string>
     <string name="tutorial_square_message_6">Para números de 4 dígitos usamos la fórmula ya conocida. Pero antes de calcular a<sup><small><small>2</small></small></sup> utilizamos el Sistema Mayor para memorizar la primera parte del resultado. Si x es 6382, a es 382. 6764 x 6000 es 40 millones 584 mil entonces memorizamos 584 usando el Sistema Mayor.</string>
-    <string name="tutorial_square_message_7">Para no olvidar 584, formamos una palabra con sus dígitos. 5 puede ser L, 8 G y 4 C entonces 584 puede ser codificado como \"LaGo oCa\". Con esto en mente, seguimos los pasos de siempre y obtenemos 145.924. Sumamos 584 (\"LaGo oCa\") y 145 = 729. Juntando todo: 40 millones 729 mil 924.</string>
+    <string name="tutorial_square_message_7">Para no olvidar 584, formamos una palabra con sus dígitos. 5 puede ser L, 8 G y 4 C entonces 584 puede ser codificado como \"LóGiCa\". Con esto en mente, seguimos los pasos de siempre y obtenemos 145.924. Sumamos 584 (\"LóGiCa\") y 145 = 729. Juntando todo: 40 millones 729 mil 924.</string>
     <string name="tutorial_square_title">Al cuadrado</string>
     <string name="tutorial_sum_button">Suma</string>
     <string name="tutorial_sum_message_1">Acá empezás a familiarizarte con el método de izquierda a derecha. Primero sumás las decenas del segundo número al primero y por último las unidades del segundo número al resultado anterior.</string>

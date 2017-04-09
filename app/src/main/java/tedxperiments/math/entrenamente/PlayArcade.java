@@ -1375,7 +1375,9 @@ public void startPlay(int chosenLevel, int chosenOperator, int chosenSublevel){
 	        String savedGender=PassLevel.getPersonal("myGender",MainActivity.THEcontext);
 	        String savedStudies=PassLevel.getPersonal("myStudies",MainActivity.THEcontext);
 	        String savedHand=PassLevel.getPersonal("myHand",MainActivity.THEcontext);
-	        				
+		    String savedLanguage=PassLevel.getPersonal("myLanguage",MainActivity.THEcontext);
+		    String savedNumberOfLanguages=PassLevel.getPersonal("myNumberOfLanguages",MainActivity.THEcontext);
+
 	        
 	        try {
 	        	 
@@ -1388,7 +1390,7 @@ public void startPlay(int chosenLevel, int chosenOperator, int chosenSublevel){
 	 
 	            // 3. build jsonObject
 	            JSONObject jsonData = new JSONObject();
-	            jsonData=JsonUtil.toJSon(DataObj, savedAUID,savedName,savedEmail,savedBirth,savedGender,savedStudies,savedHand);
+	            jsonData=JsonUtil.toJSon(DataObj, savedAUID,savedName,savedEmail,savedBirth,savedGender,savedStudies,savedHand,savedLanguage,savedNumberOfLanguages);
 	            
 	  
 	            JSONObject jsonObject = new JSONObject();
@@ -1662,6 +1664,8 @@ public CountDownTimer reseteqtxt(){
         String savedGender=PassLevel.getPersonal("myGender",MainActivity.THEcontext);
         String savedStudies=PassLevel.getPersonal("myStudies",MainActivity.THEcontext);
         String savedHand=PassLevel.getPersonal("myHand",MainActivity.THEcontext);
+		String savedLanguage=PassLevel.getPersonal("myLanguage",MainActivity.THEcontext);
+		String savedNumberOfLanguages=PassLevel.getPersonal("myNumberOfLanguages",MainActivity.THEcontext);
         
 		Handler_sqlite helper = new Handler_sqlite(MainActivity.THEcontext);
 		helper.open();
@@ -1669,7 +1673,7 @@ public CountDownTimer reseteqtxt(){
 		//ESTO VA
 		for (int ilist=0; ilist < DScoreList.size(); ilist++)
 			{JSONObject jsonData = new JSONObject();
-			jsonData=JsonUtil.toJSon(DScoreList.get(ilist),savedAUID,savedName,savedEmail,savedBirth,savedGender,savedStudies,savedHand);
+			jsonData=JsonUtil.toJSon(DScoreList.get(ilist),savedAUID,savedName,savedEmail,savedBirth,savedGender,savedStudies,savedHand,savedLanguage,savedNumberOfLanguages);
 			long valorDeRetorno = helper.insertValues(jsonData.toString());
 			//if (valorDeRetorno==-1)
 			}

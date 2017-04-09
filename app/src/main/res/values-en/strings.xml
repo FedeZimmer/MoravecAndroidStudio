@@ -32,6 +32,13 @@
     <string name="right_handed">Right handed</string>
     <string name="left_handed">Left handed</string>
     <string name="ambidextrous">Ambidextrous</string>
+    <string name="native_language">Native language - First language</string>
+    <string name="english">English</string>
+    <string name="spanish">Spanish</string>
+    <string name="french">French</string>
+    <string name="portuguese">Portuguese</string>
+    <string name="other">Other</string>
+    <string name="number_of_languages">How many languages do you speak?</string>
     <string name="first_name">First name</string>
     <string name="first_name_placeholder">John Doe</string>
     <string name="email">E-mail</string>

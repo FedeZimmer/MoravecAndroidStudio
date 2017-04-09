@@ -1,4 +1,7 @@
-#Sun Apr 02 14:50:57 BST 2017
-base.0=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Sun Apr 09 15:55:23 BST 2017
+base.0=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_eb369a3df00c840d8ceb63aff782c28c6a28e7c9
+renamed.1=classes2.dex
 renamed.0=classes.dex
-file.0=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.1=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_98433cfb307f229fa009324975a40c3f12bb68a5/classes.dex
+base.1=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_98433cfb307f229fa009324975a40c3f12bb68a5
+file.0=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_eb369a3df00c840d8ceb63aff782c28c6a28e7c9/classes.dex

@@ -32,6 +32,13 @@
     <string name="right_handed">Destro</string>
     <string name="left_handed">Canhoto</string>
     <string name="ambidextrous">Ambas</string>
+    <string name="native_language">Língua native - Primeira língua</string>
+    <string name="english">Inglês</string>
+    <string name="spanish">Espanhol</string>
+    <string name="french">Francês</string>
+    <string name="portuguese">Português</string>
+    <string name="other">Outro</string>
+    <string name="number_of_languages">Quantas línguas você fala?</string>
     <string name="first_name">Nome</string>
     <string name="first_name_placeholder">Carlos Gonzalez</string>
     <string name="email">E-mail</string>
@@ -140,7 +147,7 @@
         <item>Vai outro exemplo com x = 684, a = 16.\nPara elevar 15 ao quadrado usamos x = 16, a = 4.\n\n\n\n</item>
         <item>No Sistema Maior, associamos cada algarismo do número a lembrar com uma consonante, como se vê na tabela. Usando estas letras em ordem formamos palavras, adicionando as vogais necessárias. Por exemplo, \"lupa\" é 59 porque  \"l\" é 5, \"p\" é 9 e as vogais não são nada.</item>
         <item>Para números de quatro algarismos usamos a fórmula já conhecida. Mas antes de calcular usamos o Sistema Maior parar memorizar parte do resultado. Se x é 6382, a é 382. E 6764 x 6000 é 40 milhões 584 mil. Então memorizamos 584 usando o Sistema Maior.</item>
-        <item>Para não esquecer 584, formamos uma palavra com seus algarismos. 5 pode ser L, 8 G e 4 Q. 584 pode ser /"LaGoa aQui/". Com isto em  mente, continuamos os passos de sempre e obtemos 145.924. Somado 584 (/"LaGoa aQui/") e 145 e obtemos 729. Juntamos tudo: 40 milhões, 729 mil 924.</item>
+        <item>Para não esquecer 584, formamos uma palavra com seus algarismos. 5 pode ser L, 8 G e 4 Q. 584 pode ser /"LóGiCa/". Com isto em  mente, continuamos os passos de sempre e obtemos 145.924. Somado 584 (/"LóGiCa/") e 145 e obtemos 729. Juntamos tudo: 40 milhões, 729 mil 924.</item>
     </string-array>
 
     <!--Stats-->
