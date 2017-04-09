@@ -39,6 +39,13 @@
     <string name="portuguese">Portuguese</string>
     <string name="other">Other</string>
     <string name="number_of_languages">How many languages do you speak?</string>
+    <string name="music_competences">What are your musical skills?</string>
+    <string name="music_listener">Listener:</string>
+    <string name="music_instrumentist">Instrumentist:</string>
+    <string name="music_theory">Student:</string>
+    <string name="none_music">Any</string>
+    <string name="moderate_music">Moderate</string>
+    <string name="high_music">Advanced</string>
     <string name="first_name">First name</string>
     <string name="first_name_placeholder">John Doe</string>
     <string name="email">E-mail</string>

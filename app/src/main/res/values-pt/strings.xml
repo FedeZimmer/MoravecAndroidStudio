@@ -39,6 +39,13 @@
     <string name="portuguese">Português</string>
     <string name="other">Outro</string>
     <string name="number_of_languages">Quantas línguas você fala?</string>
+    <string name="music_competences">Qual é a sua habilidade musical?</string>
+    <string name="music_listener">Ouvinte:</string>
+    <string name="music_instrumentist">Instrumentista:</string>
+    <string name="music_theory">Estudante:</string>
+    <string name="none_music">Nenhum</string>
+    <string name="moderate_music">Moderada</string>
+    <string name="high_music">Avançado</string>
     <string name="first_name">Nome</string>
     <string name="first_name_placeholder">Carlos Gonzalez</string>
     <string name="email">E-mail</string>

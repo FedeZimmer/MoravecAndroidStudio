@@ -62,6 +62,7 @@
     <string name="gender">Género</string>
     <string name="graph_navbar">Tiempos de respuesta</string>
     <string name="hello_world">Hello world!</string>
+    <string name="high_music">Avanzanda</string>
     <string name="highschool_completed">Secundaria terminada</string>
     <string name="highschool_in_progress">Secundaria en curso</string>
     <string name="introspection_title">En la última cuenta:\u0020</string>
@@ -74,13 +75,19 @@
     <string name="main_menu">MENÚ PRINCIPAL</string>
     <string name="male">Masculino</string>
     <string name="menu_settings">Settings</string>
+    <string name="moderate_music">Moderada</string>
     <string name="motivation_message">Podés hacerlo más rápido</string>
+    <string name="music_competences">¿Cuál es su habilidad musical?</string>
+    <string name="music_instrumentist">Instrumentista:</string>
+    <string name="music_listener">Oyente:</string>
+    <string name="music_theory">Profesional:</string>
     <string name="n_correct">\u0020correctas</string>
     <string name="n_level_completed_congratulations">Felicitaciones. Pasaste el nivel\u002</string>
     <string name="native_language">Lengua materna - Primer idioma</string>
     <string name="no_acceptance_button">Demo NO</string>
     <string name="no_data_stats">Aún no hay datos</string>
     <string name="no_stars_message">Jugá una vez más y llegá a 15</string>
+    <string name="none_music">Nula</string>
     <string name="not_reported">No Informa</string>
     <string name="number_of_languages">¿Cuántos idiomas hablas?</string>
     <string name="one_star_message">Bien</string>

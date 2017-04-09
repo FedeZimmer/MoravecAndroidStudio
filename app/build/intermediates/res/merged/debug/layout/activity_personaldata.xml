@@ -259,6 +259,129 @@
                 android:singleLine="true" >
             </EditText>
 
+            <TextView
+                android:id="@+id/musicCompetencesTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/music_competences"
+                android:textStyle="bold"
+                android:layout_below="@+id/numberOfLanguagesEditText"/>
+
+            <TextView
+                android:id="@+id/musicListenerTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/music_listener"
+                android:textStyle="bold"
+                android:layout_below="@+id/musicCompetencesTextView"/>
+
+            <RadioGroup
+                android:id="@+id/radioListener"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/musicListenerTextView">
+
+                <RadioButton
+                    android:id="@+id/noneMusicListener"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/none_music"
+                    android:textSize="12sp"
+                    />
+
+                <RadioButton
+                    android:id="@+id/moderateMusicListener"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/moderate_music"
+                    android:textSize="12sp" />
+                <RadioButton
+                    android:id="@+id/highMusicListener"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/high_music"
+                    android:textSize="12sp"
+                    />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/musicInstrumentistTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/music_instrumentist"
+                android:textStyle="bold"
+                android:layout_below="@+id/radioListener"/>
+
+            <RadioGroup
+                android:id="@+id/radioInstrumentist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/musicInstrumentistTextView">
+
+                <RadioButton
+                    android:id="@+id/noneMusicInstrumentist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/none_music"
+                    android:textSize="12sp"
+                    />
+
+                <RadioButton
+                    android:id="@+id/moderateMusicInstrumentist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/moderate_music"
+                    android:textSize="12sp" />
+                <RadioButton
+                    android:id="@+id/highMusicInstrumentist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/high_music"
+                    android:textSize="12sp"
+                    />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/musicTheoryTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/music_theory"
+                android:textStyle="bold"
+                android:layout_below="@+id/radioInstrumentist"/>
+
+            <RadioGroup
+                android:id="@+id/radioTheory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/musicTheoryTextView">
+
+                <RadioButton
+                    android:id="@+id/noneMusicTheory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/none_music"
+                    android:textSize="12sp"
+                    />
+
+                <RadioButton
+                    android:id="@+id/moderateMusicTheory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/moderate_music"
+                    android:textSize="12sp" />
+                <RadioButton
+                    android:id="@+id/highMusicTheory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/high_music"
+                    android:textSize="12sp"
+                    />
+            </RadioGroup>
+
+
             <!--
             <TextView
                 android:id="@+id/textViewPlainTextInput"
@@ -303,7 +426,7 @@
                 android:id="@+id/ButDone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/numberOfLanguagesEditText"
+                android:layout_below="@+id/radioTheory"
                 android:layout_centerHorizontal="true"
                 android:text="@string/done_form" />
             

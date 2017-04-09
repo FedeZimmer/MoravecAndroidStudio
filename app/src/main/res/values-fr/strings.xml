@@ -39,6 +39,13 @@
     <string name="portuguese">Portugais</string>
     <string name="other">Autre</string>
     <string name="number_of_languages">Combien de langues parlez-vous?</string>
+    <string name="music_competences">Quelle est votre compétence musicale?</string>
+    <string name="music_listener">Auditeur:</string>
+    <string name="music_instrumentist">Instrumentiste:</string>
+    <string name="music_theory">En théorie musicale:</string>
+    <string name="none_music">Aucune</string>
+    <string name="moderate_music">Modérée</string>
+    <string name="high_music">Élevée</string>
     <string name="first_name">Prénom</string>
     <string name="first_name_placeholder">Charles Petit</string>
     <string name="email">Adresse Email</string>

@@ -29,11 +29,11 @@ public class PersonalQuestions extends Activity implements OnClickListener {
 	
 	private Button DoneBut;
 	//String name,email,birthyear,genderAnswer,studiesAnswer,handAnswer,languageAnswer,numberOfLaguagesAnswer;
-	String birthyear,genderAnswer,studiesAnswer,handAnswer,languageAnswer,numberOfLaguagesAnswer;
+	String birthyear,genderAnswer,studiesAnswer,handAnswer,languageAnswer,numberOfLaguagesAnswer,musicListenerAnswer,musicInstrumentistAnswer,musicTheoryAnswer;
 	int languageAnswerId = 10;
 	//EditText editTextBirth,editTexSex,editTextStudies,editTextTextHand,editTextName,editTextEmail,editTextNumberLanguages;
 	EditText editTextBirth,editTexSex,editTextStudies,editTextTextHand,editTextNumberLanguages;
-	RadioGroup rGender,rStudies,rHand,rLanguage;
+	RadioGroup rGender,rStudies,rHand,rLanguage,rListener,rInstrumentist,rTheory;
 	DataSubject DSubj;
 	String AUID;
 	RadioButton rbD,rbZ,rbA;
@@ -62,6 +62,9 @@ public class PersonalQuestions extends Activity implements OnClickListener {
 				 rStudies = (RadioGroup)findViewById(R.id.radioStudies);
 				 rHand = (RadioGroup)findViewById(R.id.radioHand);
 				 rLanguage = (RadioGroup)findViewById(R.id.radioNativeLanguage);
+				 rListener = (RadioGroup)findViewById(R.id.radioListener);
+				 rInstrumentist = (RadioGroup)findViewById(R.id.radioInstrumentist);
+				 rTheory = (RadioGroup)findViewById(R.id.radioTheory);
               	
              // plain text input Nombre
 //             editTextName = (EditText) this.findViewById(R.id.editTextPlainTextInput);
@@ -176,7 +179,56 @@ public class PersonalQuestions extends Activity implements OnClickListener {
 					languageAnswerId = rLanguage.indexOfChild(checkedRadioButton);
 				}
 			}});
-        	
+
+		rListener.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener()
+		{
+			public void onCheckedChanged(RadioGroup rGroup, int checkedId)
+			{
+				// This will get the radiobutton that has changed in its check state
+				RadioButton checkedRadioButton = (RadioButton)rGroup.findViewById(checkedId);
+				// This puts the value (true/false) into the variable
+				boolean isChecked = checkedRadioButton.isChecked();
+				// If the radiobutton that has changed in check state is now checked...
+				if (isChecked)
+				{
+					// Changes the textview's text to "Checked: example radiobutton text"
+					musicListenerAnswer=checkedRadioButton.getText().toString();
+				}
+			}});
+
+		rInstrumentist.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener()
+		{
+			public void onCheckedChanged(RadioGroup rGroup, int checkedId)
+			{
+				// This will get the radiobutton that has changed in its check state
+				RadioButton checkedRadioButton = (RadioButton)rGroup.findViewById(checkedId);
+				// This puts the value (true/false) into the variable
+				boolean isChecked = checkedRadioButton.isChecked();
+				// If the radiobutton that has changed in check state is now checked...
+				if (isChecked)
+				{
+					// Changes the textview's text to "Checked: example radiobutton text"
+					musicInstrumentistAnswer=checkedRadioButton.getText().toString();
+				}
+			}});
+
+		rTheory.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener()
+		{
+			public void onCheckedChanged(RadioGroup rGroup, int checkedId)
+			{
+				// This will get the radiobutton that has changed in its check state
+				RadioButton checkedRadioButton = (RadioButton)rGroup.findViewById(checkedId);
+				// This puts the value (true/false) into the variable
+				boolean isChecked = checkedRadioButton.isChecked();
+				// If the radiobutton that has changed in check state is now checked...
+				if (isChecked)
+				{
+					// Changes the textview's text to "Checked: example radiobutton text"
+					musicTheoryAnswer=checkedRadioButton.getText().toString();
+				}
+			}});
+
+
      }
     
        
@@ -207,6 +259,10 @@ public class PersonalQuestions extends Activity implements OnClickListener {
 			PassLevel.setNewPersonal("myLanguage", languageAnswer, MainActivity.THEcontext);
 			PassLevel.setNewPersonal("myLanguageId", String.valueOf(languageAnswerId), MainActivity.THEcontext);
 			PassLevel.setNewPersonal("myNumberOfLanguages", numberOfLaguagesAnswer, MainActivity.THEcontext);
+			PassLevel.setNewPersonal("music_listener", musicListenerAnswer, MainActivity.THEcontext);
+			PassLevel.setNewPersonal("music_instrumentist", musicInstrumentistAnswer, MainActivity.THEcontext);
+			PassLevel.setNewPersonal("music_theory", musicTheoryAnswer, MainActivity.THEcontext);
+
 			int askpersonal = PassLevel.getAskPersonal("Ask", MainActivity.THEcontext);
 
 			setNativeLanguage();
@@ -264,6 +320,9 @@ public class PersonalQuestions extends Activity implements OnClickListener {
 			PassLevel.setNewPersonal("myLanguage", languageAnswer, MainActivity.THEcontext);
 			PassLevel.setNewPersonal("myLanguageId", String.valueOf(languageAnswerId), MainActivity.THEcontext);
 			PassLevel.setNewPersonal("myNumberOfLanguages", numberOfLaguagesAnswer, MainActivity.THEcontext);
+			PassLevel.setNewPersonal("music_listener", musicListenerAnswer, MainActivity.THEcontext);
+			PassLevel.setNewPersonal("music_instrumentist", musicInstrumentistAnswer, MainActivity.THEcontext);
+			PassLevel.setNewPersonal("music_theory", musicTheoryAnswer, MainActivity.THEcontext);
 
 			setNativeLanguage();
 

@@ -1282,6 +1282,9 @@ public void startPlay(int chosenLevel, int chosenOperator, int chosenSublevel){
 	        String savedHand=PassLevel.getPersonal("myHand",MainActivity.THEcontext);
 		    String savedLanguage=PassLevel.getPersonal("myLanguage",MainActivity.THEcontext);
 		    String savedNumberOfLanguages=PassLevel.getPersonal("myNumberOfLanguages",MainActivity.THEcontext);
+		  String savedMusicListener = PassLevel.getPersonal("music_listener",MainActivity.THEcontext);
+		  String savedMusicInstrumentist = PassLevel.getPersonal("music_instrumentist",MainActivity.THEcontext);
+		  String savedMusicTheory = PassLevel.getPersonal("music_theory",MainActivity.THEcontext);
 
 	        
 	        try {
@@ -1295,10 +1298,10 @@ public void startPlay(int chosenLevel, int chosenOperator, int chosenSublevel){
 	 
 	            // 3. build jsonObject
 	            JSONObject jsonData = new JSONObject();
-	            jsonData=JsonUtil.toJSon(DataObj, savedAUID,savedName,savedEmail,savedBirth,savedGender,savedStudies,savedHand,savedLanguage,savedNumberOfLanguages);
-	            
-	  
-	            JSONObject jsonObject = new JSONObject();
+	            jsonData=JsonUtil.toJSon(DataObj, savedAUID,savedName,savedEmail,savedBirth,savedGender,savedStudies,savedHand,savedLanguage,savedNumberOfLanguages,
+						savedMusicListener,savedMusicInstrumentist,savedMusicTheory);
+
+				JSONObject jsonObject = new JSONObject();
 	            jsonObject.put("test_subject", "Federico");
 	            jsonObject.put("experiment_log",jsonData.toString());
 	            jsonObject.put("experiment_name","Entrenamente");
@@ -1571,6 +1574,9 @@ public CountDownTimer reseteqtxt(){
         String savedHand=PassLevel.getPersonal("myHand",MainActivity.THEcontext);
 		String savedLanguage=PassLevel.getPersonal("myLanguage",MainActivity.THEcontext);
 		String savedNumberOfLanguages=PassLevel.getPersonal("myNumberOfLanguages",MainActivity.THEcontext);
+		String savedMusicListener = PassLevel.getPersonal("music_listener",MainActivity.THEcontext);
+		String savedMusicInstrumentist = PassLevel.getPersonal("music_instrumentist",MainActivity.THEcontext);
+		String savedMusicTheory = PassLevel.getPersonal("music_theory",MainActivity.THEcontext);
         
 		Handler_sqlite helper = new Handler_sqlite(MainActivity.THEcontext);
 		helper.open();
@@ -1578,7 +1584,8 @@ public CountDownTimer reseteqtxt(){
 		//ESTO VA
 		for (int ilist=0; ilist < DScoreList.size(); ilist++)
 			{JSONObject jsonData = new JSONObject();
-			jsonData=JsonUtil.toJSon(DScoreList.get(ilist),savedAUID,savedName,savedEmail,savedBirth,savedGender,savedStudies,savedHand,savedLanguage,savedNumberOfLanguages);
+			jsonData=JsonUtil.toJSon(DScoreList.get(ilist),savedAUID,savedName,savedEmail,savedBirth,savedGender,savedStudies,savedHand,savedLanguage,savedNumberOfLanguages,
+					savedMusicListener,savedMusicInstrumentist,savedMusicTheory);
 			long valorDeRetorno = helper.insertValues(jsonData.toString());
 			//if (valorDeRetorno==-1)
 			}

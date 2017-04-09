@@ -1041,9 +1041,11 @@ public class PlayGame extends Activity implements OnClickListener {
 	        String savedHand=PassLevel.getPersonal("myHand",MainActivity.THEcontext);
 		  String savedLanguage=PassLevel.getPersonal("myLanguage",MainActivity.THEcontext);
 		  String savedNumberOfLanguages=PassLevel.getPersonal("myNumberOfLanguages",MainActivity.THEcontext);
-	        
+		  String savedMusicListener = PassLevel.getPersonal("music_listener",MainActivity.THEcontext);
+		  String savedMusicInstrumentist = PassLevel.getPersonal("music_instrumentist",MainActivity.THEcontext);
+		  String savedMusicTheory = PassLevel.getPersonal("music_theory",MainActivity.THEcontext);
+
 	        try {
-	        	 
 	            // 1. create HttpClient
 	            HttpClient httpclient = new DefaultHttpClient();
 	 
@@ -1053,7 +1055,8 @@ public class PlayGame extends Activity implements OnClickListener {
 	 
 	            // 3. build jsonObject
 	            JSONObject jsonData = new JSONObject();
-	            jsonData=JsonUtil.toJSon(DataObj, savedAUID,savedName,savedEmail,savedBirth,savedGender,savedStudies,savedHand,savedLanguage,savedNumberOfLanguages);
+	            jsonData=JsonUtil.toJSon(DataObj, savedAUID,savedName,savedEmail,savedBirth,savedGender,savedStudies,savedHand,savedLanguage,savedNumberOfLanguages,
+						savedMusicListener,savedMusicInstrumentist,savedMusicTheory);
 	            
 	  
 	            JSONObject jsonObject = new JSONObject();
@@ -1357,13 +1360,17 @@ private void eqsettext(){
         String savedHand=PassLevel.getPersonal("myHand",MainActivity.THEcontext);
 		String savedLanguage=PassLevel.getPersonal("myLanguage",MainActivity.THEcontext);
 		String savedNumberOfLanguages=PassLevel.getPersonal("myNumberOfLanguages",MainActivity.THEcontext);
+		String savedMusicListener = PassLevel.getPersonal("music_listener",MainActivity.THEcontext);
+		String savedMusicInstrumentist = PassLevel.getPersonal("music_instrumentist",MainActivity.THEcontext);
+		String savedMusicTheory = PassLevel.getPersonal("music_theory",MainActivity.THEcontext);
         
 		Handler_sqlite helper = new Handler_sqlite(MainActivity.THEcontext);
 		helper.open();
 		
 		for (int ilist=0; ilist < DScoreList.size(); ilist++)
 			{JSONObject jsonData = new JSONObject();
-			jsonData=JsonUtil.toJSon(DScoreList.get(ilist),savedAUID,savedName,savedEmail,savedBirth,savedGender,savedStudies,savedHand,savedLanguage,savedNumberOfLanguages);
+			jsonData=JsonUtil.toJSon(DScoreList.get(ilist),savedAUID,savedName,savedEmail,savedBirth,savedGender,savedStudies,savedHand,savedLanguage,savedNumberOfLanguages,
+					savedMusicListener,savedMusicInstrumentist,savedMusicTheory);
 			helper.insertValues(jsonData.toString());
 			}
         	
