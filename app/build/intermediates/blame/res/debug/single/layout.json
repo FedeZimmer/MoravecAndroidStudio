@@ -32,6 +32,10 @@
         "source": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/layout/fragment_main.xml"
     },
     {
+        "merged": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/merged/debug/layout/activity_acceptance.xml",
+        "source": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/layout/activity_acceptance.xml"
+    },
+    {
         "merged": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/merged/debug/layout/toast_layout.xml",
         "source": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/layout/toast_layout.xml"
     },

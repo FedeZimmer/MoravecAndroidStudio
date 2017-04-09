@@ -110,73 +110,18 @@ public class MainActivity extends Activity implements OnClickListener {
 	@Override
 	public void onClick(View view) {
 		if(view.getId()==R.id.play_btn){
-			
 			//play button
-			Intent levelIntent = new Intent(this, LevelSelect.class);
-			this.startActivity(levelIntent);
-			
-			
-			//Menu de sumas
-			//final AlertDialog.Builder builderSum = new AlertDialog.Builder(this);
-			//builderSum.setTitle("Choose a level Addition")
-			//.setSingleChoiceItems(levelAdd, 0, new DialogInterface.OnClickListener() {
-			//	public void onClick(DialogInterface dialogSum, int which2) {
-			//		dialogSum.dismiss();
-			//		//start gameplay
-			//		startPlay(0, which2); //pasa operand y level
-			//	} 
-			//});
-			
-			//Menu de multiplicacion
-			//final AlertDialog.Builder builderMul = new AlertDialog.Builder(this);
-			//builderMul.setTitle("Choose a level Multiplication")
-			//.setSingleChoiceItems(levelMul, 0, new DialogInterface.OnClickListener() {
-			//	public void onClick(DialogInterface dialogMul, int which3) {
-			//		dialogMul.dismiss();
-			//		//start gameplay
-			//		startPlay(1, which3);
-			//	} 
-			//});
-			
-			//Menu de cuadrados
-			//final AlertDialog.Builder builderSq = new AlertDialog.Builder(this);
-			//builderSq.setTitle("Choose a level Square")
-			//.setSingleChoiceItems(levelSquare, 0, new DialogInterface.OnClickListener() {
-			//	public void onClick(DialogInterface dialogSq, int which4) {
-			//		dialogSq.dismiss();
-			//		//start gameplay
-			//		startPlay(2, which4);
-			//	} 
-			//});
-			
-			
-				
-			//Menu para elegir operacion
-			//AlertDialog.Builder builder = new AlertDialog.Builder(this);
-			//builder.setTitle("Choose a level")
-			//.setSingleChoiceItems(levelOperand, 0, new DialogInterface.OnClickListener() {
-			//	public void onClick(DialogInterface dialog, int which) {
-			//		dialog.dismiss();
-					//start gameplay
-					//startPlay(which);
-			//		if (which ==0){
-			//				AlertDialog adSum = builderSum.create();
-			//				adSum.show();}
-			//			else if (which==1){
-			//				AlertDialog adMul = builderMul.create();
-			//				adMul.show();}
-			//				else if (which==2){
-			//					AlertDialog adSq = builderSq.create();
-			//					adSq.show();}
-			//	} 
-			//});
-					
-			
-						
-						
-			//AlertDialog ad = builder.create();
-			//ad.show();
-			
+			int askAcceptance = PassLevel.getAskPersonal("AcceptanceAsked", MainActivity.THEcontext);
+			if (askAcceptance<1){
+				//ACCEPTANCE FIRST
+				Intent acceptanceIntent = new Intent(this, AcceptanceActivity.class);
+				acceptanceIntent.putExtra("type","practice");
+				this.startActivity(acceptanceIntent);
+			}
+			else {
+				Intent levelIntent = new Intent(this, LevelSelect.class);
+				this.startActivity(levelIntent);
+			}
 		}
 		else if(view.getId()==R.id.help_btn){
 			//how to play button
@@ -191,15 +136,24 @@ public class MainActivity extends Activity implements OnClickListener {
 			this.startActivity(highIntent);
 		}
 		else if(view.getId()==R.id.Arcade_btn){
-			int askpersonal = PassLevel.getAskPersonal("Ask", MainActivity.THEcontext);
-			if (askpersonal<1){
-				Intent personalIntent = new Intent(this, PersonalQuestions.class);
-				this.startActivity(personalIntent);
+			int askAcceptance = PassLevel.getAskPersonal("AcceptanceAsked", MainActivity.THEcontext);
+			if (askAcceptance<1){
+				//ACCEPTANCE FIRST
+				Intent acceptanceIntent = new Intent(this, AcceptanceActivity.class);
+				acceptanceIntent.putExtra("type","arcade");
+				this.startActivity(acceptanceIntent);
 				}
 			else {
-			Intent arcIntent = new Intent(this, HighList.class);
-			//Intent arcIntent = new Intent(this, PlayArcade.class);
-			this.startActivity(arcIntent);}
+				int askpersonal = PassLevel.getAskPersonal("Ask", MainActivity.THEcontext);
+				if (askpersonal<1){
+					Intent personalIntent = new Intent(this, PersonalQuestions.class);
+					this.startActivity(personalIntent);
+				}
+				else {
+					Intent arcIntent = new Intent(this, HighList.class);
+					this.startActivity(arcIntent);
+				}
+			}
 		}
 	}
 	

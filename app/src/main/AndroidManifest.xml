@@ -71,6 +71,9 @@
 		<activity android:name="tedxperiments.math.entrenamente.PersonalQuestions"
 		    android:screenOrientation="portrait">
 		</activity>
+		<activity android:name="tedxperiments.math.entrenamente.AcceptanceActivity"
+			android:screenOrientation="portrait">
+		</activity>
 		<receiver
             android:name="tedxperiments.math.entrenamente.NetworkChangeReceiver"
             android:label="NetworkChangeReceiver" >

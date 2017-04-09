@@ -14,6 +14,12 @@
 	<string name="stats_button">ESTADÍSTICAS</string>
 	<string name="developer_signature">Desarrollado por FedeZ</string>
 
+	<!--Acceptance-->
+	<string name="acceptance_text">Demo acceptance text</string>
+	<string name="acceptance_checkbox">Demo acceptance checkbox</string>
+	<string name="no_acceptance_button">Demo NO</string>
+	<string name="yes_acceptance_button">Demo YES</string>
+
 	<!--Form-->
 	<string name="agreement_message">Por favor completá el cuestionario. Toda la información que nos regalás es para uso científico, sin fines comerciales ni publicitarios. Nos alegra mucho que participes. Gracias.</string>
 	<string name="complete_instruction">Presione LISTO para continuar\n</string>
