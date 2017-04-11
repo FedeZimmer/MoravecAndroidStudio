@@ -41,7 +41,7 @@
     <string name="number_of_languages">How many languages do you speak?</string>
     <string name="music_competences">What are your musical skills?</string>
     <string name="music_listener">Listener:</string>
-    <string name="music_instrumentist">Instrumentist:</string>
+    <string name="music_instrumentist">Player:</string>
     <string name="music_theory">Student:</string>
     <string name="none_music">Any</string>
     <string name="moderate_music">Moderate</string>

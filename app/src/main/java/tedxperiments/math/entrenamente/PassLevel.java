@@ -156,9 +156,21 @@ public class PassLevel {
 		 
 	    return savedValues;
 	}
-	
-	
-	
+
+
+	public static void setTrialNumber(long trialNumber, Context context) {
+
+		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
+		SharedPreferences.Editor editor = prefs.edit();
+		editor.putLong("trial_number", trialNumber);
+		editor.commit();
+	}
+
+	public static long getTrialNumber(Context context) {
+		SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
+		Long value=preferences.getLong("trial_number", 0);
+		return value;
+	}
 	
 	
 	public static boolean isActivityVisible() {

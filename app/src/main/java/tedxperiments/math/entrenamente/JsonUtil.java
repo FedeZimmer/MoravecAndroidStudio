@@ -1,7 +1,11 @@
 package tedxperiments.math.entrenamente;
 
+import android.content.pm.PackageInfo;
+import android.content.res.Resources;
+
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Locale;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -107,7 +111,8 @@ public class JsonUtil {
 			jsonObj.put("Hide_Question", DataObj.getHidden());
 			jsonObj.put("Session_Trial", DataObj.getArcorder());
 			jsonObj.put("Session_Correct", DataObj.getAcccorrect());
-			
+			jsonObj.put("trial_number", DataObj.getTrialNumber());
+
 			JSONArray jsonRTime = new JSONArray(); // we need another object to store the times
 			ArrayList<Long> resptimepass = new ArrayList<Long>();
 			resptimepass=DataObj.getTimes();
@@ -152,8 +157,28 @@ public class JsonUtil {
 			jsonObj.put("Corr_in_a_Row", DataObj.getCorrinarow());
 			
 			jsonObj.put("Score", DataObj.getMyScore());
-			
-			
+
+			//System Data
+			String systemLang = Resources.getSystem().getConfiguration().locale.getLanguage();
+			String appLang = Locale.getDefault().getLanguage();
+			if (systemLang==null)jsonPersonalData.put("system_language","");
+			else jsonPersonalData.put("system_language",systemLang);
+			if (appLang==null)jsonPersonalData.put("app_language","");
+			else jsonPersonalData.put("app_language",appLang);
+
+			try {
+				PackageInfo pinfo = MainActivity.THEcontext.getPackageManager().getPackageInfo(MainActivity.THEcontext.getPackageName(), 0);
+				int versionNumber = pinfo.versionCode;
+				if (versionNumber==0)jsonPersonalData.put("app_version","");
+				else {
+					String version = "Android_"+versionNumber;
+					jsonPersonalData.put("app_version",version);
+				}
+			}
+			catch (Exception e){
+				jsonPersonalData.put("app_version","");
+			}
+
 			return jsonObj;
 			
 		}

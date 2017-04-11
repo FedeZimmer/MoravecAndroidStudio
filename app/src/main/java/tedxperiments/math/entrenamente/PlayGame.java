@@ -347,7 +347,13 @@ public class PlayGame extends Activity implements OnClickListener {
 			answertime.clear();
 			Ti=0;
 			//Tj+=1;
-			
+
+			//TrialNumber
+			long tempTrialNumber = PassLevel.getTrialNumber(MainActivity.THEcontext);
+			tempTrialNumber = tempTrialNumber+1;
+			DScore.setTrialNumber(tempTrialNumber);
+			PassLevel.setTrialNumber(tempTrialNumber,MainActivity.THEcontext);
+
 			ContIntr+=1;
 			//Se pregunta instrospeccion cada 5
 			//El cronometro sigure corriendo PROBLEMA
@@ -954,10 +960,10 @@ public class PlayGame extends Activity implements OnClickListener {
 		newone.setHidden(dScore2.getHidden());
 		newone.setArcorder(dScore2.getArcorder());
 		newone.setAcccorrect(dScore2.getAcccorrect());
+		newone.setTrialNumber(dScore2.getTrialNumber());
 		newone.getMyScore();
 		newone.getTotTime();
-		
-		
+
 		return newone;
 	}
 

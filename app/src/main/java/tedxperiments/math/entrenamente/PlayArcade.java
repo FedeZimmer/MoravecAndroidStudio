@@ -408,6 +408,13 @@ public class PlayArcade extends Activity implements OnClickListener {
 			//Tj+=1;
 			leveltime=(int)(leveltime+(int)DScore.getTotTime());
 			ContIntr+=1;
+
+			//TrialNumber
+			long tempTrialNumber = PassLevel.getTrialNumber(MainActivity.THEcontext);
+			tempTrialNumber = tempTrialNumber+1;
+			DScore.setTrialNumber(tempTrialNumber);
+			PassLevel.setTrialNumber(tempTrialNumber,MainActivity.THEcontext);
+
 			boolean AskIntr= false;
 			if (level>15 && level<20) {if (random.nextInt(20)==1) AskIntr=true;}
 			else if (level>=20 && level<25){if (random.nextInt(10)==1) AskIntr=true;}
@@ -1168,6 +1175,7 @@ public class PlayArcade extends Activity implements OnClickListener {
 		newone.setHidden(dScore2.getHidden());
 		newone.setArcorder(dScore2.getArcorder());
 		newone.setAcccorrect(dScore2.getAcccorrect());
+		newone.setTrialNumber(dScore2.getTrialNumber());
 		newone.getMyScore();
 		newone.getTotTime();
 		

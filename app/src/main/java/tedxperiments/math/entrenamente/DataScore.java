@@ -47,6 +47,8 @@ public class DataScore {
 	private int hidden;
 	private int arcorder;
 	private int acccorrect;
+
+	private long trialNumber;
 	
 	
 	public void setLevel(int L) {
@@ -261,6 +263,14 @@ public class DataScore {
 	
 	public int getAcccorrect(){
 		return acccorrect;
+	}
+
+	public void setTrialNumber(long tn){
+		trialNumber = tn;
+	}
+
+	public  long getTrialNumber() {
+		return trialNumber;
 	}
 	
 		
