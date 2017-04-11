@@ -10,181 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9c771ba-d00b-46f0-9bef-78f15e07dccc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/AcceptanceActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/AcceptanceActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/AcceptanceActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/AcceptanceActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/HighList.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/HighList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/HowToPlay.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/HowToPlay.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/HowtoMul$SwipeFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/HowtoMul$SwipeFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/HowtoMul.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/HowtoMul.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/HowtoSquare$SwipeFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/HowtoSquare$SwipeFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/HowtoSquare.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/HowtoSquare.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/HowtoSum$SwipeFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/HowtoSum$SwipeFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/HowtoSum.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/HowtoSum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/JsonUtil.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/JsonUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/LevelSelect.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/LevelSelect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/MyArrayAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/MyArrayAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/PersonalQuestions$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/PersonalQuestions$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/PersonalQuestions$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/PersonalQuestions$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/PersonalQuestions$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/PersonalQuestions$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/PersonalQuestions$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/PersonalQuestions$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/PersonalQuestions$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/PersonalQuestions$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/PersonalQuestions.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/PersonalQuestions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/PlayArcade$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/PlayArcade$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/PlayArcade$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/PlayArcade$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/PlayArcade$HttpAsyncTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/PlayArcade$HttpAsyncTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/PlayArcade.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/PlayArcade.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/PlayGame$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/PlayGame$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/PlayGame$HttpAsyncTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/PlayGame$HttpAsyncTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/PlayGame.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/PlayGame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/StatsSelect.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tedxperiments/math/entrenamente/StatsSelect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/AcceptanceActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/AcceptanceActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/AcceptanceActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/AcceptanceActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/HighList.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/HighList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/HowToPlay.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/HowToPlay.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/HowtoMul$SwipeFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/HowtoMul$SwipeFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/HowtoMul.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/HowtoMul.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/HowtoSquare$SwipeFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/HowtoSquare$SwipeFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/HowtoSquare.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/HowtoSquare.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/HowtoSum$SwipeFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/HowtoSum$SwipeFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/HowtoSum.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/HowtoSum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/JsonUtil.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/JsonUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/LevelSelect.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/LevelSelect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/MyArrayAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/MyArrayAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/PersonalQuestions$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/PersonalQuestions$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/PersonalQuestions$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/PersonalQuestions$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/PersonalQuestions$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/PersonalQuestions$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/PersonalQuestions$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/PersonalQuestions$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/PersonalQuestions$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/PersonalQuestions$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/PersonalQuestions.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/PersonalQuestions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/PlayArcade$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/PlayArcade$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/PlayArcade$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/PlayArcade$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/PlayArcade$HttpAsyncTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/PlayArcade$HttpAsyncTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/PlayArcade.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/PlayArcade.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/PlayGame$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/PlayGame$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/PlayGame$HttpAsyncTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/PlayGame$HttpAsyncTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/PlayGame.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/PlayGame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/StatsSelect.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tedxperiments/math/entrenamente/StatsSelect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/7QePIbhg43zbVAZS9gZTjcirQEw=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/7QePIbhg43zbVAZS9gZTjcirQEw=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/7QePIbhg43zbVAZS9gZTjcirQEw=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/7QePIbhg43zbVAZS9gZTjcirQEw=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_5.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_5.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/AcceptanceActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/AcceptanceActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/AcceptanceActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/AcceptanceActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/HighList.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/HighList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/HowToPlay.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/HowToPlay.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/HowtoMul$SwipeFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/HowtoMul$SwipeFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/HowtoMul.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/HowtoMul.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/HowtoSquare$SwipeFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/HowtoSquare$SwipeFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/HowtoSquare.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/HowtoSquare.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/HowtoSum$SwipeFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/HowtoSum$SwipeFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/HowtoSum.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/HowtoSum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/JsonUtil.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/JsonUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/LevelSelect.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/LevelSelect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/MyArrayAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/MyArrayAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/PersonalQuestions$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/PersonalQuestions$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/PersonalQuestions$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/PersonalQuestions$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/PersonalQuestions$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/PersonalQuestions$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/PersonalQuestions$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/PersonalQuestions$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/PersonalQuestions$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/PersonalQuestions$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/PersonalQuestions.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/PersonalQuestions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/PlayArcade$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/PlayArcade$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/PlayArcade$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/PlayArcade$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/PlayArcade$HttpAsyncTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/PlayArcade$HttpAsyncTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/PlayArcade.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/PlayArcade.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/PlayGame$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/PlayGame$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/PlayGame$HttpAsyncTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/PlayGame$HttpAsyncTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/PlayGame.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/PlayGame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/StatsSelect.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/tedxperiments/math/entrenamente/StatsSelect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/AcceptanceActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/AcceptanceActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/AcceptanceActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/AcceptanceActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/HighList.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/HighList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/HowToPlay.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/HowToPlay.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/HowtoMul$SwipeFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/HowtoMul$SwipeFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/HowtoMul.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/HowtoMul.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/HowtoSquare$SwipeFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/HowtoSquare$SwipeFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/HowtoSquare.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/HowtoSquare.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/HowtoSum$SwipeFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/HowtoSum$SwipeFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/HowtoSum.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/HowtoSum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/JsonUtil.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/JsonUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/LevelSelect.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/LevelSelect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/MyArrayAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/MyArrayAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/PersonalQuestions$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/PersonalQuestions$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/PersonalQuestions$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/PersonalQuestions$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/PersonalQuestions$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/PersonalQuestions$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/PersonalQuestions$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/PersonalQuestions$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/PersonalQuestions$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/PersonalQuestions$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/PersonalQuestions.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/PersonalQuestions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/PlayArcade$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/PlayArcade$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/PlayArcade$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/PlayArcade$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/PlayArcade$HttpAsyncTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/PlayArcade$HttpAsyncTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/PlayArcade.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/PlayArcade.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/PlayGame$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/PlayGame$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/PlayGame$HttpAsyncTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/PlayGame$HttpAsyncTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/PlayGame.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/PlayGame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/StatsSelect.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/tedxperiments/math/entrenamente/StatsSelect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/tedxperiments/math/entrenamente/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/tedxperiments/math/entrenamente/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-es.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-es.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fr.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_5/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_5/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_personaldata.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_personaldata.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-en/values-en.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-en/values-en.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-es/values-es.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-es/values-es.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-fr/values-fr.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-fr/values-fr.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-pt/values-pt.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-pt/values-pt.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/buildId.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/JsonUtil.java" afterPath="$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/JsonUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/PersonalQuestions.java" afterPath="$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/PersonalQuestions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/PlayArcade.java" afterPath="$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/PlayArcade.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/PlayGame.java" afterPath="$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/PlayGame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_personaldata.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_personaldata.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values-en/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-en/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values-es/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-es/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values-fr/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-fr/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values-pt/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-pt/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/ArcLevel.java" afterPath="$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/ArcLevel.java" />
     </list>
     <ignored path="MoravecAndroid.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -216,107 +45,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="activity_personaldata.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_personaldata.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="313" column="53" selection-start-line="313" selection-start-column="48" selection-end-line="313" selection-end-column="53" />
-              <folding>
-                <element signature="e#4395#4421#0" expanded="true" />
-                <element signature="e#8162#8187#0" expanded="true" />
-                <element signature="e#8761#8778#0" expanded="true" />
-                <element signature="e#9075#9092#0" expanded="true" />
-                <element signature="e#9368#9384#0" expanded="true" />
-                <element signature="e#9684#9704#0" expanded="true" />
-                <element signature="e#9999#10014#0" expanded="true" />
-                <element signature="e#10325#10354#0" expanded="true" />
-                <element signature="e#11085#11112#0" expanded="true" />
-                <element signature="e#11438#11462#0" expanded="true" />
-                <element signature="e#12101#12121#0" expanded="true" />
-                <element signature="e#12425#12449#0" expanded="true" />
-                <element signature="e#12728#12748#0" expanded="true" />
-                <element signature="e#13059#13088#0" expanded="true" />
-                <element signature="e#13731#13751#0" expanded="true" />
-                <element signature="e#14060#14084#0" expanded="true" />
-                <element signature="e#14368#14388#0" expanded="true" />
-                <element signature="e#14692#14714#0" expanded="true" />
-                <element signature="e#15341#15361#0" expanded="true" />
-                <element signature="e#15663#15687#0" expanded="true" />
-                <element signature="e#15964#15984#0" expanded="true" />
-                <marker date="1491774077000" expanded="false" signature="16309:16329" ph="&quot;Nombre&quot;" />
-                <marker date="1491774077000" expanded="false" signature="16737:16769" ph="&quot;Carlos Gonzalez&quot;" />
-                <marker date="1491774077000" expanded="false" signature="17258:17273" ph="&quot;Email&quot;" />
-                <marker date="1491774077000" expanded="false" signature="17605:17632" ph="&quot;carlos@gmail.com&quot;" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-469">
-              <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayArcade.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/PlayArcade.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="1587" column="79" selection-start-line="1587" selection-start-column="79" selection-end-line="1587" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayGame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/PlayGame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="1372" column="79" selection-start-line="1372" selection-start-column="20" selection-end-line="1372" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/JsonUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PersonalQuestions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/PersonalQuestions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
+            <state relative-caret-position="560">
               <caret line="263" column="97" selection-start-line="261" selection-start-column="13" selection-end-line="263" selection-end-column="97" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5468#6243#0" expanded="true" />
-                <element signature="e#6242#6243#0" expanded="true" />
-                <element signature="e#7124#7897#0" expanded="true" />
-                <element signature="e#7896#7897#0" expanded="true" />
-                <element signature="e#7940#8641#0" expanded="true" />
-                <element signature="e#8640#8641#0" expanded="true" />
-                <element signature="e#8684#9322#0" expanded="true" />
-                <element signature="e#9321#9322#0" expanded="true" />
-                <element signature="e#9370#10013#0" expanded="true" />
-                <element signature="e#10012#10013#0" expanded="true" />
-                <element signature="e#10054#10690#0" expanded="true" />
-                <element signature="e#10689#10690#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArcLevel.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/ArcLevel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="330" column="0" selection-start-line="330" selection-start-column="0" selection-end-line="330" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1869,6 +1615,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/PlayGame.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/JsonUtil.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/PlayArcade.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/ArcLevel.java" />
       </list>
     </option>
   </component>
@@ -1903,6 +1650,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
@@ -2028,12 +1776,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
       <pane id="Scope">
         <subPane subId="Problems" />
+      </pane>
+      <pane id="ProjectPane">
+        <subPane />
       </pane>
     </panes>
   </component>
@@ -2438,7 +2185,6 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31308413" sideWeight="0.5125184" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20029455" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2496318" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2455,6 +2201,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39719626" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -2602,13 +2349,13 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_pager.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/HowToPlay.java">
@@ -2619,13 +2366,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_statsselect.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1350">
           <caret line="277" column="16" selection-start-line="277" selection-start-column="16" selection-end-line="277" selection-end-column="16" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/LevelSelect.java">
@@ -2671,13 +2418,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_highchart.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/HighScores.java">
@@ -2705,13 +2452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/ArcLevel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3780">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -2754,30 +2494,29 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_how.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="120" column="50" selection-start-line="120" selection-start-column="50" selection-end-line="120" selection-end-column="50" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/toast_endlevel.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/toast_endlevel.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="87" column="41" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/tedxperiments/math/entrenamente/R.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="115" column="53" selection-start-line="115" selection-start-column="53" selection-end-line="115" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2811,7 +2550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1435">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2819,7 +2557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2827,7 +2564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2835,7 +2571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="13" column="91" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="91" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2851,7 +2586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="4482" column="0" selection-start-line="4482" selection-start-column="0" selection-end-line="4482" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2859,7 +2593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="2656" column="0" selection-start-line="2656" selection-start-column="0" selection-end-line="2656" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2877,31 +2610,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="71" column="31" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/HighList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-360">
           <caret line="58" column="16" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-469">
-          <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2921,29 +2643,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_acceptance.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="22" column="21" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="21" />
-          <folding>
-            <element signature="e#272#305#0" expanded="true" />
-            <element signature="e#330#365#0" expanded="true" />
-            <element signature="e#391#426#0" expanded="true" />
-            <element signature="e#450#483#0" expanded="true" />
-            <element signature="e#1117#1142#0" expanded="true" />
-            <element signature="e#1449#1478#0" expanded="true" />
-            <element signature="e#1814#1844#0" expanded="true" />
-          </folding>
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="53" column="48" selection-start-line="47" selection-start-column="4" selection-end-line="53" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2951,7 +2663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
           <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2959,7 +2670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2967,7 +2677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
           <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2975,82 +2684,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/PersonalQuestions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="263" column="97" selection-start-line="261" selection-start-column="13" selection-end-line="263" selection-end-column="97" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5468#6243#0" expanded="true" />
-            <element signature="e#6242#6243#0" expanded="true" />
-            <element signature="e#7124#7897#0" expanded="true" />
-            <element signature="e#7896#7897#0" expanded="true" />
-            <element signature="e#7940#8641#0" expanded="true" />
-            <element signature="e#8640#8641#0" expanded="true" />
-            <element signature="e#8684#9322#0" expanded="true" />
-            <element signature="e#9321#9322#0" expanded="true" />
-            <element signature="e#9370#10013#0" expanded="true" />
-            <element signature="e#10012#10013#0" expanded="true" />
-            <element signature="e#10054#10690#0" expanded="true" />
-            <element signature="e#10689#10690#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/JsonUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/PlayGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="1372" column="79" selection-start-line="1372" selection-start-column="20" selection-end-line="1372" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/PlayArcade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="1587" column="79" selection-start-line="1587" selection-start-column="79" selection-end-line="1587" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_personaldata.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="313" column="53" selection-start-line="313" selection-start-column="48" selection-end-line="313" selection-end-column="53" />
+        <state relative-caret-position="315">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
           <folding>
-            <element signature="e#4395#4421#0" expanded="true" />
-            <element signature="e#8162#8187#0" expanded="true" />
-            <element signature="e#8761#8778#0" expanded="true" />
-            <element signature="e#9075#9092#0" expanded="true" />
-            <element signature="e#9368#9384#0" expanded="true" />
-            <element signature="e#9684#9704#0" expanded="true" />
-            <element signature="e#9999#10014#0" expanded="true" />
-            <element signature="e#10325#10354#0" expanded="true" />
-            <element signature="e#11085#11112#0" expanded="true" />
-            <element signature="e#11438#11462#0" expanded="true" />
-            <element signature="e#12101#12121#0" expanded="true" />
-            <element signature="e#12425#12449#0" expanded="true" />
-            <element signature="e#12728#12748#0" expanded="true" />
-            <element signature="e#13059#13088#0" expanded="true" />
-            <element signature="e#13731#13751#0" expanded="true" />
-            <element signature="e#14060#14084#0" expanded="true" />
-            <element signature="e#14368#14388#0" expanded="true" />
-            <element signature="e#14692#14714#0" expanded="true" />
-            <element signature="e#15341#15361#0" expanded="true" />
-            <element signature="e#15663#15687#0" expanded="true" />
-            <element signature="e#15964#15984#0" expanded="true" />
             <marker date="1491774077000" expanded="false" signature="16309:16329" ph="&quot;Nombre&quot;" />
             <marker date="1491774077000" expanded="false" signature="16737:16769" ph="&quot;Carlos Gonzalez&quot;" />
             <marker date="1491774077000" expanded="false" signature="17258:17273" ph="&quot;Email&quot;" />
@@ -3058,8 +2702,57 @@
           </folding>
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/PlayArcade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="1587" column="79" selection-start-line="1587" selection-start-column="79" selection-end-line="1587" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/PlayGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="1372" column="79" selection-start-line="1372" selection-start-column="20" selection-end-line="1372" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/JsonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/PersonalQuestions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="263" column="97" selection-start-line="261" selection-start-column="13" selection-end-line="263" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/tedxperiments/math/entrenamente/ArcLevel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="330" column="0" selection-start-line="330" selection-start-column="0" selection-end-line="330" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
