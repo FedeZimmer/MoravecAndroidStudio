@@ -11,5 +11,5 @@ public final class BuildConfig {
   public static final int VERSION_CODE = -1;
   public static final String VERSION_NAME = "";
   // Fields from build type: debug
-  public static final String SERVER_URL = "https://dennett-test.herokuapp.com/api/v1/trials";
+  public static final String SERVER_URL = "https://dennett-stage.herokuapp.com/api/v1/trials";
 }

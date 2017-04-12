@@ -63,7 +63,7 @@ public class AsyncSend extends AsyncTask<String, Void, String> {
 								   JSONObject jsonObject = new JSONObject();
 								   jsonObject.put("test_subject", "HerokuTest");
 								   jsonObject.put("experiment_log",jsonData.toString());
-								   jsonObject.put("experiment_name","MoravecData_v01");
+								   jsonObject.put("experiment_name","MoravecData_v02");
 								   //jsonObject.put("experiment_name","Entrenamente_v4");
 								   //jsonObject.put("experiment_name","Entrenamente");
 								   

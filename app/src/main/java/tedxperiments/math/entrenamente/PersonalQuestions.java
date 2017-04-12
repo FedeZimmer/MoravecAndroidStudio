@@ -21,6 +21,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
+import java.text.Normalizer;
 import java.util.Locale;
 
 import tedxperiments.math.entrenamente.R;
@@ -252,16 +253,16 @@ public class PersonalQuestions extends Activity implements OnClickListener {
 //			PassLevel.setNewPersonal("myName", name, MainActivity.THEcontext);
 //			PassLevel.setNewPersonal("myEmail", email, MainActivity.THEcontext);
 			PassLevel.setNewPersonal("myBirth", birthyear, MainActivity.THEcontext);
-			PassLevel.setNewPersonal("myGender", genderAnswer, MainActivity.THEcontext);
-			PassLevel.setNewPersonal("myStudies", studiesAnswer, MainActivity.THEcontext);
-			PassLevel.setNewPersonal("myHand", handAnswer, MainActivity.THEcontext);
+			PassLevel.setNewPersonal("myGender", noacentos(genderAnswer), MainActivity.THEcontext);
+			PassLevel.setNewPersonal("myStudies", noacentos(studiesAnswer), MainActivity.THEcontext);
+			PassLevel.setNewPersonal("myHand", noacentos(handAnswer), MainActivity.THEcontext);
 			//New
-			PassLevel.setNewPersonal("myLanguage", languageAnswer, MainActivity.THEcontext);
+			PassLevel.setNewPersonal("myLanguage", noacentos(languageAnswer), MainActivity.THEcontext);
 			PassLevel.setNewPersonal("myLanguageId", String.valueOf(languageAnswerId), MainActivity.THEcontext);
 			PassLevel.setNewPersonal("myNumberOfLanguages", numberOfLaguagesAnswer, MainActivity.THEcontext);
-			PassLevel.setNewPersonal("music_listener", musicListenerAnswer, MainActivity.THEcontext);
-			PassLevel.setNewPersonal("music_instrumentist", musicInstrumentistAnswer, MainActivity.THEcontext);
-			PassLevel.setNewPersonal("music_theory", musicTheoryAnswer, MainActivity.THEcontext);
+			PassLevel.setNewPersonal("music_listener", noacentos(musicListenerAnswer), MainActivity.THEcontext);
+			PassLevel.setNewPersonal("music_instrumentist", noacentos(musicInstrumentistAnswer), MainActivity.THEcontext);
+			PassLevel.setNewPersonal("music_theory", noacentos(musicTheoryAnswer), MainActivity.THEcontext);
 
 			int askpersonal = PassLevel.getAskPersonal("Ask", MainActivity.THEcontext);
 
@@ -313,16 +314,16 @@ public class PersonalQuestions extends Activity implements OnClickListener {
 //			PassLevel.setNewPersonal("myName", name, MainActivity.THEcontext);
 //			PassLevel.setNewPersonal("myEmail", email, MainActivity.THEcontext);
 			PassLevel.setNewPersonal("myBirth", birthyear, MainActivity.THEcontext);
-			PassLevel.setNewPersonal("myGender", genderAnswer, MainActivity.THEcontext);
-			PassLevel.setNewPersonal("myStudies", studiesAnswer, MainActivity.THEcontext);
-			PassLevel.setNewPersonal("myHand", handAnswer, MainActivity.THEcontext);
+			PassLevel.setNewPersonal("myGender", noacentos(genderAnswer), MainActivity.THEcontext);
+			PassLevel.setNewPersonal("myStudies", noacentos(studiesAnswer), MainActivity.THEcontext);
+			PassLevel.setNewPersonal("myHand", noacentos(handAnswer), MainActivity.THEcontext);
 			//New
-			PassLevel.setNewPersonal("myLanguage", languageAnswer, MainActivity.THEcontext);
+			PassLevel.setNewPersonal("myLanguage", noacentos(languageAnswer), MainActivity.THEcontext);
 			PassLevel.setNewPersonal("myLanguageId", String.valueOf(languageAnswerId), MainActivity.THEcontext);
 			PassLevel.setNewPersonal("myNumberOfLanguages", numberOfLaguagesAnswer, MainActivity.THEcontext);
-			PassLevel.setNewPersonal("music_listener", musicListenerAnswer, MainActivity.THEcontext);
-			PassLevel.setNewPersonal("music_instrumentist", musicInstrumentistAnswer, MainActivity.THEcontext);
-			PassLevel.setNewPersonal("music_theory", musicTheoryAnswer, MainActivity.THEcontext);
+			PassLevel.setNewPersonal("music_listener", noacentos(musicListenerAnswer), MainActivity.THEcontext);
+			PassLevel.setNewPersonal("music_instrumentist", noacentos(musicInstrumentistAnswer), MainActivity.THEcontext);
+			PassLevel.setNewPersonal("music_theory", noacentos(musicTheoryAnswer), MainActivity.THEcontext);
 
 			setNativeLanguage();
 
@@ -340,13 +341,14 @@ public class PersonalQuestions extends Activity implements OnClickListener {
     
     private String noacentos(String s) {
 		// TODO Auto-generated method stub
-    	String conAcentos = "αινσϊρ";
-        String sinAcentos = "aeioun";
-    	for (int i = 0; i < conAcentos.length(); i++)
-            s = s.replace(conAcentos.charAt(i), sinAcentos.charAt(i));
-        return s;
-		
-	}
+    	//String conAcentos = "Γ΅Γ©Γ­Γ³ΓΊ'Γ¨ΓªΓ‰Γ§";
+        //String sinAcentos = "aeiou eeEc";
+    	//for (int i = 0; i < conAcentos.length(); i++)
+        //    s = s.replace(conAcentos.charAt(i), sinAcentos.charAt(i));
+		       // return s;
+		String convertedString = Normalizer.normalize(s, Normalizer.Form.NFD).replaceAll("[^\\p{ASCII}]", "");
+		return convertedString;
+    }
 
 
 
