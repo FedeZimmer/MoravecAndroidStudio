@@ -1,4 +1,4 @@
-#Wed Apr 12 12:25:57 BST 2017
+#Wed Apr 19 10:42:59 BST 2017
 base.0=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5
 renamed.0=classes.dex
 file.0=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex

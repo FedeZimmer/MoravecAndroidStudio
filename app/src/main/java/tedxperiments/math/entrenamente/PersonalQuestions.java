@@ -9,6 +9,7 @@ import android.app.Activity;
 import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.text.Html;
+import android.text.TextUtils;
 import android.text.format.DateFormat;
 import android.text.format.Time;
 import android.view.KeyEvent;
@@ -346,8 +347,13 @@ public class PersonalQuestions extends Activity implements OnClickListener {
     	//for (int i = 0; i < conAcentos.length(); i++)
         //    s = s.replace(conAcentos.charAt(i), sinAcentos.charAt(i));
 		       // return s;
-		String convertedString = Normalizer.normalize(s, Normalizer.Form.NFD).replaceAll("[^\\p{ASCII}]", "");
-		return convertedString;
+		if (TextUtils.isEmpty(s)) {
+			return "";
+		}
+		else {
+			String convertedString = Normalizer.normalize(s, Normalizer.Form.NFD).replaceAll("[^\\p{ASCII}]", "");
+			return convertedString;
+		}
     }
 
 
