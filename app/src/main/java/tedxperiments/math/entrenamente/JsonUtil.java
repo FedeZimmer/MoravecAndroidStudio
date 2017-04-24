@@ -63,31 +63,44 @@ public class JsonUtil {
 			JSONObject jsonPersonalData = new JSONObject();
 			if (theAUID==null)jsonPersonalData.put("AUID", "ID not detected");
 			else jsonPersonalData.put("AUID", theAUID);
-			if (theName==null)jsonPersonalData.put("Name","");
-			else jsonPersonalData.put("Name", theName);
-			if (theEmail==null)jsonPersonalData.put("Email", "");
-			else jsonPersonalData.put("Email", theEmail);
-			if (theBirth==null || theBirth=="")
-				{jsonPersonalData.put("Birthdate", "");}
-				else { jsonPersonalData.put("Birthdate", jsonBirthVector);}
-			if (theGender==null) jsonPersonalData.put("Gender", "");
-			else jsonPersonalData.put("Gender", theGender);
-			if (theStudies==null) jsonPersonalData.put("Studies", "");
-			else jsonPersonalData.put("Studies", theStudies);
-			if (theHand==null) jsonPersonalData.put("Hand", "");
-			else jsonPersonalData.put("Hand", theHand);
-			if (theLanguage==null)jsonPersonalData.put("Native_Language","");
-			else jsonPersonalData.put("Native_Language",theLanguage);
-			if (theNumberOfLanguages==null)jsonPersonalData.put("Number_of_Languages","");
-			else jsonPersonalData.put("Number_of_Languages",theNumberOfLanguages);
-			if (musicListener==null)jsonPersonalData.put("Music_Listener","");
-			else jsonPersonalData.put("Music_Listener",musicListener);
-			if (musicInstrumentist==null)jsonPersonalData.put("Music_Instrumentist","");
-			else jsonPersonalData.put("Music_Instrumentist",musicInstrumentist);
-			if (musicTheory==null)jsonPersonalData.put("Music_Theory","");
-			else jsonPersonalData.put("Music_Theory",musicTheory);
+
+			if (DataObj.getArcorder() == 1) {
+				if (theName == null) jsonPersonalData.put("Name", "");
+				else jsonPersonalData.put("Name", theName);
+				if (theEmail == null) jsonPersonalData.put("Email", "");
+				else jsonPersonalData.put("Email", theEmail);
+				if (theBirth == null || theBirth == "") {
+					jsonPersonalData.put("Birthdate", "");
+				} else {
+					jsonPersonalData.put("Birthdate", jsonBirthVector);
+				}
+				if (theGender == null) jsonPersonalData.put("Gender", "");
+				else jsonPersonalData.put("Gender", theGender);
+				if (theStudies == null) jsonPersonalData.put("Studies", "");
+				else jsonPersonalData.put("Studies", theStudies);
+				if (theHand == null) jsonPersonalData.put("Hand", "");
+				else jsonPersonalData.put("Hand", theHand);
+				if (theLanguage == null) jsonPersonalData.put("Native_Language", "");
+				else jsonPersonalData.put("Native_Language", theLanguage);
+				if (theNumberOfLanguages == null) jsonPersonalData.put("Number_of_Languages", "");
+				else jsonPersonalData.put("Number_of_Languages", theNumberOfLanguages);
+				if (musicListener == null) jsonPersonalData.put("Music_Listener", "");
+				else jsonPersonalData.put("Music_Listener", musicListener);
+				if (musicInstrumentist == null) jsonPersonalData.put("Music_Instrumentist", "");
+				else jsonPersonalData.put("Music_Instrumentist", musicInstrumentist);
+				if (musicTheory == null) jsonPersonalData.put("Music_Theory", "");
+				else jsonPersonalData.put("Music_Theory", musicTheory);
+
+				//System Data
+				String systemLang = Resources.getSystem().getConfiguration().locale.getLanguage();
+				String appLang = Locale.getDefault().getLanguage();
+				if (systemLang==null)jsonPersonalData.put("System_Language","");
+				else jsonPersonalData.put("System_Language",systemLang);
+				if (appLang==null)jsonPersonalData.put("App_Language","");
+				else jsonPersonalData.put("App_Language",appLang);
+			}
 			jsonObj.put("PersonalData", jsonPersonalData);
-			
+
 			jsonObj.put("Game_Type", DataObj.getGameType());
 			jsonObj.put("Level", DataObj.getLevel());  
 			jsonObj.put("Operation_Type", DataObj.getOpType());
@@ -158,25 +171,17 @@ public class JsonUtil {
 			
 			jsonObj.put("Score", DataObj.getMyScore());
 
-			//System Data
-			String systemLang = Resources.getSystem().getConfiguration().locale.getLanguage();
-			String appLang = Locale.getDefault().getLanguage();
-			if (systemLang==null)jsonPersonalData.put("System_Language","");
-			else jsonPersonalData.put("System_Language",systemLang);
-			if (appLang==null)jsonPersonalData.put("App_Language","");
-			else jsonPersonalData.put("App_Language",appLang);
-
 			try {
 				PackageInfo pinfo = MainActivity.THEcontext.getPackageManager().getPackageInfo(MainActivity.THEcontext.getPackageName(), 0);
 				int versionNumber = pinfo.versionCode;
-				if (versionNumber==0)jsonPersonalData.put("App_Version","");
+				if (versionNumber==0)jsonObj.put("App_Version","");
 				else {
 					String version = "Android_"+versionNumber;
-					jsonPersonalData.put("App_Version",version);
+					jsonObj.put("App_Version",version);
 				}
 			}
 			catch (Exception e){
-				jsonPersonalData.put("App_Version","");
+				jsonObj.put("App_Version","");
 			}
 
 			return jsonObj;
