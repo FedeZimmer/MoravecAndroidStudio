@@ -100,6 +100,7 @@
     <string name="retry">Essayez à nouveau</string>
     <string name="right_handed">Droitier</string>
     <string name="school_completed">École primaire achevée</string>
+    <string name="set_language">Définir la langue</string>
     <string name="spanish">Espagnol</string>
     <string name="stats_button">STATISTIQUES</string>
     <string name="stats_navbar">Statistiques</string>
@@ -121,4 +122,7 @@
     <string name="wrong_correct_answer">C\'était\u0020</string>
     <string name="wrong_entered_answer">ce n\'était pas\u0020</string>
     <string name="youtube_button">\u0020Regardez comment faire\u0020</string>
+    <string name="youtube_link_mul">https://www.youtube.com/watch?v=egcXRXXWuwE</string>
+    <string name="youtube_link_sq">https://www.youtube.com/watch?v=DyBsVVe5w5g</string>
+    <string name="youtube_link_sum">https://www.youtube.com/watch?v=9aW6b2qZ18s</string>
 </resources>

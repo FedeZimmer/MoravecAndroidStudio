@@ -45,7 +45,7 @@ public class HowtoSum extends FragmentActivity {
         youtubebtn.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View viewIn) {
-            	startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=Ies8X7VxGKs")));
+            	startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.youtube_link_sum))));
             }
         });
     	

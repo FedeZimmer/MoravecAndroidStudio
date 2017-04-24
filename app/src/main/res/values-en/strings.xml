@@ -14,6 +14,13 @@
     <string name="stats_button">STATS</string>
     <string name="developer_signature">Developed by FedeZ</string>
 
+    <!--Acceptance-->
+    <string name="acceptance_text">Je certifie avoir donné mon accord pour participer à une recherche en ligne sur le calcul mental. J\'accepte volontairement de participer à cette étude et je comprends que ma participation n\'est pas obligatoire et que je peux stopper ma participation à tout moment sans avoir à me justifier ni encourir aucune responsabilité. Mon consentement ne décharge pas les organisateurs de la recherche de leurs responsabilités et je conserve tous mes droits garantis par la loi.\n\nAu cours de cette expérience, j’accepte que soient recueillies des données chronométriques sur mes réponses. Je comprends que les informations recueillies sont strictement confidentielles et à usage exclusif des investigateurs concernés.\n\nJ’ai été informé que mon identité ne m’est pas demandée par le logiciel, qu’elle n’apparaîtra dans aucun rapport ou publication, et que toute information me concernant sera traitée de façon confidentielle. J’accepte que les données enregistrées à l’occasion de cette étude puissent être conservées dans une base de données et faire l’objet d’un traitement informatisé non nominatif.
+	</string>
+    <string name="acceptance_checkbox">Accord</string>
+    <string name="no_acceptance_button">Retourner</string>
+    <string name="yes_acceptance_button">Continuer</string>
+
     <!--Form-->
     <string name="agreement_message">Please, fill the questionnaire. All information will be used for scientific purpose only. It will not be use for any commercial or advertising purpose. We are delighted for your participation. Thank you.</string>
     <string name="complete_instruction">Press DONE to continue\n</string>
@@ -33,6 +40,7 @@
     <string name="left_handed">Left handed</string>
     <string name="ambidextrous">Ambidextrous</string>
     <string name="native_language">Native language - First language</string>
+    <string name="set_language">Set language</string>
     <string name="english">English</string>
     <string name="spanish">Spanish</string>
     <string name="french">French</string>
@@ -117,6 +125,9 @@
     <string name="tutorial_square_button">Square</string>
     <string name="tutorial_message">Moravec has 3 main goals: playing, practicing and learning.\nIt\'s a fun challenge that allows you to train and improve your cognitive abilities of mathematical calculation. At the same time, it provides us with valuable information to conduct research in neuroscience. Extending the current knowledge on cognition and learning.\n\nFor experimental reasons we ask you for your effort and confidence in the answers. Use the sliders to answer and continue to the next question.\n</string>
     <string name="youtube_button">\u0020Watch how to do it\u0020</string>
+    <string name="youtube_link_sum">https://www.youtube.com/watch?v=9aW6b2qZ18s</string>
+    <string name="youtube_link_mul">https://www.youtube.com/watch?v=egcXRXXWuwE</string>
+    <string name="youtube_link_sq">https://www.youtube.com/watch?v=DyBsVVe5w5g</string>
 
     <!--Tutorial Sums-->
     <string name="tutorial_sum_title">Sum</string>

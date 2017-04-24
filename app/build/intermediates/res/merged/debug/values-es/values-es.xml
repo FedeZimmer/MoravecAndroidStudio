@@ -58,7 +58,7 @@
     <string name="gender">Género</string>
     <string name="graph_navbar">Tiempos de respuesta</string>
     <string name="hello_world">Hello world!</string>
-    <string name="high_music">Avanzanda</string>
+    <string name="high_music">Avanzada</string>
     <string name="highschool_completed">Secundaria terminada</string>
     <string name="highschool_in_progress">Secundaria en curso</string>
     <string name="introspection_title">En la última cuenta:\u0020</string>
@@ -100,6 +100,7 @@
     <string name="retry">Vuelva a intentarlo</string>
     <string name="right_handed">Diestro</string>
     <string name="school_completed">Primaria terminada</string>
+    <string name="set_language">Elegir idioma</string>
     <string name="spanish">Español</string>
     <string name="stats_button">ESTADÍSTICAS</string>
     <string name="stats_navbar">Estadísticas</string>
@@ -133,4 +134,7 @@
     <string name="wrong_correct_answer">Era\u0020</string>
     <string name="wrong_entered_answer">y no\u0020</string>
     <string name="youtube_button">\u0020Mirá cómo hacerlo\u0020</string>
+    <string name="youtube_link_mul">https://www.youtube.com/watch?v=mwa-zblNdR4</string>
+    <string name="youtube_link_sq">https://www.youtube.com/watch?v=_CUWlWjFreM</string>
+    <string name="youtube_link_sum">https://www.youtube.com/watch?v=Ies8X7VxGKs</string>
 </resources>

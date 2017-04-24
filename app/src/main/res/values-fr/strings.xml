@@ -33,6 +33,7 @@
     <string name="left_handed">Gaucher</string>
     <string name="ambidextrous">Ambidextre</string>
     <string name="native_language">Langue natale - Première  langue</string>
+    <string name="set_language">Définir la langue</string>
     <string name="english">Anglais</string>
     <string name="spanish">Espagnol</string>
     <string name="french">Français</string>
@@ -117,6 +118,10 @@
     <string name="tutorial_square_button">Au carré</string>
     <string name="tutorial_message">Moravec a trois buts principaux: jouer, se former, et apprendre.\nIl s\'agit d\'un jeu amusant qui entraîne et qui améliore les compétences en calcul mathématique. En même temps, il nous fournit des données utiles en sciences cognitives, en augmentant les connaissances actuelles sur la cognition et l\'apprentissage. \n\nA des fins expérimentales, nous vous demandons de juger le niveau de confiance et d\'effort que vous avez ressenti au cours des calculs. Utilisez les barres pour répondre et passer à la question suivante.\n</string>
     <string name="youtube_button">\u0020Regardez comment faire\u0020</string>
+    <string name="youtube_link_sum">https://www.youtube.com/watch?v=9aW6b2qZ18s</string>
+    <string name="youtube_link_mul">https://www.youtube.com/watch?v=egcXRXXWuwE</string>
+    <string name="youtube_link_sq">https://www.youtube.com/watch?v=DyBsVVe5w5g</string>
+
 
     <!--Tutorial Sums-->
     <string name="tutorial_sum_title">Somme</string>

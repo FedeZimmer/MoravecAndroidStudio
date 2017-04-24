@@ -530,14 +530,7 @@
                     "endOffset": 5421
                 },
                 "from": {
-                    "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml",
-                    "position": {
-                        "startLine": 47,
-                        "startColumn": 4,
-                        "startOffset": 2458,
-                        "endColumn": 47,
-                        "endOffset": 2501
-                    }
+                    "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
                 }
             },
             {
@@ -693,14 +686,7 @@
                     "endOffset": 6194
                 },
                 "from": {
-                    "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml",
-                    "position": {
-                        "startLine": 46,
-                        "startColumn": 4,
-                        "startOffset": 2406,
-                        "endColumn": 51,
-                        "endOffset": 2453
-                    }
+                    "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
                 }
             },
             {
@@ -724,14 +710,7 @@
                     "endOffset": 6350
                 },
                 "from": {
-                    "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml",
-                    "position": {
-                        "startLine": 41,
-                        "startColumn": 4,
-                        "startOffset": 2113,
-                        "endColumn": 78,
-                        "endOffset": 2187
-                    }
+                    "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
                 }
             },
             {
@@ -743,14 +722,7 @@
                     "endOffset": 6414
                 },
                 "from": {
-                    "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml",
-                    "position": {
-                        "startLine": 43,
-                        "startColumn": 4,
-                        "startOffset": 2244,
-                        "endColumn": 63,
-                        "endOffset": 2303
-                    }
+                    "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
                 }
             },
             {
@@ -762,14 +734,7 @@
                     "endOffset": 6466
                 },
                 "from": {
-                    "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml",
-                    "position": {
-                        "startLine": 42,
-                        "startColumn": 4,
-                        "startOffset": 2192,
-                        "endColumn": 51,
-                        "endOffset": 2239
-                    }
+                    "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
                 }
             },
             {
@@ -781,14 +746,7 @@
                     "endOffset": 6518
                 },
                 "from": {
-                    "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml",
-                    "position": {
-                        "startLine": 44,
-                        "startColumn": 4,
-                        "startOffset": 2308,
-                        "endColumn": 51,
-                        "endOffset": 2355
-                    }
+                    "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
                 }
             },
             {
@@ -860,14 +818,7 @@
                     "endOffset": 6928
                 },
                 "from": {
-                    "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml",
-                    "position": {
-                        "startLine": 45,
-                        "startColumn": 4,
-                        "startOffset": 2360,
-                        "endColumn": 45,
-                        "endOffset": 2401
-                    }
+                    "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
                 }
             },
             {
@@ -1079,20 +1030,27 @@
                     "startLine": 102,
                     "startColumn": 4,
                     "startOffset": 7866,
-                    "endColumn": 44,
-                    "endOffset": 7906
+                    "endColumn": 55,
+                    "endOffset": 7917
                 },
                 "from": {
-                    "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
+                    "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 1818,
+                        "endColumn": 55,
+                        "endOffset": 1869
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 103,
                     "startColumn": 4,
-                    "startOffset": 7911,
-                    "endColumn": 53,
-                    "endOffset": 7960
+                    "startOffset": 7922,
+                    "endColumn": 44,
+                    "endOffset": 7962
                 },
                 "from": {
                     "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
@@ -1102,9 +1060,9 @@
                 "to": {
                     "startLine": 104,
                     "startColumn": 4,
-                    "startOffset": 7965,
+                    "startOffset": 7967,
                     "endColumn": 53,
-                    "endOffset": 8014
+                    "endOffset": 8016
                 },
                 "from": {
                     "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
@@ -1114,9 +1072,9 @@
                 "to": {
                     "startLine": 105,
                     "startColumn": 4,
-                    "startOffset": 8019,
-                    "endColumn": 65,
-                    "endOffset": 8080
+                    "startOffset": 8021,
+                    "endColumn": 53,
+                    "endOffset": 8070
                 },
                 "from": {
                     "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
@@ -1126,9 +1084,9 @@
                 "to": {
                     "startLine": 106,
                     "startColumn": 4,
-                    "startOffset": 8085,
-                    "endColumn": 57,
-                    "endOffset": 8138
+                    "startOffset": 8075,
+                    "endColumn": 65,
+                    "endOffset": 8136
                 },
                 "from": {
                     "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
@@ -1138,9 +1096,9 @@
                 "to": {
                     "startLine": 107,
                     "startColumn": 4,
-                    "startOffset": 8143,
-                    "endColumn": 96,
-                    "endOffset": 8235
+                    "startOffset": 8141,
+                    "endColumn": 57,
+                    "endOffset": 8194
                 },
                 "from": {
                     "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
@@ -1150,9 +1108,9 @@
                 "to": {
                     "startLine": 108,
                     "startColumn": 4,
-                    "startOffset": 8240,
-                    "endColumn": 86,
-                    "endOffset": 8322
+                    "startOffset": 8199,
+                    "endColumn": 96,
+                    "endOffset": 8291
                 },
                 "from": {
                     "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
@@ -1162,9 +1120,9 @@
                 "to": {
                     "startLine": 109,
                     "startColumn": 4,
-                    "startOffset": 8327,
-                    "endColumn": 52,
-                    "endOffset": 8375
+                    "startOffset": 8296,
+                    "endColumn": 86,
+                    "endOffset": 8378
                 },
                 "from": {
                     "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
@@ -1174,9 +1132,9 @@
                 "to": {
                     "startLine": 110,
                     "startColumn": 4,
-                    "startOffset": 8380,
-                    "endColumn": 509,
-                    "endOffset": 8885
+                    "startOffset": 8383,
+                    "endColumn": 52,
+                    "endOffset": 8431
                 },
                 "from": {
                     "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
@@ -1186,9 +1144,9 @@
                 "to": {
                     "startLine": 111,
                     "startColumn": 4,
-                    "startOffset": 8890,
-                    "endColumn": 60,
-                    "endOffset": 8946
+                    "startOffset": 8436,
+                    "endColumn": 509,
+                    "endOffset": 8941
                 },
                 "from": {
                     "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
@@ -1198,9 +1156,9 @@
                 "to": {
                     "startLine": 112,
                     "startColumn": 4,
-                    "startOffset": 8951,
-                    "endColumn": 73,
-                    "endOffset": 9020
+                    "startOffset": 8946,
+                    "endColumn": 60,
+                    "endOffset": 9002
                 },
                 "from": {
                     "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
@@ -1210,9 +1168,9 @@
                 "to": {
                     "startLine": 113,
                     "startColumn": 4,
-                    "startOffset": 9025,
-                    "endColumn": 52,
-                    "endOffset": 9073
+                    "startOffset": 9007,
+                    "endColumn": 73,
+                    "endOffset": 9076
                 },
                 "from": {
                     "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
@@ -1222,9 +1180,9 @@
                 "to": {
                     "startLine": 114,
                     "startColumn": 4,
-                    "startOffset": 9078,
-                    "endColumn": 62,
-                    "endOffset": 9136
+                    "startOffset": 9081,
+                    "endColumn": 52,
+                    "endOffset": 9129
                 },
                 "from": {
                     "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
@@ -1234,9 +1192,9 @@
                 "to": {
                     "startLine": 115,
                     "startColumn": 4,
-                    "startOffset": 9141,
-                    "endColumn": 61,
-                    "endOffset": 9198
+                    "startOffset": 9134,
+                    "endColumn": 62,
+                    "endOffset": 9192
                 },
                 "from": {
                     "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
@@ -1246,9 +1204,9 @@
                 "to": {
                     "startLine": 116,
                     "startColumn": 4,
-                    "startOffset": 9203,
-                    "endColumn": 52,
-                    "endOffset": 9251
+                    "startOffset": 9197,
+                    "endColumn": 61,
+                    "endOffset": 9254
                 },
                 "from": {
                     "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
@@ -1258,9 +1216,9 @@
                 "to": {
                     "startLine": 117,
                     "startColumn": 4,
-                    "startOffset": 9256,
-                    "endColumn": 51,
-                    "endOffset": 9303
+                    "startOffset": 9259,
+                    "endColumn": 52,
+                    "endOffset": 9307
                 },
                 "from": {
                     "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
@@ -1270,9 +1228,9 @@
                 "to": {
                     "startLine": 118,
                     "startColumn": 4,
-                    "startOffset": 9308,
-                    "endColumn": 63,
-                    "endOffset": 9367
+                    "startOffset": 9312,
+                    "endColumn": 51,
+                    "endOffset": 9359
                 },
                 "from": {
                     "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
@@ -1282,8 +1240,8 @@
                 "to": {
                     "startLine": 119,
                     "startColumn": 4,
-                    "startOffset": 9372,
-                    "endColumn": 55,
+                    "startOffset": 9364,
+                    "endColumn": 63,
                     "endOffset": 9423
                 },
                 "from": {
@@ -1295,8 +1253,8 @@
                     "startLine": 120,
                     "startColumn": 4,
                     "startOffset": 9428,
-                    "endColumn": 58,
-                    "endOffset": 9482
+                    "endColumn": 55,
+                    "endOffset": 9479
                 },
                 "from": {
                     "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
@@ -1306,9 +1264,9 @@
                 "to": {
                     "startLine": 121,
                     "startColumn": 4,
-                    "startOffset": 9487,
-                    "endColumn": 62,
-                    "endOffset": 9545
+                    "startOffset": 9484,
+                    "endColumn": 58,
+                    "endOffset": 9538
                 },
                 "from": {
                     "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
@@ -1318,9 +1276,57 @@
                 "to": {
                     "startLine": 122,
                     "startColumn": 4,
-                    "startOffset": 9550,
+                    "startOffset": 9543,
+                    "endColumn": 62,
+                    "endOffset": 9601
+                },
+                "from": {
+                    "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 123,
+                    "startColumn": 4,
+                    "startOffset": 9606,
                     "endColumn": 67,
-                    "endOffset": 9613
+                    "endOffset": 9669
+                },
+                "from": {
+                    "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 124,
+                    "startColumn": 4,
+                    "startOffset": 9674,
+                    "endColumn": 88,
+                    "endOffset": 9758
+                },
+                "from": {
+                    "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 125,
+                    "startColumn": 4,
+                    "startOffset": 9763,
+                    "endColumn": 87,
+                    "endOffset": 9846
+                },
+                "from": {
+                    "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 126,
+                    "startColumn": 4,
+                    "startOffset": 9851,
+                    "endColumn": 88,
+                    "endOffset": 9935
                 },
                 "from": {
                     "file": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/values-pt/strings.xml"

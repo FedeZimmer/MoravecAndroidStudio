@@ -33,6 +33,7 @@
     <string name="left_handed">Zurdo</string>
     <string name="ambidextrous">Ambas</string>
     <string name="native_language">Lengua materna - Primer idioma</string>
+    <string name="set_language">Elegir idioma</string>
     <string name="english">Inglés</string>
     <string name="spanish">Español</string>
     <string name="french">Francés</string>
@@ -45,7 +46,7 @@
     <string name="music_theory">Profesional:</string>
     <string name="none_music">Nula</string>
     <string name="moderate_music">Moderada</string>
-    <string name="high_music">Avanzanda</string>
+    <string name="high_music">Avanzada</string>
     <string name="first_name">Nombre</string>
     <string name="first_name_placeholder">Carlos Gonzalez</string>
     <string name="email">Email</string>
@@ -117,6 +118,9 @@
     <string name="tutorial_square_button">Al cuadrado</string>
     <string name="tutorial_message">Moravec tiene 3 objetivos principales: Jugar, Entrenar y Aprender.\nEs un desafío divertido que logra entrenar y mejorar habilidades cognitivas de cálculo matemático. Al mismo tiempo, nos ofrece datos útiles para realizar investigación en neurociencias. Ampliando el conocimiento actual sobre la cognición y el aprendizaje.\n\nPor razones experimentales te preguntamos por tu nivel de confianza y esfuerzo en las respuestas. Usá las barras para contestar y seguir a la próxima pregunta.\n</string>
     <string name="youtube_button">\u0020Mirá cómo hacerlo\u0020</string>
+    <string name="youtube_link_sum">https://www.youtube.com/watch?v=Ies8X7VxGKs</string>
+    <string name="youtube_link_mul">https://www.youtube.com/watch?v=mwa-zblNdR4</string>
+    <string name="youtube_link_sq">https://www.youtube.com/watch?v=_CUWlWjFreM</string>
 
     <!--Tutorial Sums-->
     <string name="tutorial_sum_title">Suma</string>

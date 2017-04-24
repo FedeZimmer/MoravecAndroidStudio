@@ -33,6 +33,7 @@
     <string name="left_handed">Canhoto</string>
     <string name="ambidextrous">Ambas</string>
     <string name="native_language">Língua native - Primeira língua</string>
+    <string name="set_language">Definir idioma</string>
     <string name="english">Inglês</string>
     <string name="spanish">Espanhol</string>
     <string name="french">Francês</string>
@@ -117,6 +118,9 @@
     <string name="tutorial_square_button">Ao quadrado</string>
     <string name="tutorial_message">Moravec tem três objetivos principais: Jogar, Treinar e Aprender.\nÉ um desafio divertido que consegue treinar e melhorar as habilidades de cálculo matemático. Ao mesmo tempo, nos oferece dados uteis para fazer pesquisa em neurociência, ampliando o conhecimento atual sobre a cognição e o aprendizado.\n\nPor razoes experimentais, te perguntamos pelo teu nível de confiança e pelo esforço nas respostas. Use a barra para responder e continuar à próxima pergunta.\n</string>
     <string name="youtube_button">\u0020Como faze-lo\u0020</string>
+    <string name="youtube_link_sum">https://www.youtube.com/watch?v=9aW6b2qZ18s</string>
+    <string name="youtube_link_mul">https://www.youtube.com/watch?v=egcXRXXWuwE</string>
+    <string name="youtube_link_sq">https://www.youtube.com/watch?v=DyBsVVe5w5g</string>
 
     <!--Tutorial Sums-->
     <string name="tutorial_sum_title">Suma</string>

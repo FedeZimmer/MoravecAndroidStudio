@@ -42,7 +42,7 @@ public class HowtoSquare extends FragmentActivity {
         youtubebtn.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View viewIn) {
-            	startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=_CUWlWjFreM")));
+            	startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.youtube_link_sq))));
             }
         });
         

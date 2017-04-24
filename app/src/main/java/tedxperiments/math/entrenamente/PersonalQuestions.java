@@ -57,8 +57,8 @@ public class PersonalQuestions extends Activity implements OnClickListener {
                  editTextBirth.setOnClickListener(this);
                  String previousBirth=PassLevel.getPersonal("myBirth", MainActivity.THEcontext);
                  if(previousBirth!=null){editTextBirth.setText(previousBirth);
-                 birthyear=previousBirth;}   	
-                 
+                 birthyear=previousBirth;}
+
                  // This will get the radiogrou
 				 rGender = (RadioGroup)findViewById(R.id.radioGender);
 				 rStudies = (RadioGroup)findViewById(R.id.radioStudies);
@@ -67,12 +67,12 @@ public class PersonalQuestions extends Activity implements OnClickListener {
 				 rListener = (RadioGroup)findViewById(R.id.radioListener);
 				 rInstrumentist = (RadioGroup)findViewById(R.id.radioInstrumentist);
 				 rTheory = (RadioGroup)findViewById(R.id.radioTheory);
-              	
+
              // plain text input Nombre
 //             editTextName = (EditText) this.findViewById(R.id.editTextPlainTextInput);
 //             String previousName=PassLevel.getPersonal("myName", MainActivity.THEcontext);
 //             if(previousName!=null){editTextName.setText(previousName);}
-             
+
              // number input EMAIL
 //             editTextEmail = (EditText) this.findViewById(R.id.editTextEmailAddressInput);
 //             String previousEmail=PassLevel.getPersonal("myEmail", MainActivity.THEcontext);
@@ -80,10 +80,10 @@ public class PersonalQuestions extends Activity implements OnClickListener {
 
 				 //Number of laguanges
 				 editTextNumberLanguages = (EditText)this.findViewById(R.id.numberOfLanguagesEditText);
-             
+
              DoneBut=(Button)findViewById(R.id.ButDone);
              DoneBut.setOnClickListener(this);
-                      
+
          	String previousGenderAnswer=PassLevel.getPersonal("myGender", MainActivity.THEcontext);
          	if (previousGenderAnswer!=null)
          	{genderAnswer=previousGenderAnswer;
@@ -91,7 +91,7 @@ public class PersonalQuestions extends Activity implements OnClickListener {
          	else if(previousGenderAnswer.equals("Femenino")){rGender.check(R.id.genderFemale);}
          	else if(previousGenderAnswer.equals("No Informa")){rGender.check(R.id.genderNoInf);}
          	}
-         	
+
          	String previousStudiesAnswer=PassLevel.getPersonal("myStudies", MainActivity.THEcontext);
          	if (previousStudiesAnswer!=null)
          	{studiesAnswer=previousStudiesAnswer;
@@ -101,15 +101,36 @@ public class PersonalQuestions extends Activity implements OnClickListener {
          	else if(previousStudiesAnswer.equals("Terciario en curso")){rStudies.check(R.id.ThirdCourse);}
          	else if (previousStudiesAnswer.equals("Terciario finalizado")){rStudies.check(R.id.ThirdEnd);}
          	}
-          	         	
-         	
+
+
          	String previoushandAnswer=PassLevel.getPersonal("myHand", MainActivity.THEcontext);
          	if (previoushandAnswer!=null)
          		{handAnswer=previoushandAnswer;
          	if (previoushandAnswer.equals("Diestro")){rHand.check(R.id.RightHanded);}
          	else if(previoushandAnswer.equals("Zurdo")){rHand.check(R.id.LeftHanded);}
          	else if (previoushandAnswer.equals("Ambas")){rHand.check(R.id.BothHanded);}}
-         	
+
+				String previousNativeLanguageAnswer=PassLevel.getPersonal("myLanguageId", MainActivity.THEcontext);
+				 if (previousNativeLanguageAnswer!=null) {
+					 languageAnswerId = Integer.parseInt(previousNativeLanguageAnswer);
+					 switch (languageAnswerId) {
+						 case 0:
+							 rLanguage.check(R.id.EnglishLanguage);
+							 break;
+						 case 1:
+							 rLanguage.check(R.id.SpanishLanguage);
+							 break;
+						 case 2:
+							 rLanguage.check(R.id.FrenchLanguage);
+							 break;
+						 case 3:
+							 rLanguage.check(R.id.PortugueseLanguage);
+							 break;
+						 default:
+							 return;
+					 }
+				 }
+
          
          } catch (NullPointerException e) {
              e.printStackTrace();
@@ -174,11 +195,11 @@ public class PersonalQuestions extends Activity implements OnClickListener {
 				// This puts the value (true/false) into the variable
 				boolean isChecked = checkedRadioButton.isChecked();
 				// If the radiobutton that has changed in check state is now checked...
-				if (isChecked)
-				{
+				if (isChecked) {
 					// Changes the textview's text to "Checked: example radiobutton text"
 					languageAnswer=checkedRadioButton.getText().toString();
 					languageAnswerId = rLanguage.indexOfChild(checkedRadioButton);
+					setNativeLanguageLive();
 				}
 			}});
 
@@ -421,6 +442,43 @@ public class PersonalQuestions extends Activity implements OnClickListener {
 			config.locale = locale;
 			getBaseContext().getResources().updateConfiguration(config,
 					getBaseContext().getResources().getDisplayMetrics());
+		}
+	}
+
+	public void setNativeLanguageLive() {
+		String myLanguage = String.valueOf(languageAnswerId);
+		if (myLanguage == null) return;
+		int myLanguageId = Integer.parseInt(myLanguage);
+		String languageToLoad = new String();
+		String actualLanguage = Locale.getDefault().getLanguage();
+		PassLevel.setNewPersonal("myLanguageId", String.valueOf(languageAnswerId), MainActivity.THEcontext);
+		switch (myLanguageId){
+			case 0:
+				languageToLoad = "en";
+				break;
+			case 1:
+				languageToLoad = "es";
+				break;
+			case 2:
+				languageToLoad = "fr";
+				break;
+			case 3:
+				languageToLoad = "pt";
+				break;
+			default:
+				return;
+		}
+
+		if (!languageToLoad.equals("") && !languageToLoad.equals(actualLanguage)) {
+			Locale locale = new Locale(languageToLoad);
+			Locale.setDefault(locale);
+			Configuration config = new Configuration();
+			config.locale = locale;
+			getBaseContext().getResources().updateConfiguration(config,
+					getBaseContext().getResources().getDisplayMetrics());
+			Intent refresh = new Intent(PersonalQuestions.this, PersonalQuestions.class);
+			startActivity(refresh);
+			finish();
 		}
 	}
 
