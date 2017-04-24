@@ -6,7 +6,7 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1493048642751"
+    timestamp="1493050537360"
     token="-8604149392880958155"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -22,6 +22,10 @@
     <task
         name="verifier"
         duration="0" />
+
+    <artifact
+        location="/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/outputs/apk/app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
@@ -74,7 +78,11 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1493048642751"
-        verifier="COLD_SWAP_REQUESTED" />
+        timestamp="1493050537360"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
 
 </instant-run>

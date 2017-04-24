@@ -34,18 +34,18 @@
                 android:id="@+id/acceptanceCheckBox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/acceptance_checkbox"
-                android:textStyle="bold"
                 android:layout_below="@+id/acceptanceTextView"
-                />
+                android:padding="10dp"
+                android:text="@string/acceptance_checkbox"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/acceptanceButton"
-                android:layout_width="wrap_content"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
+                android:layout_below="@+id/acceptanceCheckBox"
                 android:layout_centerHorizontal="true"
-                android:text="@string/no_acceptance_button"
-                android:layout_below="@+id/acceptanceCheckBox"/>
+                android:text="@string/no_acceptance_button" />
 
 
         </RelativeLayout>

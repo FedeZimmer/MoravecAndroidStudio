@@ -14,6 +14,13 @@
     <string name="stats_button">STATISTIQUES</string>
     <string name="developer_signature">Developpé par FedeZ</string>
 
+    <!--Acceptance-->
+    <string name="acceptance_text">J’accepte de participer à la recherche en ligne intitulée «Moravec» sur le calcul mental. Au cours de cette expérience des données chronométriques sur mes réponses seront recueillies. Toutes les informations seront anonymes et ne permettent donc pas de remonter vers moi. Elles seront destinées uniquement aux chercheurs responsables de l’étude.\n\nMa participation est volontaire, je peux à tout moment l’interrompre. J’ai compris que les données recueillies seront conservées dans une base de données qui servira à un traitement informatisé non nominatif.
+    </string>
+    <string name="acceptance_checkbox">Accord</string>
+    <string name="no_acceptance_button">Retourner</string>
+    <string name="yes_acceptance_button">Continuer</string>
+
     <!--Form-->
     <string name="agreement_message">S\'il vous plaît remplissez le questionnaire. Toutes les données que vous nous fournissez seront uniquement utilisées à des fins scientifiques et en aucun cas dans un but commercial ou publicitaire. Nous vous remercions de votre participation.</string>
     <string name="complete_instruction">Appuyez sur OK pour continuer.\n</string>

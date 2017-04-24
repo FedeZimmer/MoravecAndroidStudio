@@ -18,6 +18,9 @@
         <item>Aqui você começa a se familiarizar com o método de esquerda a direita. Primeiro você soma as dezenas do segundo número ao primeiro e por último as unidades do segundo numero ao resultado anterior.\n\n</item>
         <item>Este exemplo é mais difícil porque as unidades somam um numero maior a 10.\n\n\n\n\n</item>
     </string-array>
+    <string name="acceptance_checkbox">Aceito</string>
+    <string name="acceptance_text">Eu concordo em participar da pesquisa on-line intitulada "Moravec" sobre aritmética mental. Durante esta experiência dados cronométricos sobre minhas respostas serão recolhidos. Todas as informações serão anônimas e, portanto, não poderão identificar-me. Eles são destinadas apenas aos pesquisadores responsáveis pelo estudo.\n\nA minha participação é voluntária e eu posso a qualquer momento interromper-la. Eu entendi que os dados recolhidos serão mantidas em um banco de dados para processamentos anônimos.
+    </string>
     <string name="achieved_studies">Estudos alcançados</string>
     <string name="action_settings">Settings</string>
     <string name="actual_level">Nível\u0020</string>
@@ -80,6 +83,7 @@
     <string name="n_correct">\u0020corretas</string>
     <string name="n_level_completed_congratulations">Parabéns. Você passo o nível\u002</string>
     <string name="native_language">Língua native - Primeira língua</string>
+    <string name="no_acceptance_button">Retornar</string>
     <string name="no_data_stats">Ainda não há dados</string>
     <string name="no_stars_message">Jogue mais uma vez e chegue a 15</string>
     <string name="none_music">Nenhum</string>
@@ -121,6 +125,7 @@
     <string name="two_stars_message">Muito Bem</string>
     <string name="wrong_correct_answer">Era\u0020</string>
     <string name="wrong_entered_answer">não era\u0020</string>
+    <string name="yes_acceptance_button">Continuar</string>
     <string name="youtube_button">\u0020Como faze-lo\u0020</string>
     <string name="youtube_link_mul">https://www.youtube.com/watch?v=egcXRXXWuwE</string>
     <string name="youtube_link_sq">https://www.youtube.com/watch?v=DyBsVVe5w5g</string>

@@ -18,6 +18,9 @@
         <item>Acá empezás a familiarizarte con el método de izquierda a derecha. Primero sumás las decenas del segundo número al primero y por último las unidades del segundo número al resultado anterior.\n\n</item>
         <item>Este ejemplo es más difícil porque las unidades suman un número mayor que 10.\n\n\n\n\n</item>
     </string-array>
+    <string name="acceptance_checkbox">Acepto</string>
+    <string name="acceptance_text">Estoy de acuerdo en participar en la investigación on-line titulada "Moravec" de aritmética mental. Durante esta experiencia se recogerán los datos cronométricos de mis respuestas. Toda la información será anónima y será utilizada solamente por los investigadores responsables del estudio.\n\nMi participación es voluntaria, que puede en cualquier momento de interrupción. Entiendo que los datos recogidos se guardan en una base de datos que servirá para su tratamiento informático no nominativo.
+    </string>
     <string name="achieved_studies">Estudios alcanzados</string>
     <string name="action_settings">Settings</string>
     <string name="actual_level">Nivel\u0020</string>
@@ -80,6 +83,7 @@
     <string name="n_correct">\u0020correctas</string>
     <string name="n_level_completed_congratulations">Felicitaciones. Pasaste el nivel\u002</string>
     <string name="native_language">Lengua materna - Primer idioma</string>
+    <string name="no_acceptance_button">Volver</string>
     <string name="no_data_stats">Aún no hay datos</string>
     <string name="no_stars_message">Jugá una vez más y llegá a 15</string>
     <string name="none_music">Nula</string>
@@ -133,6 +137,7 @@
     <string name="two_stars_message">Muy bien</string>
     <string name="wrong_correct_answer">Era\u0020</string>
     <string name="wrong_entered_answer">y no\u0020</string>
+    <string name="yes_acceptance_button">Continuar</string>
     <string name="youtube_button">\u0020Mirá cómo hacerlo\u0020</string>
     <string name="youtube_link_mul">https://www.youtube.com/watch?v=mwa-zblNdR4</string>
     <string name="youtube_link_sq">https://www.youtube.com/watch?v=_CUWlWjFreM</string>

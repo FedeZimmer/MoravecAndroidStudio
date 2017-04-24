@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Apr 24 14:50:05 BST 2017
+#Mon Apr 24 17:15:37 BST 2017
 20.base=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_
 143.base=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/resources-debug.ap_
 439.set=ANDROID_RESOURCE

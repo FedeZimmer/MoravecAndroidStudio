@@ -18,6 +18,9 @@
         <item>Ici, vous commencez à vous familiariser avec la méthode de gauche à droite. Commencez toujours par additionner les dizaines du deuxième nombre au premier nombre. Ensuite, ajoutez les unités du deuxième nombre au résultat obtenu.\n\n</item>
         <item>Cet exemple est plus difficile parce que les unités, une fois additionnées, donnent un nombre supérieur à 10.\n\n\n\n\n</item>
     </string-array>
+    <string name="acceptance_checkbox">Accord</string>
+    <string name="acceptance_text">J’accepte de participer à la recherche en ligne intitulée «Moravec» sur le calcul mental. Au cours de cette expérience des données chronométriques sur mes réponses seront recueillies. Toutes les informations seront anonymes et ne permettent donc pas de remonter vers moi. Elles seront destinées uniquement aux chercheurs responsables de l’étude.\n\nMa participation est volontaire, je peux à tout moment l’interrompre. J’ai compris que les données recueillies seront conservées dans une base de données qui servira à un traitement informatisé non nominatif.
+    </string>
     <string name="achieved_studies">Niveau d\'études</string>
     <string name="action_settings">Settings</string>
     <string name="actual_level">Niveau\u0020</string>
@@ -80,6 +83,7 @@
     <string name="n_correct">\u0020correctes</string>
     <string name="n_level_completed_congratulations">Félicitations. Vous avez réussi le niveau\u002</string>
     <string name="native_language">Langue natale - Première  langue</string>
+    <string name="no_acceptance_button">Retourner</string>
     <string name="no_data_stats">Aucune donnée</string>
     <string name="no_stars_message">Jouez encore une fois et atteignez 15</string>
     <string name="none_music">Aucune</string>
@@ -121,6 +125,7 @@
     <string name="two_stars_message">Très bien</string>
     <string name="wrong_correct_answer">C\'était\u0020</string>
     <string name="wrong_entered_answer">ce n\'était pas\u0020</string>
+    <string name="yes_acceptance_button">Continuer</string>
     <string name="youtube_button">\u0020Regardez comment faire\u0020</string>
     <string name="youtube_link_mul">https://www.youtube.com/watch?v=egcXRXXWuwE</string>
     <string name="youtube_link_sq">https://www.youtube.com/watch?v=DyBsVVe5w5g</string>

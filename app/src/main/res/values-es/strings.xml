@@ -14,6 +14,13 @@
     <string name="stats_button">ESTADÍSTICAS</string>
     <string name="developer_signature">Desarrollado por FedeZ</string>
 
+    <!--Acceptance-->
+    <string name="acceptance_text">Estoy de acuerdo en participar en la investigación on-line titulada "Moravec" de aritmética mental. Durante esta experiencia se recogerán los datos cronométricos de mis respuestas. Toda la información será anónima y será utilizada solamente por los investigadores responsables del estudio.\n\nMi participación es voluntaria, que puede en cualquier momento de interrupción. Entiendo que los datos recogidos se guardan en una base de datos que servirá para su tratamiento informático no nominativo.
+    </string>
+    <string name="acceptance_checkbox">Acepto</string>
+    <string name="no_acceptance_button">Volver</string>
+    <string name="yes_acceptance_button">Continuar</string>
+
     <!--Form-->
     <string name="agreement_message">Por favor completá el cuestionario. Toda la información que nos regalás es para uso científico, sin fines comerciales ni publicitarios. Nos alegra mucho que participes. Gracias.</string>
     <string name="complete_instruction">Presione LISTO para continuar\n</string>

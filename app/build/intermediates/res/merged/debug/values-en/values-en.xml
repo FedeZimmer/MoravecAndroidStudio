@@ -18,8 +18,8 @@
         <item>In this section you\'ll find a way to acknowledge the left to right method. First sum the tens of the second number to the first one and then the second number units to the previous result.\n\n</item>
         <item>This example is more difficult because the units sum up more than 10.\n\n\n\n\n</item>
     </string-array>
-    <string name="acceptance_checkbox">Accord</string>
-    <string name="acceptance_text">Je certifie avoir donné mon accord pour participer à une recherche en ligne sur le calcul mental. J\'accepte volontairement de participer à cette étude et je comprends que ma participation n\'est pas obligatoire et que je peux stopper ma participation à tout moment sans avoir à me justifier ni encourir aucune responsabilité. Mon consentement ne décharge pas les organisateurs de la recherche de leurs responsabilités et je conserve tous mes droits garantis par la loi.\n\nAu cours de cette expérience, j’accepte que soient recueillies des données chronométriques sur mes réponses. Je comprends que les informations recueillies sont strictement confidentielles et à usage exclusif des investigateurs concernés.\n\nJ’ai été informé que mon identité ne m’est pas demandée par le logiciel, qu’elle n’apparaîtra dans aucun rapport ou publication, et que toute information me concernant sera traitée de façon confidentielle. J’accepte que les données enregistrées à l’occasion de cette étude puissent être conservées dans une base de données et faire l’objet d’un traitement informatisé non nominatif.
+    <string name="acceptance_checkbox">Agree</string>
+    <string name="acceptance_text">I agree to participate in the online research entitled \'Moravec\' on Mental Mathematics. During this experiment, chronometric data on my responses will be collected. All the information will be anonymous and therefore do not allow me to go up to me. It will be intended only for researchers responsible for the study.\n\nMy participation is voluntary and I can interrupt it at any time. I understand that the data collected will be kept in a database that will be used for non-nominal computerized processing.
 	</string>
     <string name="achieved_studies">Achieved studies</string>
     <string name="action_settings">Settings</string>
@@ -83,7 +83,7 @@
     <string name="n_correct">\u0020correct</string>
     <string name="n_level_completed_congratulations">Congratulations. You passed the level\u002</string>
     <string name="native_language">Native language - First language</string>
-    <string name="no_acceptance_button">Retourner</string>
+    <string name="no_acceptance_button">Back</string>
     <string name="no_data_stats">No data yet</string>
     <string name="no_stars_message">Play again and reach 15</string>
     <string name="none_music">Any</string>
@@ -125,7 +125,7 @@
     <string name="two_stars_message">Great</string>
     <string name="wrong_correct_answer">It was\u0020</string>
     <string name="wrong_entered_answer">not\u0020</string>
-    <string name="yes_acceptance_button">Continuer</string>
+    <string name="yes_acceptance_button">Continue</string>
     <string name="youtube_button">\u0020Watch how to do it\u0020</string>
     <string name="youtube_link_mul">https://www.youtube.com/watch?v=egcXRXXWuwE</string>
     <string name="youtube_link_sq">https://www.youtube.com/watch?v=DyBsVVe5w5g</string>
