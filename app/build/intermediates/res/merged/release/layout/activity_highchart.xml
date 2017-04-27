@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layoutchart"
+    android:orientation="vertical"
+   	android:background="#F0F1F2"
+    android:padding="20dp">
+    
+    <TextView
+			android:id="@+id/thetitle"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:text="Porcentaje de aciertos por nivel"
+			android:textColor="#ED1566"
+			android:textSize="17sp"
+			android:gravity="center_horizontal"
+			
+			/>
+    
+    <TextView
+			android:id="@+id/subtitle"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:text="@string/time_axis_statsgraph"
+			android:textColor="#3E3E3E"
+			android:textSize="13sp"
+			android:gravity="center_horizontal"
+			
+			/>
+       
+
+</LinearLayout>

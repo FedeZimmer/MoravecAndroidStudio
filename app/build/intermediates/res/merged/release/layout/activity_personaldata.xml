@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+ 
+    <!-- we're using scroll view to see all contents -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <TextView
+
+                android:id="@+id/textViewTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="@string/agreement_message"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+
+                /><requestFocus />
+            
+            <TextView
+                android:id="@+id/textViewSubTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/complete_instruction"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:layout_below="@+id/textViewTitle"/>
+
+
+            <TextView
+                android:id="@+id/textViewNativeLanguage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewSubTitle"
+                android:text="@string/native_language"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/radioNativeLanguage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/textViewNativeLanguage">
+
+                <RadioButton
+                    android:id="@+id/EnglishLanguage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/english"
+                    android:textSize="12sp"
+                    />
+                <RadioButton
+                    android:id="@+id/SpanishLanguage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/spanish"
+                    android:textSize="12sp" />
+                <RadioButton
+                    android:id="@+id/FrenchLanguage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/french"
+                    android:textSize="12sp"
+                    />
+                <RadioButton
+                    android:id="@+id/PortugueseLanguage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/portuguese"
+                    android:textSize="12sp"
+                    />
+                <RadioButton
+                    android:id="@+id/OtherLanguage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/other"
+                    android:textSize="12sp"
+                    />
+
+            </RadioGroup>
+
+
+
+            <TextView
+                android:id="@+id/textViewNumberInput"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radioNativeLanguage"
+                android:textStyle="bold"
+                android:text="@string/birthdate"/>
+
+            <EditText
+                android:id="@+id/editTextNumberInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewNumberInput"
+                android:hint="25 12 1980"
+                android:focusableInTouchMode="false"
+                android:clickable="true"
+                
+                />
+            
+                      
+            <TextView
+                android:id="@+id/textViewSignedNumberInput"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editTextNumberInput"
+                android:text="@string/gender"
+                android:textStyle="bold" />
+           
+            <RadioGroup
+                android:id="@+id/radioGender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:layout_below="@+id/textViewSignedNumberInput">
+         
+                <RadioButton
+                    android:id="@+id/genderMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/male"
+                    android:textSize="12sp"
+                    />
+         
+                <RadioButton
+                    android:id="@+id/genderFemale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/female"
+                    android:textSize="12sp" />
+                
+                <RadioButton
+                    android:id="@+id/genderNoInf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/not_reported"
+                    android:textSize="12sp"/>
+               
+            </RadioGroup>
+
+            
+            <TextView
+                android:id="@+id/textViewDecimalNumberInput"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radioGender"
+                android:text="@string/achieved_studies"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/radioStudies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:layout_below="@+id/textViewDecimalNumberInput">
+         
+                <RadioButton
+                    android:id="@+id/Primary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/school_completed"
+                    android:textSize="12sp"
+                    />
+         
+                <RadioButton
+                    android:id="@+id/SecundaryCourse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/highschool_in_progress"
+                    android:textSize="12sp" />
+                 <RadioButton
+                    android:id="@+id/SecundaryEnd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/highschool_completed"
+                    android:textSize="12sp" />
+                  <RadioButton
+                    android:id="@+id/ThirdCourse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/college_in_progress"
+                    android:textSize="12sp" />
+                  <RadioButton
+                    android:id="@+id/ThirdEnd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/college_completed"
+                    android:textSize="12sp" />
+                </RadioGroup>
+
+            <TextView
+                android:id="@+id/textViewHand"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radioStudies"
+                android:text="@string/deft_hand"
+                android:textStyle="bold" />
+
+             <RadioGroup
+                android:id="@+id/radioHand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal"
+                android:layout_below="@+id/textViewHand">
+         
+                <RadioButton
+                    android:id="@+id/RightHanded"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/right_handed"
+                    android:textSize="12sp"
+                    />
+         
+                <RadioButton
+                    android:id="@+id/LeftHanded"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/left_handed"
+                    android:textSize="12sp" />
+                <RadioButton
+                    android:id="@+id/BothHanded"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ambidextrous"
+                    android:textSize="12sp"
+                    />
+                 
+                </RadioGroup>
+
+            <TextView
+                android:id="@+id/numberOfLanguagesTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/number_of_languages"
+                android:textStyle="bold"
+                android:layout_below="@+id/radioHand"/>
+
+
+            <EditText
+                android:id="@+id/numberOfLanguagesEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/numberOfLanguagesTextView"
+                android:inputType="number"
+                android:maxLength="1"
+                android:singleLine="true" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/musicCompetencesTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/music_competences"
+                android:textStyle="bold"
+                android:layout_below="@+id/numberOfLanguagesEditText"/>
+
+            <TextView
+                android:id="@+id/musicListenerTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/music_listener"
+                android:textStyle="bold"
+                android:layout_below="@+id/musicCompetencesTextView"/>
+
+            <RadioGroup
+                android:id="@+id/radioListener"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/musicListenerTextView">
+
+                <RadioButton
+                    android:id="@+id/noneMusicListener"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/none_music"
+                    android:textSize="12sp"
+                    />
+
+                <RadioButton
+                    android:id="@+id/moderateMusicListener"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/moderate_music"
+                    android:textSize="12sp" />
+                <RadioButton
+                    android:id="@+id/highMusicListener"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/high_music"
+                    android:textSize="12sp"
+                    />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/musicInstrumentistTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/music_instrumentist"
+                android:textStyle="bold"
+                android:layout_below="@+id/radioListener"/>
+
+            <RadioGroup
+                android:id="@+id/radioInstrumentist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/musicInstrumentistTextView">
+
+                <RadioButton
+                    android:id="@+id/noneMusicInstrumentist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/none_music"
+                    android:textSize="12sp"
+                    />
+
+                <RadioButton
+                    android:id="@+id/moderateMusicInstrumentist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/moderate_music"
+                    android:textSize="12sp" />
+                <RadioButton
+                    android:id="@+id/highMusicInstrumentist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/high_music"
+                    android:textSize="12sp"
+                    />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/musicTheoryTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/music_theory"
+                android:textStyle="bold"
+                android:layout_below="@+id/radioInstrumentist"/>
+
+            <RadioGroup
+                android:id="@+id/radioTheory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/musicTheoryTextView">
+
+                <RadioButton
+                    android:id="@+id/noneMusicTheory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/none_music"
+                    android:textSize="12sp"
+                    />
+
+                <RadioButton
+                    android:id="@+id/moderateMusicTheory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/moderate_music"
+                    android:textSize="12sp" />
+                <RadioButton
+                    android:id="@+id/highMusicTheory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/high_music"
+                    android:textSize="12sp"
+                    />
+            </RadioGroup>
+
+
+            <!--
+            <TextView
+                android:id="@+id/textViewPlainTextInput"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/first_name"
+                android:textStyle="bold"
+                android:layout_below="@+id/numberOfLanguagesEditText"/>
+            
+
+            <EditText
+                android:id="@+id/editTextPlainTextInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewPlainTextInput"
+                android:hint="@string/first_name_placeholder"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ áéíóú"
+                android:capitalize="words"
+                android:singleLine="true" >
+
+             </EditText>
+
+            <TextView
+                android:id="@+id/textViewEmailAddressInput"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editTextPlainTextInput"
+                android:text="@string/email"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextEmailAddressInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewEmailAddressInput"
+                android:hint="@string/email_placeholder"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ@.1234567890-_"
+                android:inputType="textEmailAddress" />
+            
+            -->
+            <Button
+                android:id="@+id/ButDone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radioTheory"
+                android:layout_centerHorizontal="true"
+                android:text="@string/done_form" />
+            
+
+        </RelativeLayout>
+    </ScrollView>
+ 
+</RelativeLayout>

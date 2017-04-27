@@ -452,7 +452,8 @@ public class PersonalQuestions extends Activity implements OnClickListener {
 		String languageToLoad = new String();
 		String actualLanguage = Locale.getDefault().getLanguage();
 		PassLevel.setNewPersonal("myLanguageId", String.valueOf(languageAnswerId), MainActivity.THEcontext);
-		switch (myLanguageId){
+        PassLevel.setNewPersonal("lastSelectedLanguage",String.valueOf(languageAnswerId), MainActivity.THEcontext);
+        switch (myLanguageId){
 			case 0:
 				languageToLoad = "en";
 				break;

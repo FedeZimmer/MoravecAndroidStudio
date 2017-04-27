@@ -54,56 +54,9 @@ public class MainActivity extends Activity implements OnClickListener {
 		highBtn.setOnClickListener(this);
 		arcBtn.setOnClickListener(this);
 		optionsBtn.setOnClickListener(this);
-//		highBtn.setOnLongClickListener(new View.OnLongClickListener() {
-//			@Override
-//			public boolean onLongClick(View v) {
-//				// TODO Auto-generated method stub
-//				AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-//				builder.setTitle("Set Language");
-//				// Add the buttons
-//				builder.setPositiveButton("English", new DialogInterface.OnClickListener() {
-//					public void onClick(DialogInterface dialog, int id) {
-//						String languageToLoad = "en"; // your language
-//						Locale locale = new Locale(languageToLoad);
-//						Locale.setDefault(locale);
-//						Configuration config = new Configuration();
-//						config.locale = locale;
-//						getBaseContext().getResources().updateConfiguration(config,
-//								getBaseContext().getResources().getDisplayMetrics());
-//						dialog.dismiss();
-//
-//						Intent refresh = new Intent(MainActivity.this, MainActivity.class);
-//						startActivity(refresh);
-//						finish();
-//					}
-//				});
-//				builder.setNegativeButton("French", new DialogInterface.OnClickListener() {
-//					public void onClick(DialogInterface dialog, int id) {
-//						// User cancelled the dialog
-//
-//						String languageToLoad = "fr"; // your language
-//						Locale locale = new Locale(languageToLoad);
-//						Locale.setDefault(locale);
-//						Configuration config = new Configuration();
-//						config.locale = locale;
-//						getBaseContext().getResources().updateConfiguration(config,
-//								getBaseContext().getResources().getDisplayMetrics());
-//						dialog.dismiss();
-//
-//						Intent refresh = new Intent(MainActivity.this, MainActivity.class);
-//						startActivity(refresh);
-//						finish();
-//
-//					}
-//				});
-//
-//				builder.create().show();
-//				return true;
-//			}
-//		});
 		THEcontext=this;
 
-		setNativeLanguage();
+		setSelectedLanguage();
 
 		ActionBar AB = getActionBar();
 		AB.setTitle(Html.fromHtml("<font color='#60b0c1'>Entrenamente </font>"));
@@ -164,11 +117,11 @@ public class MainActivity extends Activity implements OnClickListener {
 			builder.setItems(new CharSequence[]
 							{getString(R.string.english), getString(R.string.spanish), getString(R.string.french), getString(R.string.portuguese)},
 					new DialogInterface.OnClickListener() {
-						public void onClick(DialogInterface dialog, int which) {
+						public void onClick(DialogInterface dialog, int selectedLanguageId) {
 							// The 'which' argument contains the index position
 							// of the selected item
 							String languageToLoad = "";
-							switch (which) {
+							switch (selectedLanguageId) {
 								case 0:
 									languageToLoad="en";
 									break;
@@ -191,6 +144,8 @@ public class MainActivity extends Activity implements OnClickListener {
 										getBaseContext().getResources().getDisplayMetrics());
 								dialog.dismiss();
 
+                                //Save Seleceted Language
+								PassLevel.setNewPersonal("lastSelectedLanguage",String.valueOf(selectedLanguageId), MainActivity.THEcontext);
 								Intent refresh = new Intent(MainActivity.this, MainActivity.class);
 								startActivity(refresh);
 								finish();
@@ -212,8 +167,8 @@ public class MainActivity extends Activity implements OnClickListener {
 		this.startActivity(playIntent);
 	}
 
-	public void setNativeLanguage() {
-		String myLanguage = PassLevel.getPersonal("myLanguageId", MainActivity.THEcontext);
+	public void setSelectedLanguage() {
+		String myLanguage = PassLevel.getPersonal("lastSelectedLanguage", MainActivity.THEcontext);
 		if (myLanguage == null) return;
 		int myLanguageId = Integer.parseInt(myLanguage);
 		String languageToLoad = new String();
@@ -242,7 +197,7 @@ public class MainActivity extends Activity implements OnClickListener {
 			config.locale = locale;
 			getBaseContext().getResources().updateConfiguration(config,
 					getBaseContext().getResources().getDisplayMetrics());
-			Intent refresh = new Intent(MainActivity.this, MainActivity.class);
+            Intent refresh = new Intent(MainActivity.this, MainActivity.class);
 			startActivity(refresh);
 			finish();
 		}

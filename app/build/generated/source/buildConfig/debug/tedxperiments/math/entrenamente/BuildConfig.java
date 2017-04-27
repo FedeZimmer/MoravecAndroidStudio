@@ -8,8 +8,8 @@ public final class BuildConfig {
   public static final String APPLICATION_ID = "tedxperiments.math.entrenamente";
   public static final String BUILD_TYPE = "debug";
   public static final String FLAVOR = "";
-  public static final int VERSION_CODE = 11;
-  public static final String VERSION_NAME = "2.01";
+  public static final int VERSION_CODE = 16;
+  public static final String VERSION_NAME = "2.13";
   // Fields from build type: debug
   public static final String SERVER_URL = "https://dennett-stage.herokuapp.com/api/v1/trials";
 }

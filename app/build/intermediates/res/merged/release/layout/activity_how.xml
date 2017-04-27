@@ -1,0 +1,133 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#F0F1F2"
+	android:padding="10dp" >
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center" >
+
+		<TextView
+		    android:id="@+id/TutorialTxt1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_centerHorizontal="true"
+			android:padding="10dp"
+			android:text="@string/tutorial_title"
+			android:textStyle="bold"
+			android:gravity="center" 
+			android:textColor="#3E3E3E"
+			android:textSize="14sp"
+			android:background="@drawable/button_white" />
+		
+		<LinearLayout
+		    android:id="@+id/TutorialLL"
+		    android:layout_width="match_parent"
+	    	android:layout_height="match_parent"
+	    	android:layout_below="@id/TutorialTxt1"
+	    	android:gravity="center"
+		    android:orientation="horizontal"
+		    android:layout_marginTop="20dp"
+		    >
+			
+		<Button
+			android:id="@+id/add_btn"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_marginRight="5dp"
+			android:layout_marginLeft="5dp"
+			android:layout_marginTop="5dp"
+			android:layout_marginBottom="5dp"
+			android:layout_weight="1"
+			android:background="@drawable/button_pink"
+			android:padding="5dp"
+			android:text="@string/tutorial_sum_button"
+			android:textColor="#FFFFFF"
+			android:textSize="22sp"
+			android:textStyle="bold" />
+
+		<Button
+			android:id="@+id/multiplication_btn"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_marginRight="5dp"
+			android:layout_marginLeft="5dp"
+			android:layout_marginTop="5dp"
+			android:layout_marginBottom="5dp"
+			android:layout_weight="1"
+			android:background="@drawable/button_pink"
+			android:padding="5dp"
+			android:text="@string/tutorial_multiplicaction_button"
+			android:textColor="#FFFFFF"
+			android:textSize="22sp"
+			android:textStyle="bold" />
+
+		<Button
+			android:id="@+id/square_btn"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_marginRight="5dp"
+			android:layout_marginLeft="5dp"
+			android:layout_marginTop="5dp"
+			android:layout_marginBottom="5dp"
+			android:layout_weight="1"
+			android:background="@drawable/button_pink"
+			android:padding="5dp"
+			android:text="@string/tutorial_square_button"
+			android:textColor="#FFFFFF"
+			android:textSize="22sp"
+			android:textStyle="bold" />
+	</LinearLayout>
+	
+		<LinearLayout
+		    android:id="@+id/TutorialLL2"
+		    android:layout_width="match_parent"
+	    	android:layout_height="match_parent"
+	    	android:layout_below="@id/TutorialLL"
+	    	android:gravity="center|bottom"
+	    	android:background="@drawable/button_white"
+		    android:orientation="horizontal"
+		    android:layout_marginTop="20dp"
+		     >
+		
+		    <Button
+		        
+			android:id="@+id/attention"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="5dp"
+			android:layout_marginLeft="5dp"
+			android:layout_marginTop="5dp"
+			android:layout_marginBottom="5dp"
+			android:layout_gravity="top"
+			android:layout_weight="4"
+			android:background="@drawable/button_green"
+			android:padding="10dp"
+			android:text="!"
+			android:textColor="#FFFFFF"
+			android:textSize="20sp"
+			android:textStyle="bold" />
+		
+		<TextView
+		    android:id="@+id/TutorialTxt2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/TutorialLL"
+			android:layout_centerHorizontal="true"
+			android:padding="10dp"
+			android:text="@string/tutorial_message"
+			android:textColor="#3E3E3E"
+			android:textSize="14sp"
+			android:layout_weight="1"
+			 />
+		</LinearLayout>
+		
+	</RelativeLayout>
+
+	
+	
+	
+</ScrollView>
