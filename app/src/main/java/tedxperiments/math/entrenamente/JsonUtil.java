@@ -93,13 +93,14 @@ public class JsonUtil {
 
 				//System Data
 				String systemLang = Resources.getSystem().getConfiguration().locale.getLanguage();
-				String appLang = Locale.getDefault().getLanguage();
 				if (systemLang==null)jsonPersonalData.put("System_Language","");
 				else jsonPersonalData.put("System_Language",systemLang);
-				if (appLang==null)jsonPersonalData.put("App_Language","");
-				else jsonPersonalData.put("App_Language",appLang);
 			}
 			jsonObj.put("PersonalData", jsonPersonalData);
+
+			String appLang = Locale.getDefault().getLanguage();
+			if (appLang==null)jsonObj.put("App_Language","");
+			else jsonObj.put("App_Language",appLang);
 
 			jsonObj.put("Game_Type", DataObj.getGameType());
 			jsonObj.put("Level", DataObj.getLevel());  

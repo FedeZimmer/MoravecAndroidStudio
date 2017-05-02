@@ -2,6 +2,8 @@ package tedxperiments.math.entrenamente;
 
 
 import android.content.res.Configuration;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.provider.Settings.Secure;
 import android.app.ActionBar;
@@ -380,7 +382,8 @@ public class PersonalQuestions extends Activity implements OnClickListener {
 
 
 	private void showdatepick() {
-    		DatePickerDialog dateDlg = new DatePickerDialog(this, 
+
+    		DatePickerDialog dateDlg = new DatePickerDialog(this,
     	         new DatePickerDialog.OnDateSetListener() {
     	          
     	         public void onDateSet(DatePicker view, int year,
@@ -394,17 +397,16 @@ public class PersonalQuestions extends Activity implements OnClickListener {
     	                    editTextBirth.setText(birthyear);
     	                    //Toast.makeText(PersonalQuestions.this, "Date picked: " + strDate, Toast.LENGTH_SHORT).show();
     	        }}, 1980,0, 1);
-    	      
-    			DatePicker DD = dateDlg.getDatePicker();
+		DatePicker DD = dateDlg.getDatePicker();
     			Time minD = new Time();
     			Time maxD = new Time();
     			minD.set(1, 0, 1910);
     			maxD.set(31, 11, 2015);
-    			
+
     			DD.setMinDate(minD.toMillis(true));
     			DD.setMaxDate(maxD.toMillis(true));
 
-    	      dateDlg.setMessage("Fecha de Nacimiento");
+    	      dateDlg.setMessage(getString(R.string.birthdate));
     	      dateDlg.show();
 	}
 
