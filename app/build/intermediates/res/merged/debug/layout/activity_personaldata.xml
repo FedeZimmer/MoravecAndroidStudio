@@ -94,13 +94,30 @@
 
             </RadioGroup>
 
+            <TextView
+                android:id="@+id/numberOfLanguagesTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/number_of_languages"
+                android:textStyle="bold"
+                android:layout_below="@+id/radioNativeLanguage"/>
 
+
+            <EditText
+                android:id="@+id/numberOfLanguagesEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/numberOfLanguagesTextView"
+                android:inputType="number"
+                android:maxLength="1"
+                android:singleLine="true" >
+            </EditText>
 
             <TextView
                 android:id="@+id/textViewNumberInput"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/radioNativeLanguage"
+                android:layout_below="@+id/numberOfLanguagesEditText"
                 android:textStyle="bold"
                 android:text="@string/birthdate"/>
 
@@ -243,31 +260,12 @@
                 </RadioGroup>
 
             <TextView
-                android:id="@+id/numberOfLanguagesTextView"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/number_of_languages"
-                android:textStyle="bold"
-                android:layout_below="@+id/radioHand"/>
-
-
-            <EditText
-                android:id="@+id/numberOfLanguagesEditText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/numberOfLanguagesTextView"
-                android:inputType="number"
-                android:maxLength="1"
-                android:singleLine="true" >
-            </EditText>
-
-            <TextView
                 android:id="@+id/musicCompetencesTextView"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/music_competences"
                 android:textStyle="bold"
-                android:layout_below="@+id/numberOfLanguagesEditText"/>
+                android:layout_below="@+id/radioHand"/>
 
             <TextView
                 android:id="@+id/musicListenerTextView"
