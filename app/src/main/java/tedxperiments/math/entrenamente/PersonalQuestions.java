@@ -132,6 +132,10 @@ public class PersonalQuestions extends Activity implements OnClickListener {
 							 return;
 					 }
 				 }
+				 String previousNativeLanguage=PassLevel.getPersonal("myLanguage", MainActivity.THEcontext);
+				 if (previousNativeLanguage!=null) {
+					 languageAnswer=previousNativeLanguage;
+				 }
 
          
          } catch (NullPointerException e) {
@@ -201,6 +205,7 @@ public class PersonalQuestions extends Activity implements OnClickListener {
 					// Changes the textview's text to "Checked: example radiobutton text"
 					languageAnswer=checkedRadioButton.getText().toString();
 					languageAnswerId = rLanguage.indexOfChild(checkedRadioButton);
+
 					setNativeLanguageLive();
 				}
 			}});
@@ -365,11 +370,6 @@ public class PersonalQuestions extends Activity implements OnClickListener {
     
     private String noacentos(String s) {
 		// TODO Auto-generated method stub
-    	//String conAcentos = "áéíóú'èêÉç";
-        //String sinAcentos = "aeiou eeEc";
-    	//for (int i = 0; i < conAcentos.length(); i++)
-        //    s = s.replace(conAcentos.charAt(i), sinAcentos.charAt(i));
-		       // return s;
 		if (TextUtils.isEmpty(s)) {
 			return "";
 		}
@@ -453,6 +453,7 @@ public class PersonalQuestions extends Activity implements OnClickListener {
 		int myLanguageId = Integer.parseInt(myLanguage);
 		String languageToLoad = new String();
 		String actualLanguage = Locale.getDefault().getLanguage();
+		PassLevel.setNewPersonal("myLanguage", noacentos(languageAnswer), MainActivity.THEcontext);
 		PassLevel.setNewPersonal("myLanguageId", String.valueOf(languageAnswerId), MainActivity.THEcontext);
         PassLevel.setNewPersonal("lastSelectedLanguage",String.valueOf(languageAnswerId), MainActivity.THEcontext);
         switch (myLanguageId){
