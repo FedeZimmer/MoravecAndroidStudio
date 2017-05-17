@@ -95,7 +95,7 @@
     <string name="level_n_completed">Level X completed</string>
     OJO QUE HAY N!
     <string name="answered_n_correct">You answered N problems correctly</string>
-    <string name="retry">Retry</string>
+    <string name="retry">Try again</string>
     <string name="one_star_message">Good</string>
     <string name="two_stars_message">Great</string>
     <string name="three_stars_message">Excellent</string>
