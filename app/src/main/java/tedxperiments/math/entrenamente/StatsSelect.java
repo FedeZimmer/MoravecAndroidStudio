@@ -97,265 +97,282 @@ public class StatsSelect extends Activity implements OnClickListener {
 		sq41= (TextView)findViewById(R.id.textView91);
 		sq42= (TextView)findViewById(R.id.textView92);
 		sq43= (TextView)findViewById(R.id.textView93);
-	    
-	    
-	    ArrayList<Long> sum1c = PassLevel.getTimesStats("1d+1d", MainActivity.THEcontext);
-	    ArrayList<Long> sum2c = PassLevel.getTimesStats("2d+2d", MainActivity.THEcontext);
-	    ArrayList<Long> mul1c = PassLevel.getTimesStats("1dx1d", MainActivity.THEcontext);
-	    ArrayList<Long> mul2c = PassLevel.getTimesStats("2dx1d", MainActivity.THEcontext);
-	    ArrayList<Long> mul3c = PassLevel.getTimesStats("3dx1d", MainActivity.THEcontext);
-	    ArrayList<Long> mul4c = PassLevel.getTimesStats("4dx1d", MainActivity.THEcontext);
-	    ArrayList<Long> sq2c = PassLevel.getTimesStats("(2d)^2", MainActivity.THEcontext);
-	    ArrayList<Long> sq3c = PassLevel.getTimesStats("(3d)^2", MainActivity.THEcontext);
-	    ArrayList<Long> sq4c = PassLevel.getTimesStats("(4d)^2", MainActivity.THEcontext);
-	    
-	    ArrayList<Long> sum1i = PassLevel.getTimesStats("1d+1dinc", MainActivity.THEcontext);
-	    ArrayList<Long> sum2i = PassLevel.getTimesStats("2d+2dinc", MainActivity.THEcontext);
-	    ArrayList<Long> mul1i = PassLevel.getTimesStats("1dx1dinc", MainActivity.THEcontext);
-	    ArrayList<Long> mul2i = PassLevel.getTimesStats("2dx1dinc", MainActivity.THEcontext);
-	    ArrayList<Long> mul3i = PassLevel.getTimesStats("3dx1dinc", MainActivity.THEcontext);
-	    ArrayList<Long> mul4i = PassLevel.getTimesStats("4dx1dinc", MainActivity.THEcontext);
-	    ArrayList<Long> sq2i = PassLevel.getTimesStats("(2d)^2inc", MainActivity.THEcontext);
-	    ArrayList<Long> sq3i = PassLevel.getTimesStats("(3d)^2inc", MainActivity.THEcontext);
-	    ArrayList<Long> sq4i = PassLevel.getTimesStats("(4d)^2inc", MainActivity.THEcontext);
-	    
-	    	    
-	    if (sum1c.size()>1)
-	    {long ttsum1c=0;
-	    for (int i=0; i<sum1c.size(); i++)
-	    	{ttsum1c=ttsum1c+sum1c.get(i);}
-	    long tavgsum1c=(long)ttsum1c/sum1c.size();
-	    	    
-	    int porsum1;
-	    porsum1 =(int) (sum1c.size()*100/(sum1c.size()+sum1i.size()));
-	    String avgtime= millisToShortDHMS(tavgsum1c);
-	    sum11.setText(Html.fromHtml("1+1"));
-	    sum12.setText(Html.fromHtml(getString(R.string.correct_stats)+"<b>"+porsum1+ " %"));
-	    sum13.setText(Html.fromHtml("&#60T&#62 <b>"+avgtime));
-	    //sum1.setText(Html.fromHtml("<b>" + "1d + 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.correct_stats)+"</small>"+porsum1+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
-	    }
-	    else {
-	    	sum11.setText(Html.fromHtml("1+1"));
-	    	sum11.setTextColor(Color.parseColor("#FFFFFF"));
-		    sum12.setText(Html.fromHtml(getString(R.string.no_data_stats)));
-		    sum12.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
-		    sum12.setTextColor(Color.parseColor("#FFFFFF"));	
-		    sum13.setText(Html.fromHtml(""));
-		    sum1.setBackgroundDrawable(getResources().getDrawable(R.drawable.button_gray2));
-	    	 //sum1.setText(Html.fromHtml("<b>" + "1d + 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.no_data_stats)+"</small></small></small>" + "</b>"));
-	    	 sum1.setEnabled(false);}
-	    
-	    if (sum2c.size()>1)
-	    {long ttsum2c=0;
-	    for (int i=0; i<sum2c.size(); i++)
-	    	{ttsum2c=ttsum2c+sum2c.get(i);}
-	    long tavgsum2c=(long)ttsum2c/sum2c.size();
-	    	    
-	    int porsum2;
-	    porsum2 =(int) (sum2c.size()*100/(sum2c.size()+sum2i.size()));
-	    String avgtime= millisToShortDHMS(tavgsum2c);
-	    sum21.setText(Html.fromHtml("2+2"));
-	    sum22.setText(Html.fromHtml(getString(R.string.correct_stats)+"<b>"+porsum2+ " %"));
-	    sum23.setText(Html.fromHtml("&#60T&#62 <b>"+avgtime));
-	    //sum2.setText(Html.fromHtml("<b>" + "2d + 2d" + "<br />" + "<small><small><small><small>"+getString(R.string.correct_stats)+"</small>"+porsum2+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
-	    }
-	    else {
-	    	sum21.setText(Html.fromHtml("2+2"));
-	    	sum21.setTextColor(Color.parseColor("#FFFFFF"));
-		    sum22.setText(Html.fromHtml(getString(R.string.no_data_stats)));
-		    sum22.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
-		    sum22.setTextColor(Color.parseColor("#FFFFFF"));
-		    sum23.setTextColor(Color.parseColor("#FFFFFF"));		
-		    sum23.setText(Html.fromHtml(""));
-		    sum2.setBackgroundDrawable(getResources().getDrawable(R.drawable.button_gray2));	
-	    	//sum2.setText(Html.fromHtml("<b>" + "2d + 2d" + "<br />" + "<small><small><small><small>"+getString(R.string.no_data_stats)+"</small></small></small>" + "</b>"));
-	    	sum2.setEnabled(false);}
-	    
-	    if (mul1c.size()>1)
-	    {long ttmul1c=0;
-	    for (int i=0; i<mul1c.size(); i++)
-	    	{ttmul1c=ttmul1c+mul1c.get(i);}
-	    long tavgmul1c=(long)ttmul1c/mul1c.size();
-	    	    
-	    int pormul1;
-	    pormul1 =(int) (mul1c.size()*100/(mul1c.size()+mul1i.size()));
-	    String avgtime= millisToShortDHMS(tavgmul1c);
-	    mul11.setText(Html.fromHtml("1x1"));
-	    mul12.setText(Html.fromHtml(getString(R.string.correct_stats)+"<b>"+pormul1+ " %"));
-	    mul13.setText(Html.fromHtml("&#60T&#62 <b>"+avgtime));
-	    //mul1.setText(Html.fromHtml("<b>" + "1d x 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.correct_stats)+"</small>"+pormul1+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
-	    }
-	    else {
-	    	mul11.setText(Html.fromHtml("1x1"));
-	    	mul11.setTextColor(Color.parseColor("#FFFFFF"));
-	    	mul12.setText(Html.fromHtml(getString(R.string.no_data_stats)));
-	    	mul12.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
-	    	mul12.setTextColor(Color.parseColor("#FFFFFF"));		    
-	    	mul13.setText(Html.fromHtml(""));
-	    	mul1.setBackgroundDrawable(getResources().getDrawable(R.drawable.button_gray2));	
-	    	//mul1.setText(Html.fromHtml("<b>" + "1d x 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.no_data_stats)+"</small></small></small>" + "</b>"));
-	    mul1.setEnabled(false);}
 
-	    if (mul2c.size()>1)
-	    {long ttmul2c=0;
-	    for (int i=0; i<mul2c.size(); i++)
-	    	{ttmul2c=ttmul2c+mul2c.get(i);}
-	    long tavgmul2c=(long)ttmul2c/mul2c.size();
-	    	    
-	    int pormul2;
-	    pormul2 =(int) (mul2c.size()*100/(mul2c.size()+mul2i.size()));
-	    String avgtime= millisToShortDHMS(tavgmul2c);
-	    mul21.setText(Html.fromHtml("2x1"));
-	    mul22.setText(Html.fromHtml(getString(R.string.correct_stats)+"<b>"+pormul2+ " %"));
-	    mul23.setText(Html.fromHtml("&#60T&#62 <b>"+avgtime));
-	   // mul2.setText(Html.fromHtml("<b>" + "2d x 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.correct_stats)+"</small>"+pormul2+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
-	    }
-	    else 
-	    {
-	    	mul21.setText(Html.fromHtml("2x1"));
-	    	mul21.setTextColor(Color.parseColor("#FFFFFF"));
-	    	mul22.setText(Html.fromHtml(getString(R.string.no_data_stats)));
-	    	mul22.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
-	    	mul22.setTextColor(Color.parseColor("#FFFFFF"));		    
-	    	mul23.setText(Html.fromHtml(""));
-	    	mul2.setBackgroundDrawable(getResources().getDrawable(R.drawable.button_gray2));
-	    	//mul2.setText(Html.fromHtml("<b>" + "2d x 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.no_data_stats)+"</small></small></small>" + "</b>"));
-	    	mul2.setEnabled(false);}
-	
-	    if (mul3c.size()>1)
-	    {long ttmul3c=0;
-	    for (int i=0; i<mul3c.size(); i++)
-	    	{ttmul3c=ttmul3c+mul3c.get(i);}
-	    long tavgmul3c=(long)ttmul3c/mul3c.size();
-	    	    
-	    int pormul3;
-	    pormul3 =(int) (mul3c.size()*100/(mul3c.size()+mul3i.size()));
-	    String avgtime= millisToShortDHMS(tavgmul3c);
-	    mul31.setText(Html.fromHtml("3x1"));
-	    mul32.setText(Html.fromHtml(getString(R.string.correct_stats)+"<b>"+pormul3+ " %"));
-	    mul33.setText(Html.fromHtml("&#60T&#62 <b>"+avgtime));
-	   // mul3.setText(Html.fromHtml("<b>" + "3d x 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.correct_stats)+"</small>"+pormul3+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
-	    }
-	    else {
-	    	mul31.setText(Html.fromHtml("3x1"));
-	    	mul31.setTextColor(Color.parseColor("#FFFFFF"));
-	    	mul32.setText(Html.fromHtml(getString(R.string.no_data_stats)));
-	    	mul32.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
-	    	mul32.setTextColor(Color.parseColor("#FFFFFF"));		    
-	    	mul33.setText(Html.fromHtml(""));
-	    	mul3.setBackgroundDrawable(getResources().getDrawable(R.drawable.button_gray2));
-	    	//mul3.setText(Html.fromHtml("<b>" + "3d x 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.no_data_stats)+"</small></small></small>" + "</b>"));
-	    mul3.setEnabled(false);}
 
-	    if (mul4c.size()>1)
-	    {long ttmul4c=0;
-	    for (int i=0; i<mul4c.size(); i++)
-	    	{ttmul4c=ttmul4c+mul4c.get(i);}
-	    long tavgmul4c=(long)ttmul4c/mul4c.size();
-	    	    
-	    int pormul4;
-	    pormul4 =(int) (mul4c.size()*100/(mul4c.size()+mul4i.size()));
-	    String avgtime= millisToShortDHMS(tavgmul4c);
-	    mul41.setText(Html.fromHtml("4x1"));
-	    mul42.setText(Html.fromHtml(getString(R.string.correct_stats)+"<b>"+pormul4+ " %"));
-	    mul43.setText(Html.fromHtml("&#60T&#62 <b>"+avgtime));
-	    //mul4.setText(Html.fromHtml("<b>" + "4d x 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.correct_stats)+"</small>"+pormul4+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
-	    }
-	    else {
-	    	mul41.setText(Html.fromHtml("4x1"));
-	    	mul41.setTextColor(Color.parseColor("#FFFFFF"));
-	    	mul42.setText(Html.fromHtml(getString(R.string.no_data_stats)));
-	    	mul42.setTextColor(Color.parseColor("#FFFFFF"));
-	    	mul42.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
-	    	mul43.setText(Html.fromHtml(""));
-	    	mul4.setBackgroundDrawable(getResources().getDrawable(R.drawable.button_gray2));
-	    	//mul4.setText(Html.fromHtml("<b>" + "4d x 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.no_data_stats)+"</small></small></small>" + "</b>"));
-	    	mul4.setEnabled(false);}
-	    
-	    if (sq2c.size()>1)
-	    {long ttsq2c=0;
-	    for (int i=0; i<sq2c.size(); i++)
-	    	{ttsq2c=ttsq2c+sq2c.get(i);}
-	    long tavgsq2c=(long)ttsq2c/sq2c.size();
-	    	    
-	    int porsq2;
-	    porsq2 =(int) (sq2c.size()*100/(sq2c.size()+sq2i.size()));
-	    String avgtime= millisToShortDHMS(tavgsq2c);
-	    sq21.setText(Html.fromHtml("2"+"<small><small><sup>"+"2"+"</small></small></sup>"));
-	    sq22.setText(Html.fromHtml(getString(R.string.correct_stats)+"<b>"+porsq2+ " %"));
-	    sq23.setText(Html.fromHtml("&#60T&#62 <b>"+avgtime));	    
-	    //sq2.setText(Html.fromHtml("<b>" + "(2d)"+"<small><small><sup>"+"2"+"</small></small></sup>" + "<br />" + "<small><small><small><small>"+getString(R.string.correct_stats)+"</small>"+porsq2+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
-	    }
-	    else {
-	    	sq21.setText(Html.fromHtml("2"+"<small><small><sup>"+"2"+"</small></small></sup>"));
-	    	sq21.setTextColor(Color.parseColor("#FFFFFF"));
-	    	sq22.setText(Html.fromHtml(getString(R.string.no_data_stats)));
-	    	sq22.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
-	    	sq22.setTextColor(Color.parseColor("#FFFFFF"));		    
-	    	sq23.setText(Html.fromHtml(""));
-	    	sq2.setBackgroundDrawable(getResources().getDrawable(R.drawable.button_gray2));
-	    	//sq2.setText(Html.fromHtml("<b>" + "(2d)"+"<small><small><sup>"+"2"+"</small></small></sup>" + "<br />" + "<small><small><small><small>"+getString(R.string.no_data_stats)+"</small></small></small>" + "</b>"));
-	    	sq2.setEnabled(false);}
-	    
-	    if (sq3c.size()>1)
-	    {long ttsq3c=0;
-	    for (int i=0; i<sq3c.size(); i++)
-	    	{ttsq3c=ttsq3c+sq3c.get(i);}
-	    long tavgsq3c=(long)ttsq3c/sq3c.size();
-	    	    
-	    int porsq3;
-	    porsq3 =(int) (sq3c.size()*100/(sq3c.size()+sq3i.size()));
-	    String avgtime= millisToShortDHMS(tavgsq3c);
-	    sq31.setText(Html.fromHtml("3"+"<small><small><sup>"+"2"+"</small></small></sup>"));
-	    sq32.setText(Html.fromHtml(getString(R.string.correct_stats)+"<b>"+porsq3+ " %"));
-	    sq33.setText(Html.fromHtml("&#60T&#62 <b>"+avgtime));	
-	    //sq3.setText(Html.fromHtml("<b>" + "(3d)"+"<small><small><sup>"+"2"+"</small></small></sup>" + "<br />" + "<small><small><small><small>"+getString(R.string.correct_stats)+"</small>"+porsq3+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
-	    }
-	    else {
-	    	sq31.setText(Html.fromHtml("3"+"<small><small><sup>"+"2"+"</small></small></sup>"));
-	    	sq31.setTextColor(Color.parseColor("#FFFFFF"));
-	    	sq32.setText(Html.fromHtml(getString(R.string.no_data_stats)));
-	    	sq32.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
-	    	sq32.setTextColor(Color.parseColor("#FFFFFF"));		    
-	    	sq33.setText(Html.fromHtml(""));
-	    	sq3.setBackgroundDrawable(getResources().getDrawable(R.drawable.button_gray2));
-	    	//sq3.setText(Html.fromHtml("<b>" + "(3d)"+"<small><small><sup>"+"2"+"</small></small></sup>" + "<br />" + "<small><small><small><small>"+getString(R.string.no_data_stats)+"</small></small></small>" + "</b>"));
-	    	sq3.setEnabled(false);}
-	    
-	    if (sq4c.size()>1)
-	    {long ttsq4c=0;
-	    for (int i=0; i<sq4c.size(); i++)
-	    	{ttsq4c=ttsq4c+sq4c.get(i);}
-	    long tavgsq4c=(long)ttsq4c/sq4c.size();
-	    	    
-	    int porsq4;
-	    porsq4 =(int) (sq4c.size()*100/(sq4c.size()+sq4i.size()));
-	    String avgtime= millisToShortDHMS(tavgsq4c);
-	    sq41.setText(Html.fromHtml("4"+"<small><small><sup>"+"2"+"</small></small></sup>"));
-	    sq42.setText(Html.fromHtml(getString(R.string.correct_stats)+"<b>"+porsq4+ " %"));
-	    sq43.setText(Html.fromHtml("&#60T&#62 <b>"+avgtime));	
-	    //sq4.setText(Html.fromHtml("<b>" + "(4d)"+"<small><small><sup>"+"2"+"</small></small></sup>" + "<br />" + "<small><small><small><small>"+getString(R.string.correct_stats)+"</small>"+porsq4+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
-	    }
-	    else {
-	    	sq41.setText(Html.fromHtml("4"+"<small><small><sup>"+"2"+"</small></small></sup>"));
-	    	sq41.setTextColor(Color.parseColor("#FFFFFF"));
-	    	sq42.setText(Html.fromHtml(getString(R.string.no_data_stats)));
-	    	sq42.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
-	    	sq42.setTextColor(Color.parseColor("#FFFFFF"));		    
-	    	sq43.setText(Html.fromHtml(""));
-	    	sq4.setBackgroundDrawable(getResources().getDrawable(R.drawable.button_gray2));
-	    	//sq4.setText(Html.fromHtml("<b>" + "(4d)"+"<small><small><sup>"+"2"+"</small></small></sup>" + "<br />" + "<small><small><small><small>"+getString(R.string.no_data_stats)+"</small></small></small>" + "</b>"));
-	    	sq4.setEnabled(false);}
-	    
-	    //sum1.setText(Html.fromHtml("<b>1d + 1d</b>"));
-	    //sum2.setText(Html.fromHtml("<b>2d + 2d</b>"));
-	    //mul1.setText(Html.fromHtml("<b>1d x 1d</b>"));
-	    //mul2.setText(Html.fromHtml("<b>2d x 1d</b>"));
-	    //mul3.setText(Html.fromHtml("<b>3d x 1d</b>"));
-	    //mul4.setText(Html.fromHtml("<b>4d x 1d</b>"));
-	    //sq2.setText(Html.fromHtml("<b>(2d)"+"<small><small><sup>"+"2"+"</small></small></sup></b>"));
-	    //sq3.setText(Html.fromHtml("<b>(3d)"+"<small><small><sup>"+"2"+"</small></small></sup></b>"));
-	    //sq4.setText(Html.fromHtml("<b>(4d)"+"<small><small><sup>"+"2"+"</small></small></sup></b>"));
+		if(MainActivity.THEcontext == null){
+			Intent mainActivity = new Intent(this,MainActivity.class);
+			this.startActivity(mainActivity);
+			finish();
+		}
+		else {
+
+			ArrayList<Long> sum1c = PassLevel.getTimesStats("1d+1d", MainActivity.THEcontext);
+			ArrayList<Long> sum2c = PassLevel.getTimesStats("2d+2d", MainActivity.THEcontext);
+			ArrayList<Long> mul1c = PassLevel.getTimesStats("1dx1d", MainActivity.THEcontext);
+			ArrayList<Long> mul2c = PassLevel.getTimesStats("2dx1d", MainActivity.THEcontext);
+			ArrayList<Long> mul3c = PassLevel.getTimesStats("3dx1d", MainActivity.THEcontext);
+			ArrayList<Long> mul4c = PassLevel.getTimesStats("4dx1d", MainActivity.THEcontext);
+			ArrayList<Long> sq2c = PassLevel.getTimesStats("(2d)^2", MainActivity.THEcontext);
+			ArrayList<Long> sq3c = PassLevel.getTimesStats("(3d)^2", MainActivity.THEcontext);
+			ArrayList<Long> sq4c = PassLevel.getTimesStats("(4d)^2", MainActivity.THEcontext);
+
+			ArrayList<Long> sum1i = PassLevel.getTimesStats("1d+1dinc", MainActivity.THEcontext);
+			ArrayList<Long> sum2i = PassLevel.getTimesStats("2d+2dinc", MainActivity.THEcontext);
+			ArrayList<Long> mul1i = PassLevel.getTimesStats("1dx1dinc", MainActivity.THEcontext);
+			ArrayList<Long> mul2i = PassLevel.getTimesStats("2dx1dinc", MainActivity.THEcontext);
+			ArrayList<Long> mul3i = PassLevel.getTimesStats("3dx1dinc", MainActivity.THEcontext);
+			ArrayList<Long> mul4i = PassLevel.getTimesStats("4dx1dinc", MainActivity.THEcontext);
+			ArrayList<Long> sq2i = PassLevel.getTimesStats("(2d)^2inc", MainActivity.THEcontext);
+			ArrayList<Long> sq3i = PassLevel.getTimesStats("(3d)^2inc", MainActivity.THEcontext);
+			ArrayList<Long> sq4i = PassLevel.getTimesStats("(4d)^2inc", MainActivity.THEcontext);
+
+
+			if (sum1c.size() > 1) {
+				long ttsum1c = 0;
+				for (int i = 0; i < sum1c.size(); i++) {
+					ttsum1c = ttsum1c + sum1c.get(i);
+				}
+				long tavgsum1c = (long) ttsum1c / sum1c.size();
+
+				int porsum1;
+				porsum1 = (int) (sum1c.size() * 100 / (sum1c.size() + sum1i.size()));
+				String avgtime = millisToShortDHMS(tavgsum1c);
+				sum11.setText(Html.fromHtml("1+1"));
+				sum12.setText(Html.fromHtml(getString(R.string.correct_stats) + "<b>" + porsum1 + " %"));
+				sum13.setText(Html.fromHtml("&#60T&#62 <b>" + avgtime));
+				//sum1.setText(Html.fromHtml("<b>" + "1d + 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.correct_stats)+"</small>"+porsum1+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
+			} else {
+				sum11.setText(Html.fromHtml("1+1"));
+				sum11.setTextColor(Color.parseColor("#FFFFFF"));
+				sum12.setText(Html.fromHtml(getString(R.string.no_data_stats)));
+				sum12.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
+				sum12.setTextColor(Color.parseColor("#FFFFFF"));
+				sum13.setText(Html.fromHtml(""));
+				sum1.setBackgroundDrawable(getResources().getDrawable(R.drawable.button_gray2));
+				//sum1.setText(Html.fromHtml("<b>" + "1d + 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.no_data_stats)+"</small></small></small>" + "</b>"));
+				sum1.setEnabled(false);
+			}
+
+			if (sum2c.size() > 1) {
+				long ttsum2c = 0;
+				for (int i = 0; i < sum2c.size(); i++) {
+					ttsum2c = ttsum2c + sum2c.get(i);
+				}
+				long tavgsum2c = (long) ttsum2c / sum2c.size();
+
+				int porsum2;
+				porsum2 = (int) (sum2c.size() * 100 / (sum2c.size() + sum2i.size()));
+				String avgtime = millisToShortDHMS(tavgsum2c);
+				sum21.setText(Html.fromHtml("2+2"));
+				sum22.setText(Html.fromHtml(getString(R.string.correct_stats) + "<b>" + porsum2 + " %"));
+				sum23.setText(Html.fromHtml("&#60T&#62 <b>" + avgtime));
+				//sum2.setText(Html.fromHtml("<b>" + "2d + 2d" + "<br />" + "<small><small><small><small>"+getString(R.string.correct_stats)+"</small>"+porsum2+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
+			} else {
+				sum21.setText(Html.fromHtml("2+2"));
+				sum21.setTextColor(Color.parseColor("#FFFFFF"));
+				sum22.setText(Html.fromHtml(getString(R.string.no_data_stats)));
+				sum22.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
+				sum22.setTextColor(Color.parseColor("#FFFFFF"));
+				sum23.setTextColor(Color.parseColor("#FFFFFF"));
+				sum23.setText(Html.fromHtml(""));
+				sum2.setBackgroundDrawable(getResources().getDrawable(R.drawable.button_gray2));
+				//sum2.setText(Html.fromHtml("<b>" + "2d + 2d" + "<br />" + "<small><small><small><small>"+getString(R.string.no_data_stats)+"</small></small></small>" + "</b>"));
+				sum2.setEnabled(false);
+			}
+
+			if (mul1c.size() > 1) {
+				long ttmul1c = 0;
+				for (int i = 0; i < mul1c.size(); i++) {
+					ttmul1c = ttmul1c + mul1c.get(i);
+				}
+				long tavgmul1c = (long) ttmul1c / mul1c.size();
+
+				int pormul1;
+				pormul1 = (int) (mul1c.size() * 100 / (mul1c.size() + mul1i.size()));
+				String avgtime = millisToShortDHMS(tavgmul1c);
+				mul11.setText(Html.fromHtml("1x1"));
+				mul12.setText(Html.fromHtml(getString(R.string.correct_stats) + "<b>" + pormul1 + " %"));
+				mul13.setText(Html.fromHtml("&#60T&#62 <b>" + avgtime));
+				//mul1.setText(Html.fromHtml("<b>" + "1d x 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.correct_stats)+"</small>"+pormul1+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
+			} else {
+				mul11.setText(Html.fromHtml("1x1"));
+				mul11.setTextColor(Color.parseColor("#FFFFFF"));
+				mul12.setText(Html.fromHtml(getString(R.string.no_data_stats)));
+				mul12.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
+				mul12.setTextColor(Color.parseColor("#FFFFFF"));
+				mul13.setText(Html.fromHtml(""));
+				mul1.setBackgroundDrawable(getResources().getDrawable(R.drawable.button_gray2));
+				//mul1.setText(Html.fromHtml("<b>" + "1d x 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.no_data_stats)+"</small></small></small>" + "</b>"));
+				mul1.setEnabled(false);
+			}
+
+			if (mul2c.size() > 1) {
+				long ttmul2c = 0;
+				for (int i = 0; i < mul2c.size(); i++) {
+					ttmul2c = ttmul2c + mul2c.get(i);
+				}
+				long tavgmul2c = (long) ttmul2c / mul2c.size();
+
+				int pormul2;
+				pormul2 = (int) (mul2c.size() * 100 / (mul2c.size() + mul2i.size()));
+				String avgtime = millisToShortDHMS(tavgmul2c);
+				mul21.setText(Html.fromHtml("2x1"));
+				mul22.setText(Html.fromHtml(getString(R.string.correct_stats) + "<b>" + pormul2 + " %"));
+				mul23.setText(Html.fromHtml("&#60T&#62 <b>" + avgtime));
+				// mul2.setText(Html.fromHtml("<b>" + "2d x 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.correct_stats)+"</small>"+pormul2+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
+			} else {
+				mul21.setText(Html.fromHtml("2x1"));
+				mul21.setTextColor(Color.parseColor("#FFFFFF"));
+				mul22.setText(Html.fromHtml(getString(R.string.no_data_stats)));
+				mul22.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
+				mul22.setTextColor(Color.parseColor("#FFFFFF"));
+				mul23.setText(Html.fromHtml(""));
+				mul2.setBackgroundDrawable(getResources().getDrawable(R.drawable.button_gray2));
+				//mul2.setText(Html.fromHtml("<b>" + "2d x 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.no_data_stats)+"</small></small></small>" + "</b>"));
+				mul2.setEnabled(false);
+			}
+
+			if (mul3c.size() > 1) {
+				long ttmul3c = 0;
+				for (int i = 0; i < mul3c.size(); i++) {
+					ttmul3c = ttmul3c + mul3c.get(i);
+				}
+				long tavgmul3c = (long) ttmul3c / mul3c.size();
+
+				int pormul3;
+				pormul3 = (int) (mul3c.size() * 100 / (mul3c.size() + mul3i.size()));
+				String avgtime = millisToShortDHMS(tavgmul3c);
+				mul31.setText(Html.fromHtml("3x1"));
+				mul32.setText(Html.fromHtml(getString(R.string.correct_stats) + "<b>" + pormul3 + " %"));
+				mul33.setText(Html.fromHtml("&#60T&#62 <b>" + avgtime));
+				// mul3.setText(Html.fromHtml("<b>" + "3d x 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.correct_stats)+"</small>"+pormul3+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
+			} else {
+				mul31.setText(Html.fromHtml("3x1"));
+				mul31.setTextColor(Color.parseColor("#FFFFFF"));
+				mul32.setText(Html.fromHtml(getString(R.string.no_data_stats)));
+				mul32.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
+				mul32.setTextColor(Color.parseColor("#FFFFFF"));
+				mul33.setText(Html.fromHtml(""));
+				mul3.setBackgroundDrawable(getResources().getDrawable(R.drawable.button_gray2));
+				//mul3.setText(Html.fromHtml("<b>" + "3d x 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.no_data_stats)+"</small></small></small>" + "</b>"));
+				mul3.setEnabled(false);
+			}
+
+			if (mul4c.size() > 1) {
+				long ttmul4c = 0;
+				for (int i = 0; i < mul4c.size(); i++) {
+					ttmul4c = ttmul4c + mul4c.get(i);
+				}
+				long tavgmul4c = (long) ttmul4c / mul4c.size();
+
+				int pormul4;
+				pormul4 = (int) (mul4c.size() * 100 / (mul4c.size() + mul4i.size()));
+				String avgtime = millisToShortDHMS(tavgmul4c);
+				mul41.setText(Html.fromHtml("4x1"));
+				mul42.setText(Html.fromHtml(getString(R.string.correct_stats) + "<b>" + pormul4 + " %"));
+				mul43.setText(Html.fromHtml("&#60T&#62 <b>" + avgtime));
+				//mul4.setText(Html.fromHtml("<b>" + "4d x 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.correct_stats)+"</small>"+pormul4+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
+			} else {
+				mul41.setText(Html.fromHtml("4x1"));
+				mul41.setTextColor(Color.parseColor("#FFFFFF"));
+				mul42.setText(Html.fromHtml(getString(R.string.no_data_stats)));
+				mul42.setTextColor(Color.parseColor("#FFFFFF"));
+				mul42.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
+				mul43.setText(Html.fromHtml(""));
+				mul4.setBackgroundDrawable(getResources().getDrawable(R.drawable.button_gray2));
+				//mul4.setText(Html.fromHtml("<b>" + "4d x 1d" + "<br />" + "<small><small><small><small>"+getString(R.string.no_data_stats)+"</small></small></small>" + "</b>"));
+				mul4.setEnabled(false);
+			}
+
+			if (sq2c.size() > 1) {
+				long ttsq2c = 0;
+				for (int i = 0; i < sq2c.size(); i++) {
+					ttsq2c = ttsq2c + sq2c.get(i);
+				}
+				long tavgsq2c = (long) ttsq2c / sq2c.size();
+
+				int porsq2;
+				porsq2 = (int) (sq2c.size() * 100 / (sq2c.size() + sq2i.size()));
+				String avgtime = millisToShortDHMS(tavgsq2c);
+				sq21.setText(Html.fromHtml("2" + "<small><small><sup>" + "2" + "</small></small></sup>"));
+				sq22.setText(Html.fromHtml(getString(R.string.correct_stats) + "<b>" + porsq2 + " %"));
+				sq23.setText(Html.fromHtml("&#60T&#62 <b>" + avgtime));
+				//sq2.setText(Html.fromHtml("<b>" + "(2d)"+"<small><small><sup>"+"2"+"</small></small></sup>" + "<br />" + "<small><small><small><small>"+getString(R.string.correct_stats)+"</small>"+porsq2+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
+			} else {
+				sq21.setText(Html.fromHtml("2" + "<small><small><sup>" + "2" + "</small></small></sup>"));
+				sq21.setTextColor(Color.parseColor("#FFFFFF"));
+				sq22.setText(Html.fromHtml(getString(R.string.no_data_stats)));
+				sq22.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
+				sq22.setTextColor(Color.parseColor("#FFFFFF"));
+				sq23.setText(Html.fromHtml(""));
+				sq2.setBackgroundDrawable(getResources().getDrawable(R.drawable.button_gray2));
+				//sq2.setText(Html.fromHtml("<b>" + "(2d)"+"<small><small><sup>"+"2"+"</small></small></sup>" + "<br />" + "<small><small><small><small>"+getString(R.string.no_data_stats)+"</small></small></small>" + "</b>"));
+				sq2.setEnabled(false);
+			}
+
+			if (sq3c.size() > 1) {
+				long ttsq3c = 0;
+				for (int i = 0; i < sq3c.size(); i++) {
+					ttsq3c = ttsq3c + sq3c.get(i);
+				}
+				long tavgsq3c = (long) ttsq3c / sq3c.size();
+
+				int porsq3;
+				porsq3 = (int) (sq3c.size() * 100 / (sq3c.size() + sq3i.size()));
+				String avgtime = millisToShortDHMS(tavgsq3c);
+				sq31.setText(Html.fromHtml("3" + "<small><small><sup>" + "2" + "</small></small></sup>"));
+				sq32.setText(Html.fromHtml(getString(R.string.correct_stats) + "<b>" + porsq3 + " %"));
+				sq33.setText(Html.fromHtml("&#60T&#62 <b>" + avgtime));
+				//sq3.setText(Html.fromHtml("<b>" + "(3d)"+"<small><small><sup>"+"2"+"</small></small></sup>" + "<br />" + "<small><small><small><small>"+getString(R.string.correct_stats)+"</small>"+porsq3+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
+			} else {
+				sq31.setText(Html.fromHtml("3" + "<small><small><sup>" + "2" + "</small></small></sup>"));
+				sq31.setTextColor(Color.parseColor("#FFFFFF"));
+				sq32.setText(Html.fromHtml(getString(R.string.no_data_stats)));
+				sq32.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
+				sq32.setTextColor(Color.parseColor("#FFFFFF"));
+				sq33.setText(Html.fromHtml(""));
+				sq3.setBackgroundDrawable(getResources().getDrawable(R.drawable.button_gray2));
+				//sq3.setText(Html.fromHtml("<b>" + "(3d)"+"<small><small><sup>"+"2"+"</small></small></sup>" + "<br />" + "<small><small><small><small>"+getString(R.string.no_data_stats)+"</small></small></small>" + "</b>"));
+				sq3.setEnabled(false);
+			}
+
+			if (sq4c.size() > 1) {
+				long ttsq4c = 0;
+				for (int i = 0; i < sq4c.size(); i++) {
+					ttsq4c = ttsq4c + sq4c.get(i);
+				}
+				long tavgsq4c = (long) ttsq4c / sq4c.size();
+
+				int porsq4;
+				porsq4 = (int) (sq4c.size() * 100 / (sq4c.size() + sq4i.size()));
+				String avgtime = millisToShortDHMS(tavgsq4c);
+				sq41.setText(Html.fromHtml("4" + "<small><small><sup>" + "2" + "</small></small></sup>"));
+				sq42.setText(Html.fromHtml(getString(R.string.correct_stats) + "<b>" + porsq4 + " %"));
+				sq43.setText(Html.fromHtml("&#60T&#62 <b>" + avgtime));
+				//sq4.setText(Html.fromHtml("<b>" + "(4d)"+"<small><small><sup>"+"2"+"</small></small></sup>" + "<br />" + "<small><small><small><small>"+getString(R.string.correct_stats)+"</small>"+porsq4+" %<br /><small>"+"&#60T&#62 </small>"+avgtime+"<small></small></small></small>" + "</b>"));
+			} else {
+				sq41.setText(Html.fromHtml("4" + "<small><small><sup>" + "2" + "</small></small></sup>"));
+				sq41.setTextColor(Color.parseColor("#FFFFFF"));
+				sq42.setText(Html.fromHtml(getString(R.string.no_data_stats)));
+				sq42.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
+				sq42.setTextColor(Color.parseColor("#FFFFFF"));
+				sq43.setText(Html.fromHtml(""));
+				sq4.setBackgroundDrawable(getResources().getDrawable(R.drawable.button_gray2));
+				//sq4.setText(Html.fromHtml("<b>" + "(4d)"+"<small><small><sup>"+"2"+"</small></small></sup>" + "<br />" + "<small><small><small><small>"+getString(R.string.no_data_stats)+"</small></small></small>" + "</b>"));
+				sq4.setEnabled(false);
+			}
+
+			//sum1.setText(Html.fromHtml("<b>1d + 1d</b>"));
+			//sum2.setText(Html.fromHtml("<b>2d + 2d</b>"));
+			//mul1.setText(Html.fromHtml("<b>1d x 1d</b>"));
+			//mul2.setText(Html.fromHtml("<b>2d x 1d</b>"));
+			//mul3.setText(Html.fromHtml("<b>3d x 1d</b>"));
+			//mul4.setText(Html.fromHtml("<b>4d x 1d</b>"));
+			//sq2.setText(Html.fromHtml("<b>(2d)"+"<small><small><sup>"+"2"+"</small></small></sup></b>"));
+			//sq3.setText(Html.fromHtml("<b>(3d)"+"<small><small><sup>"+"2"+"</small></small></sup></b>"));
+			//sq4.setText(Html.fromHtml("<b>(4d)"+"<small><small><sup>"+"2"+"</small></small></sup></b>"));
+
+		}
 	    
 	    ActionBar AB = getActionBar();
 	  		AB.setDisplayHomeAsUpEnabled(true);

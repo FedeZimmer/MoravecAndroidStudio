@@ -21,6 +21,7 @@
 		 >
 		<activity
 			android:name="tedxperiments.math.entrenamente.MainActivity"
+			android:launchMode="singleInstance"
 			android:label="@string/app_name"
 			android:screenOrientation="portrait">
 			<intent-filter>
