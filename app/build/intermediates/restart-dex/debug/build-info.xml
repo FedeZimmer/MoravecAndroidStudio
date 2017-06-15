@@ -6,34 +6,31 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1497368505974"
+    timestamp="1497532940553"
     token="-8604149392880958155"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="454" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="43" />
+        duration="0" />
     <task
         name="verifier"
-        duration="5" />
+        duration="0" />
 
     <artifact
-        location="/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-        type="SPLIT" />
+        location="/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/outputs/apk/app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1497367637213"
+        timestamp="1497532834233"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
         <artifact
             location="/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />
@@ -59,6 +56,9 @@
             location="/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
+            location="/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
             location="/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
@@ -70,19 +70,11 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1497368270833"
+        timestamp="1497532940553"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1497368505974"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
     </build>
 
 </instant-run>
