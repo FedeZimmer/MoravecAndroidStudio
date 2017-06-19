@@ -148,8 +148,8 @@ public class MainActivity extends Activity implements OnClickListener {
                                 //Save Seleceted Language
 								PassLevel.setNewPersonal("lastSelectedLanguage",String.valueOf(selectedLanguageId), MainActivity.THEcontext);
 								Intent refresh = new Intent(MainActivity.this, MainActivity.class);
-								startActivity(refresh);
 								finish();
+								startActivity(refresh);
 							}
 						}
 					});
@@ -224,8 +224,8 @@ public class MainActivity extends Activity implements OnClickListener {
 			getBaseContext().getResources().updateConfiguration(config,
 					getBaseContext().getResources().getDisplayMetrics());
             Intent refresh = new Intent(MainActivity.this, MainActivity.class);
-			startActivity(refresh);
 			finish();
+			startActivity(refresh);
 		}
 	}
 

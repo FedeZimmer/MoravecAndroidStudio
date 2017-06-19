@@ -133,9 +133,13 @@
     <string name="youtube_link_sq">https://www.youtube.com/watch?v=DyBsVVe5w5g</string>
     <string name="youtube_link_sum">https://www.youtube.com/watch?v=9aW6b2qZ18s</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">
-        
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
     </style>
     <style name="AppTheme" parent="AppBaseTheme">
-        
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
 </resources>
