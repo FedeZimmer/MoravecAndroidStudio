@@ -27,35 +27,42 @@ public class HighList extends ListActivity{
   
     @Override
     public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+		super.onCreate(savedInstanceState);
         ActionBar AB = getActionBar();
 		AB.setDisplayHomeAsUpEnabled(true);
 		AB.setTitle(Html.fromHtml("<font color='#ED1566'>Moravec</font>"));
 		//AB.setSubtitle("Modo Arcade");
 		AB.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#F0F1F2")));
-		
-		 
-		
-		String[] prevalues= new String [150];
-        //values = new String [150];
-        int[] ArcStats = new int[150];
-        ArcStats=PassLevel.getArcadeStats("Arcade_Stats", MainActivity.THEcontext);
-        int k=0;
-        for (int i=0; i<150; i++)
-    	{if (ArcStats[i]>0)k++;;
-    	}
-        
-        if(k<150) values = new String [k+1];
-        else if(k==150)values = new String [k];
-        
-        //values[0]="NIVEL";
-        for (int i=0; i<values.length; i++)
-        	{
-        	//if (ArcStats[i]>0)
-        		values[i]=getString(R.string.level_selection)+(i+1);
-        	}
-        
-      setListAdapter(new MyArrayAdapter(getApplicationContext(), values));
+
+		if(MainActivity.THEcontext == null){
+			Intent mainActivity = new Intent(this,MainActivity.class);
+			this.startActivity(mainActivity);
+			finish();
+		}
+		else {
+
+			String[] prevalues = new String[150];
+			//values = new String [150];
+			int[] ArcStats = new int[150];
+			ArcStats = PassLevel.getArcadeStats("Arcade_Stats", MainActivity.THEcontext);
+			int k = 0;
+			for (int i = 0; i < 150; i++) {
+				if (ArcStats[i] > 0) k++;
+				;
+			}
+
+			if (k < 150) values = new String[k + 1];
+			else if (k == 150) values = new String[k];
+
+			//values[0]="NIVEL";
+			for (int i = 0; i < values.length; i++) {
+				//if (ArcStats[i]>0)
+				values[i] = getString(R.string.level_selection) + (i + 1);
+			}
+
+			setListAdapter(new MyArrayAdapter(getApplicationContext(), values));
+
+		}
         ListView lv = getListView(); 
         lv.setBackgroundColor(Color.parseColor("#F0F1F2"));
         lv.setDivider(null);

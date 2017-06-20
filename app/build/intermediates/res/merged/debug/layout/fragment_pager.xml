@@ -17,14 +17,22 @@
         android:background="#FFFFFF"
         >
     </android.support.v4.view.ViewPager>
-    
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/dots"
+		android:layout_margin="10dp"
+		/>
+
     	<Button
 			android:id="@+id/btn_youtube"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_gravity="center"
 			android:layout_marginBottom="5dp"
-			android:layout_marginTop="15dp"
+			android:layout_marginTop="0dp"
 			android:layout_below="@id/pager"
 			android:background="@drawable/button_red"
 			android:padding="5dp"

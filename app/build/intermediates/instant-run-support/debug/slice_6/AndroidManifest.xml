@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
       package="tedxperiments.math.entrenamente"
-      android:versionCode="18"
-      android:versionName="2.15"
+      android:versionCode="20"
+      android:versionName="1.04"
       split="lib_slice_6_apk">
 </manifest>

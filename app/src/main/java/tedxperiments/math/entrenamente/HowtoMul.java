@@ -4,6 +4,7 @@ import android.app.ActionBar;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -20,16 +21,21 @@ import android.view.ViewGroup;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.ArrayList;
+import java.util.List;
+
 import tedxperiments.math.entrenamente.R;
 
 public class HowtoMul extends FragmentActivity {
     static final int NUM_ITEMS = 3;
     PlanetFragmentPagerAdapter planetFragmentPagerAdapter;
     ViewPager viewPager;
-    Toast  toastswipe;
     Button youtubebtn;
+    private List<ImageView> dots;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,18 +51,29 @@ public class HowtoMul extends FragmentActivity {
             	startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.youtube_link_mul))));
             }
         });
+
+        addDots();
+        selectDot(0);
+        viewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+            }
+
+            @Override
+            public void onPageSelected(int position) {
+                selectDot(position);
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int state) {
+            }
+        });
         
         ActionBar AB = getActionBar();
 		AB.setDisplayHomeAsUpEnabled(true);
 		AB.setTitle(Html.fromHtml("<font color='#ED1566'>"+getString(R.string.tutorial_mul_title)+"</font>"));
 		//AB.setSubtitle("Multiplicación");
 		AB.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#F0F1F2")));
-		
-		
-     
-		//toastswipe=Ftoastswipe();
-		//toastswipe.show();
-		
     }
     
     
@@ -145,4 +162,29 @@ public class HowtoMul extends FragmentActivity {
 		thistoast.setView(layout);
 		return thistoast;
 	}
+
+    public void addDots() {
+        dots = new ArrayList<ImageView>();
+        LinearLayout dotsLayout = (LinearLayout)findViewById(R.id.dots);
+
+        for(int i = 0; i < NUM_ITEMS; i++) {
+            ImageView dot = new ImageView(this);
+            dot.setImageDrawable(getResources().getDrawable(R.drawable.unselected_dot));
+
+            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
+                    LinearLayout.LayoutParams.WRAP_CONTENT,
+                    LinearLayout.LayoutParams.WRAP_CONTENT
+            );
+            dotsLayout.addView(dot, params);
+
+            dots.add(dot);
+        }
+    }
+    public void selectDot(int idx) {
+        for (int i = 0; i < NUM_ITEMS; i++) {
+            int drawableId = (i == idx) ? (R.drawable.selected_dot) : (R.drawable.unselected_dot);
+            Drawable drawable = getResources().getDrawable(drawableId);
+            dots.get(i).setImageDrawable(drawable);
+        }
+    }
 }

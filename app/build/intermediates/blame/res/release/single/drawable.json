@@ -4,12 +4,12 @@
         "source": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/drawable/button_green.xml"
     },
     {
-        "merged": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/merged/release/drawable/star_gray.png",
-        "source": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/drawable/star_gray.png"
-    },
-    {
         "merged": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/merged/release/drawable/gesture_swipe.png",
         "source": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/drawable/gesture_swipe.png"
+    },
+    {
+        "merged": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/merged/release/drawable/star_gray.png",
+        "source": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/drawable/star_gray.png"
     },
     {
         "merged": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/merged/release/drawable/name_logo.png",
@@ -56,12 +56,12 @@
         "source": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/drawable/button_red.xml"
     },
     {
-        "merged": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/merged/release/drawable/correct3_3.png",
-        "source": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/drawable/correct3_3.png"
-    },
-    {
         "merged": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/merged/release/drawable/correct1_3.png",
         "source": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/drawable/correct1_3.png"
+    },
+    {
+        "merged": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/merged/release/drawable/correct3_3.png",
+        "source": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/drawable/correct3_3.png"
     },
     {
         "merged": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/merged/release/drawable/star_yellow.png",
@@ -82,6 +82,10 @@
     {
         "merged": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/merged/release/drawable/sq1.png",
         "source": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/drawable/sq1.png"
+    },
+    {
+        "merged": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/merged/release/drawable/unselected_dot.xml",
+        "source": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/drawable/unselected_dot.xml"
     },
     {
         "merged": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/merged/release/drawable/dot_1_2.png",
@@ -354,6 +358,10 @@
     {
         "merged": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/merged/release/drawable/youtube_icon.png",
         "source": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/drawable/youtube_icon.png"
+    },
+    {
+        "merged": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/merged/release/drawable/selected_dot.xml",
+        "source": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/src/main/res/drawable/selected_dot.xml"
     },
     {
         "merged": "/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/res/merged/release/drawable/sq6_es.png",

@@ -7,6 +7,7 @@ import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageInfo;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.text.Html;
@@ -147,14 +148,39 @@ public class MainActivity extends Activity implements OnClickListener {
                                 //Save Seleceted Language
 								PassLevel.setNewPersonal("lastSelectedLanguage",String.valueOf(selectedLanguageId), MainActivity.THEcontext);
 								Intent refresh = new Intent(MainActivity.this, MainActivity.class);
-								startActivity(refresh);
 								finish();
+								startActivity(refresh);
 							}
 						}
 					});
-			builder.create().show();
+
+			try {
+				PackageInfo pinfo = MainActivity.THEcontext.getPackageManager().getPackageInfo(MainActivity.THEcontext.getPackageName(), 0);
+				String versionName = pinfo.versionName;
+				if (!versionName.isEmpty()) {
+					String version = "v "+versionName;
+					builder.setNeutralButton(version, new DialogInterface.OnClickListener() {
+						public void onClick(DialogInterface dialog, int id) {
+							// FIRE ZE MISSILES!
+						}
+					});
+					final AlertDialog dialog = builder.create();
+					dialog.show();
+					// Initially disable the button
+					((AlertDialog) dialog).getButton(AlertDialog.BUTTON_NEUTRAL)
+							.setEnabled(false);
+				}
+				else
+					builder.create().show();
+
+			}catch (Exception e){
+				builder.create().show();
+					}
+
+			//builder.create().show();
+
 		}
-		}
+	}
 	
 	
 	
@@ -198,8 +224,8 @@ public class MainActivity extends Activity implements OnClickListener {
 			getBaseContext().getResources().updateConfiguration(config,
 					getBaseContext().getResources().getDisplayMetrics());
             Intent refresh = new Intent(MainActivity.this, MainActivity.class);
-			startActivity(refresh);
 			finish();
+			startActivity(refresh);
 		}
 	}
 
