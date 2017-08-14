@@ -1,7 +1,0 @@
-#Tue Jun 20 15:32:31 BST 2017
-base.0=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/GraphView-3.1.3_ae18786430b5426f319396339c467f624ce5f03c
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_a5fe82c856418cc364a417cd6682cd083767e2da/classes.dex
-base.1=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_a5fe82c856418cc364a417cd6682cd083767e2da
-file.0=/Users/fzimmerman/Documents/Workspace/StudioProjects/MoravecAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/GraphView-3.1.3_ae18786430b5426f319396339c467f624ce5f03c/classes.dex
