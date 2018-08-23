@@ -277,7 +277,7 @@ public class PersonalQuestions extends Activity implements OnClickListener {
 			//Toast.makeText(getBaseContext(), Html.fromHtml("Nombre: "+name+"<br>Email: "+email+"<br>Nacimiento: "+birthyear+"<br>Gender: "+genderAnswer+"<br>Studies: "+studiesAnswer+"<br>Hand: "+handAnswer+"<br>UUID: "+AUID), Toast.LENGTH_SHORT).show();
 			Toast.makeText(getBaseContext(), Html.fromHtml(getString(R.string.thanks_form)), Toast.LENGTH_SHORT).show();
 			
-		//Tengo que pasar todo a saved, memoria del telefono.
+		//Tengo que pasar  a saved, memoria del telefono.
 			PassLevel.setNewPersonal("myAnUID", AUID, MainActivity.THEcontext);
 //			PassLevel.setNewPersonal("myName", name, MainActivity.THEcontext);
 //			PassLevel.setNewPersonal("myEmail", email, MainActivity.THEcontext);
@@ -297,32 +297,29 @@ public class PersonalQuestions extends Activity implements OnClickListener {
 
 			setNativeLanguage();
 
-
-			if (askpersonal==0)
-			{
-			PassLevel.setAskPersonal("Ask", 2, MainActivity.THEcontext);
-			Intent arcIntent = new Intent(this, PlayArcade.class);
-			arcIntent.putExtra("level",1); 
-			this.startActivity(arcIntent);
-			finish();
-			}
-		if (askpersonal==2)
-		{
-			PassLevel.setAskPersonal("Ask", 52, MainActivity.THEcontext);
-			Intent arcIntent = new Intent(this, PlayArcade.class);
-			arcIntent.putExtra("level",51); 
-			this.startActivity(arcIntent);
-			finish();
-			}
-		if (askpersonal==52)
-		{
-			PassLevel.setAskPersonal("Ask", 102, MainActivity.THEcontext);
-			Intent arcIntent = new Intent(this, PlayArcade.class);
-			arcIntent.putExtra("level",101); 
-			this.startActivity(arcIntent);
-			finish();
-			}
-			
+//			if (askpersonal==0) {
+				PassLevel.setAskPersonal("Ask", 2, MainActivity.THEcontext);
+				Intent arcIntent = new Intent(this, PlayArcade.class);
+				arcIntent.putExtra("level",1);
+				this.startActivity(arcIntent);
+				finish();
+//			}
+//			if (askpersonal==2) {
+//				PassLevel.setAskPersonal("Ask", 52, MainActivity.THEcontext);
+//				Intent arcIntent = new Intent(this, PlayArcade.class);
+//				arcIntent.putExtra("level",51);
+//				this.startActivity(arcIntent);
+//				finish();
+//			}
+//			if (askpersonal==52)
+//			{
+//				PassLevel.setAskPersonal("Ask", 102, MainActivity.THEcontext);
+//				Intent arcIntent = new Intent(this, PlayArcade.class);
+//				arcIntent.putExtra("level",101);
+//				this.startActivity(arcIntent);
+//				finish();
+//			}
+//
 		
 		}
 				

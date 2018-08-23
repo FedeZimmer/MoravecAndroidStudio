@@ -9,7 +9,10 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.res.Configuration;
+import android.content.res.Resources;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.LocaleList;
 import android.text.Html;
 import android.util.Log;
 import android.view.Menu;
@@ -217,13 +220,31 @@ public class MainActivity extends Activity implements OnClickListener {
 		}
 
 		if (!languageToLoad.equals("") && !languageToLoad.equals(actualLanguage)) {
+
 			Locale locale = new Locale(languageToLoad);
 			Locale.setDefault(locale);
-			Configuration config = new Configuration();
-			config.locale = locale;
-			getBaseContext().getResources().updateConfiguration(config,
-					getBaseContext().getResources().getDisplayMetrics());
-            Intent refresh = new Intent(MainActivity.this, MainActivity.class);
+			Context context = getApplicationContext();
+			Resources res = context.getResources();
+			Configuration configuration = res.getConfiguration();
+
+
+			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+				configuration.setLocale(locale);
+				LocaleList localeList = new LocaleList(locale);
+				LocaleList.setDefault(localeList);
+				configuration.setLocales(localeList);
+				context.createConfigurationContext(configuration);
+
+			} else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
+				configuration.setLocale(locale);
+				context.createConfigurationContext(configuration);
+
+			} else {
+				configuration.locale = locale;
+				res.updateConfiguration(configuration, res.getDisplayMetrics());
+			}
+
+			Intent refresh = new Intent(MainActivity.this, MainActivity.class);
 			finish();
 			startActivity(refresh);
 		}
