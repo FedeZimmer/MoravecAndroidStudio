@@ -42,6 +42,13 @@ public class MainActivity extends Activity implements OnClickListener {
 			
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+
+		//Update Language
+		Locale locale = Locale.getDefault();
+		Configuration config = new Configuration();
+		config.locale = locale;
+		getResources().updateConfiguration(config, getResources().getDisplayMetrics());
+
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 

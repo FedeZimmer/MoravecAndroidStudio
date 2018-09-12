@@ -106,7 +106,7 @@
     <!--Game Completed-->
     <string name="game_completed">Juego completado</string>
     <string name="game_completed_congratulations">Felicitaciones</string>
-    <string name="game_completed_message">Contáctese con neurointegrativa@gmail.com para demostrar sus habilidades.</string>
+    <string name="game_completed_message">Contáctese con fedezimmer@gmail.com para demostrar sus habilidades.</string>
     <string name="back_main_menu">Volver al menú inicial</string>
 
     <!--Practice-->
